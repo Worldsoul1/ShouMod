@@ -125,6 +125,12 @@ namespace ShouMod.Cards
             base.ReactBattleEvent<CardUsingEventArgs>(base.Battle.CardUsed, new EventSequencedReactor<CardUsingEventArgs>(this.OnCardUsed));
             yield return BuffAction<Firepower>(base.Value1, 0, 0, 0, 0.2f);
 
+            foreach (BattleAction battleAction in base.SummonActions(selector, consumingMana, precondition))
+            {
+                yield return battleAction;
+            }
+            IEnumerator<BattleAction> enumerator = null;
+
             yield break;
         }
 

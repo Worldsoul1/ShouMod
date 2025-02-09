@@ -3,7 +3,7 @@ ShouVajraBuddhist:
   Content: Vajra of Perfect Buddhism
   Description: |-
     Deal {Damage} damage to all enemies.
-    gain {Value1} |Harden| and {Value2} |Firepower|
+    Gain {Value1} |Harden| and {Value2} |Firepower|.
     |Accurate|
 
 ShouTreasureGun:

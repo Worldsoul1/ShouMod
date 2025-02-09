@@ -144,6 +144,12 @@ namespace ShouMod.Cards
             {
                 yield return new AddCardsToDiscardAction(new Card[] { selectedCard });
             }
+            foreach (BattleAction battleAction in base.SummonActions(selector, consumingMana, precondition))
+            {
+                yield return battleAction;
+            }
+            IEnumerator<BattleAction> enumerator = null;
+
             yield break;
         }
 

@@ -100,10 +100,10 @@ ShouLimitlessBenevolence:
     
 ShouNazrinTeammate:
   Name: Nazrin, Dowser General
-  Description: "{Indent}Choose {Value1} of {Value2} |Gemstone|s. Add the selected card to the Discard Pile.\n{PassiveCostIcon}Add a random |Gemstone| from the Draw and Discard Piles to the Hand."
-  UpgradedDescription: "{Indent}Choose {Value1} of {Value2} |Gemstone|s. Add the selected card to the Discard Pile.\n{PassiveCostIcon}Add a random |Gemstone| from the Draw and Discard Piles to the Hand."
-  ExtraDescription1: "{ActiveCostIcon}Choose 2 |Gemstone|s from the Discard Pile and add them to the Hand."
-  UpgradedExtraDescription1: "{ActiveCostIcon}Choose 2 |Gemstone|s from the Discard Pile and add them to the Hand."
+  Description: "{Indent}Choose {Value1} of {Value2} |Gemstones|. Add the selected card to the Discard Pile.\n{PassiveCostIcon}Add a random |Gemstone| from the Draw and Discard Piles to the Hand."
+  UpgradedDescription: "{Indent}Choose {Value1} of {Value2} |Gemstones|. Add the selected card to the Discard Pile.\n{PassiveCostIcon}Add a random |Gemstone| from the Draw and Discard Piles to the Hand."
+  ExtraDescription1: "{ActiveCostIcon}Choose 2 |Gemstones| from the Discard Pile and add them to the Hand."
+  UpgradedExtraDescription1: "{ActiveCostIcon}Choose 2 |Gemstones| from the Discard Pile and add them to the Hand."
   ExtraDescription2: "{UltimateCostIcon}Deal {Damage} Accurate Attack Damage to all enemies. If an Elite or Boss Enemy is defeated by this attack, gain an extra Exhibit as a combat reward."
   UpgradedExtraDescription2: "{UltimateCostIcon}Deal {Damage} Accurate Attack Damage to all enemies. If an Elite or Boss Enemy is defeated by this attack, gain an extra Exhibit as a combat reward."
 

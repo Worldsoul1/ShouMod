@@ -58,7 +58,6 @@ namespace ShouMod.Cards
     {
         protected override IEnumerable<BattleAction> Actions(UnitSelector selector, ManaGroup consumingMana, Interaction precondition)
         {
-            EnemyUnit selectedEnemy = selector.SelectedEnemy;
             yield return new ApplyStatusEffectAction<Graze>(base.Battle.Player, base.Value1, 0, 0, 0, 0.2f);
             if (base.Battle.Player.HasStatusEffect<ShouVigorSe>())
             {

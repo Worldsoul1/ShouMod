@@ -43,7 +43,6 @@ namespace ShouMod.Cards
     {
         protected override IEnumerable<BattleAction> Actions(UnitSelector selector, ManaGroup consumingMana, Interaction precondition)
         {
-            EnemyUnit selectedEnemy = selector.SelectedEnemy;
             //Buff and debuff have either a level or a duration.
             //Duration: Effects that last a certain amount of turns then disappear.
             //Level: Effects that have a fixed duration but that can vary in intensity. 
