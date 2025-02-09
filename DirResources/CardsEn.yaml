@@ -178,10 +178,6 @@ ShouChannelingPower:
     Gain {Value1} |Vigor|.
     Gain {Value1} |Harden|.
 
-ShouCrimsonTears:
-  Name: Crimson Tears
-  Description: The first {Value1} times {PlayerName} takes damage each turn, add a |Ruby| to the draw pile.
-
 ShouFocusingLight:
   Name: Focusing Light
   Description: At the start of {PlayerName}'s turn, gain {Mana} and {Value1} |Firepower|.
@@ -194,10 +190,6 @@ ShouGleamofHeaven:
   Description: |-
     Gain {Value1} |Graze|.
     |Vigorous|: Draw {Value2} Cards.
-
-ShouHeartSutraRecitation:
-  Name: Heart Sutra Recitation
-  Description: Whenever a |Gemstone| is exiled, gain {Value1} |Block|.
 
 ShouIonicLink:
   Name: Ionic Link
@@ -218,12 +210,6 @@ ShouRefractingLight:
   UpgradedDescription: |-
     Whenever a |Gemstone| is played, gain {Value1} |Temporary Firepower| and |Temporary Spirit|.
     Add a |Pearl| to the hand.
-
-ShouShatterbeam:
-  Name: Shatterbeam
-  Description: |-
-    Deal {Damage} Damage.
-    You may exile a |Gemstone| from the discard pile. If you do, deal damage an additional time.
 
 ShouStillMind:
   Name: Still Mind
@@ -248,6 +234,16 @@ ShouCenterSoul:
   Description: |-
     Gain {Value1} |Resonance| for each stack of |Vigor| and |Harden| that {PlayerName} has.
     Remove {PlayerName}'s |Vigor| and |Harden|.
+
+ShouCrimsonTears:
+  Name: Crimson Tears
+  Description: The first {Value1} times {PlayerName} takes damage each turn, add a |Ruby| to the draw pile.
+
+ShouCycleofWealth:
+  Name: Cycle of Wealth
+  Description: |-
+    Whenever a |Gemstone| is played, exile it.
+    Whenever a Gemstone is exiled this way, add a random |Gemstone| to the discard pile.
 
 ShouDowsingAssisstance:
   Name: Dowsing Assisstance
@@ -287,6 +283,10 @@ ShouGlint:
     Add 1 of each |Gemstone| to the draw pile.
     Select up to {Value2} |Gemstone|s in the draw and discard piles, and add them to the hand.
 
+ShouHeartSutraRecitation:
+  Name: Heart Sutra Recitation
+  Description: Whenever a |Gemstone| is exiled, gain {Value1} |Block|.
+
 ShouPagodaLaser:
   Name: Pagoda Laser
   Description: |-
@@ -302,6 +302,12 @@ ShouRainbowGems:
 ShouScatteredTreasure:
   Name: Scattered Treasure
   Description: Add {Value1} random |Gemstone|s to the draw pile.
+
+ShouShatterbeam:
+  Name: Shatterbeam
+  Description: |-
+    Deal {Damage} Damage.
+    You may exile a |Gemstone| from the discard pile. If you do, deal damage an additional time.
 
 ShouSweepingBlast:
   Name: Sweeping Blast
