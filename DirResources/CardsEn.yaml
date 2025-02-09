@@ -1,0 +1,338 @@
+ShouAttackW:
+  Name: Light of Bishamonten
+  Description: Deal {Damage} damage.
+
+ShouAttackR:
+  Name: Inner Savagery
+  Description: Deal {Damage} damage.
+
+ShouBlockW:
+  Name: Divine Providence
+  Description: Gain {Block} |Block|.
+
+ShouBlockR:
+  Name: Instinctive Defence
+  Description: Gain {Block} |Block|.
+
+ShouAmber:
+  Name: Amber
+  Description: |-
+    Gain {Value1} life.
+
+ShouDiamond:
+  Name: Diamond
+  Description: |-
+    Gain {Value1} |Amulet| and {Value1} |Ward|.
+
+ShouEmerald:
+  Name: Emerald
+  Description: |-
+    Gain {Mana}
+
+ShouOnyx:
+  Name: Onyx
+  Description: Gain {Block} |Block|.
+
+ShouOpal:
+  Name: Opal
+  Description: Draw {Value1} Cards.
+
+ShouPearl:
+  Name: Pearl
+  Description: |-
+    Gain {Shield} |Barrier|.
+
+ShouRuby:
+  Name: Ruby
+  Description: |-
+    Deal {Damage} Damage.
+
+ShouSapphire:
+  Name: Sapphire
+  Description: |-
+    Deal {Damage} Damage to each enemy.
+
+ShouPrimalPower:
+  Name: Primal Power
+  Description: |-
+    Gain 1 Vigor
+    After the next {Value1} Attacks {PlayerName} plays this turn, gain {Mana} and draw a card.
+
+ShouAvatarofBishamonten:
+  Name: Avatar of Bishamonten
+  Description: |-
+    Gain {Shield} |Barrier|.
+    Gain {Value1} |Vigor| and |Harden|
+    Add {Value2} |Refracted Sunlight|s to the Discard Pile.
+
+ShouBountyoftheEarth:
+  Name: Bounty of the Earth
+  Description: |-
+    Add {Value1} |Emerald|s to the Discard Pile.
+  UpgradedDescription: |-
+    Add {Value1} |Emerald|+ to the Discard Pile.
+    
+ShouByakurenTeammate:
+  Name: Byakuren, Enlightened Magician
+  Description: "{Indent}Gain {Value1} |Firepower|.\n{PassiveCostIcon}Gain {Block} |Block| and |Reflection| for every 3 cards played this turn."
+  UpgradedDescription: "{Indent}Gain {Value1} |Firepower|.\n{PassiveCostIcon}Gain {Block} |Block| and |Reflection| for every 3 cards played this turn."
+  ExtraDescription1: "{ActiveCostIcon}Gain {Value1} |Vigor| and |Harden|."
+  UpgradedExtraDescription1: "{ActiveCostIcon}Gain {Value1} |Vigor| and |Harden|, and 5 |Resonance|."
+  ExtraDescription2: "{UltimateCostIcon}At the start of {PlayerName}'s turn, add a Completely Random Rare card to the hand. It has |Exile| and |Ethereal|, and mana of any color can be spent to pay its cost."
+  UpgradedExtraDescription2: "{UltimateCostIcon}At the start of {PlayerName}'s turn, add a Completely Random Rare card to the hand. It has |Exile| and |Ethereal|, and mana of any color can be spent to pay its cost."
+
+ShouCrimsonLaser:
+  Name: Crimson Laser
+  Description: |-
+    Deal {Damage} Damage.
+    Add a |Pearl| or a |Ruby| to the Discard Pile.
+
+ShouGoldenDawn:
+  Name: Golden Dawn
+  Description: |-
+    Gain {Value1} |Resonance|.
+
+ShouLimitlessBenevolence:
+  Name: Limitless Benevolence
+  Description: |-
+    Gain {Value2} |Vigor|.
+    Whenever {PlayerName} takes Attack Damage, Apply {Value1} |Lock On| to the Attacker.
+    
+ShouNazrinTeammate:
+  Name: Nazrin, Dowser General
+  Description: "{Indent}Choose {Value1} of {Value2} |Gemstone|s. Add the selected card to the Discard Pile.\n{PassiveCostIcon}Add a random |Gemstone| from the Draw and Discard Piles to the Hand."
+  UpgradedDescription: "{Indent}Choose {Value1} of {Value2} |Gemstone|s. Add the selected card to the Discard Pile.\n{PassiveCostIcon}Add a random |Gemstone| from the Draw and Discard Piles to the Hand."
+  ExtraDescription1: "{ActiveCostIcon}Choose 2 |Gemstone|s from the Discard Pile and add them to the Hand."
+  UpgradedExtraDescription1: "{ActiveCostIcon}Choose 2 |Gemstone|s from the Discard Pile and add them to the Hand."
+  ExtraDescription2: "{UltimateCostIcon}Deal {Damage} Accurate Attack Damage to all enemies. If an Elite or Boss Enemy is defeated by this attack, gain an extra Exhibit as a combat reward."
+  UpgradedExtraDescription2: "{UltimateCostIcon}Deal {Damage} Accurate Attack Damage to all enemies. If an Elite or Boss Enemy is defeated by this attack, gain an extra Exhibit as a combat reward."
+
+
+ShouProtectionOfTheInnocent:
+  Name: Protection of the Innocent
+  Description: |-
+    Gain {Shield} |Barrier|. Gain {Value1} |Vigor|.
+
+ShouScatteredProtection:
+  Name: Scattered Protection
+  Description: |-
+    Gain {Value2} |Harden|.
+    Whenever {PlayerName} deals attack damage to an opponent, if they have |Harden|, apply {Value1} |Temporary Firepower Down|.
+
+ShouStoredWealth:
+  Name: Stored Weath
+  Description: |-
+    Deal {Damage} Damage.
+    Deal {Value1} Additional Damage for each |Gemstone| in the hand and the draw and discard piles.
+
+ShouTrackingLaser:
+  Name: Tracking Laser
+  Description: |-
+    Deal {Damage} Damage.
+    |Vigorous|: Apply {Value1} |Weak|.
+
+ShouTreasureImmaterial:
+  Name: Treasure Immaterial
+  Description: |-
+    Draw {Value1} Cards.
+    |Vigorous|: Gain {Mana}.
+    |Harden|: Upgrade {Value1} random card{Value1:plural one='' other='s'} in the hand.
+
+ShouAbruptEntrance:
+  Name: Abrupt Entrance
+  Description: |-
+    Deal {Damage} Damage to all enemies.
+
+ShouAbsoluteJustice:
+  Name: Absolute Justice
+  Description: |-
+    At the start of {PlayerName}'s turn, apply {Value1} |Weak| or |Vulnerable| to a random enemy.
+
+ShouAlmightyFlash:
+  Name: Almighty Flash
+  Description: |-
+    Deal {Damage} Damage.
+    |Vigorous|: Deal {Value1} Damage.
+    |Harden|: Gain {Block} |Block|.
+
+ShouArcingRays:
+  Name: Arcing Rays
+  Description: |-
+    Deal {Damage} Damage to all enemies.
+    |Harden|: Draw {Value1} Cards.
+
+ShouAuraofJustice:
+  Name: Aura of Justice
+  Description: |-
+    Apply {Value1} |Weak| to each enemy.
+    Gain {Value1} |Harden|.
+
+ShouBloodMoney:
+  Name: Blood Money
+  Description: |-
+    Whenever a non-|Summon| enemy dies, gain {Value1} <sprite=\"Point\" name=\"Gold\">.
+
+ShouChannelingPower:
+  Name: Channeling Power
+  Description: |-
+    Gain {Value1} |Vigor|.
+    Gain {Value1} |Harden|.
+
+ShouCrimsonTears:
+  Name: Crimson Tears
+  Description: The first {Value1} times {PlayerName} takes damage each turn, add a |Ruby| to the draw pile.
+
+ShouFocusingLight:
+  Name: Focusing Light
+  Description: At the start of {PlayerName}'s turn, gain {Mana} and {Value1} |Firepower|.
+  UpgradedDescription: |-
+    Gain {Value2} |Firepower|.
+    At the start of {PlayerName}'s turn, gain {Mana} and {Value1} |Firepower|.
+
+ShouGleamofHeaven:
+  Name: Gleam of Heaven
+  Description: |-
+    Gain {Value1} |Graze|.
+    |Vigorous|: Draw {Value2} Cards.
+
+ShouHeartSutraRecitation:
+  Name: Heart Sutra Recitation
+  Description: Whenever a |Gemstone| is exiled, gain {Value1} |Block|.
+
+ShouIonicLink:
+  Name: Ionic Link
+  Description: |-
+    Apply {Value1} |Weak|.
+    Gain {Value1} |Vigor|.
+
+ShouLightofTheDivine:
+  Name: Light of the Divine
+  Description: |-
+    Gain {Value2} |Vigor|.
+    Gain {Value2} |Harden|.
+    Gain {Value1} |Resonance|.
+
+ShouRefractingLight:
+  Name: Refracting Light
+  Description: Whenever a |Gemstone| is played, gain {Value1} |Temporary Firepower| and |Temporary Spirit|.
+  UpgradedDescription: |-
+    Whenever a |Gemstone| is played, gain {Value1} |Temporary Firepower| and |Temporary Spirit|.
+    Add a |Pearl| to the hand.
+
+ShouShatterbeam:
+  Name: Shatterbeam
+  Description: |-
+    Deal {Damage} Damage.
+    You may exile a |Gemstone| from the discard pile. If you do, deal damage an additional time.
+
+ShouStillMind:
+  Name: Still Mind
+  Description:
+    Gain {Block} |Block|.
+    Gain {Mana} at the start of the next turn.
+
+ShouAdmonitionofAvarice:
+  Name: Admonition of Avarice
+  Description: |-
+    Exile up to {Value1} |Gemstones| from the discard pile.
+    Gain 1 |Graze| for each |Gemstone| exiled.
+
+ShouBarrierofWealth:
+  Name: Barrier of Wealth
+  Description:
+    Gain {Block} |Block|.
+    Exile a random |Gemstone| from the discard pile. If a |Gemstone| is exiled this way, gain {Value2} |Harden|.
+
+ShouCenterSoul:
+  Name: Center Soul
+  Description: |-
+    Gain {Value1} |Resonance| for each stack of |Vigor| and |Harden| that {PlayerName} has.
+    Remove {PlayerName}'s |Vigor| and |Harden|.
+
+ShouDowsingAssisstance:
+  Name: Dowsing Assisstance
+  Description: |-
+    Deal {Damage} Damage.
+    Add {Value1} random |Gemstone|{Value1:plural one= '' others = 's'} from the discard pile to the hand.
+
+ShouEndlessWealth:
+  Name: Endless Wealth
+  Description: |-
+    Add a |Ruby| to the hand.
+    At the start of {PlayerName}'s turn, add a Common or Uncommon |Gemstone| to the hand based on the current count of {SelfName}.
+  DetailText: |-
+    "The |Gemstone| added to the hand based on count is as follows:
+    |Ruby| -> |Onyx| -> |Sapphire| -> |Pearl| -> |Emerald| -> |Opal|"
+
+ShouFortuneFound:
+  Name: Fortune Found
+  Description: Add a random |Gemstone| from the discard pile to the hand.
+
+ShouGemstoneManufacturing:
+  Name: Gemstone Manufacturing
+  Description: Choose {Value1} of {Value2} |Gemstone|s. Add the chosen card to the hand.
+
+ShouGemWall:
+  Name: Gem Wall
+  Description: |-
+    Gain {Block} |Block|.
+    Add either a |Ruby| or an |Onyx| to the discard pile.
+  UpgradedDescription: |-
+    Gain {Block} |Block|.
+    Add a |Ruby| and an |Onyx| to the discard pile.
+
+ShouGlint:
+  Name: Glint
+  Description: |-
+    Add 1 of each |Gemstone| to the draw pile.
+    Select up to {Value2} |Gemstone|s in the draw and discard piles, and add them to the hand.
+
+ShouPagodaLaser:
+  Name: Pagoda Laser
+  Description: |-
+    Deal {Damage} Damage.
+    Add an |Onyx| to the top of the draw pile.
+
+ShouRainbowGems:
+  Name: Rainbow Gems
+  Description: |-
+    Deal {Damage} Damage to each enemy.
+    Add 1 of each |Gemstone| to the draw pile.
+
+ShouScatteredTreasure:
+  Name: Scattered Treasure
+  Description: Add {Value1} random |Gemstone|s to the draw pile.
+
+ShouSweepingBlast:
+  Name: Sweeping Blast
+  Description: |-
+    Deal {Damage} Damage to each enemy.
+    |Vigorous|: Deal Damage an additional time.
+
+ShouTimelessBeauty:
+  Name: Timeless Beauty
+  Description: |-
+    Draw {Value1} Cards.
+    Gain {Block} |Block| for each |Gemstone| drawn this way.
+
+ShouTreasureBlast:
+  Name: Treasure Blast
+  Description: |-
+    Deal {Damage} damage.
+    Exile up to {Value1} |Gemstones| from the discard pile. Deal {Value2} additional damage for each |Gemstone| exiled.
+
+SampleCharacterTeammate:
+  Name: Sample Teammate
+  Description: "{Indent}Draw {Value1} card{Value1:plural one='' other='s'}.\n{PassiveCostIcon}Draw {Value1} card."
+  UpgradedDescription: "{Indent}Draw {Value1} card{Value1:plural one='' other='s'}.\n{PassiveCostIcon}Draw {Value1} card."
+  ExtraDescription1: "{ActiveCostIcon}Draw {Value1} card{Value1:plural one='' other='s'}."
+  UpgradedExtraDescription1: "{ActiveCostIcon}Draw {Value1} card{Value1:plural one='' other='s'}."
+  ExtraDescription2: "{UltimateCostIcon}Draw {Value2} card{Value2:plural one='' other='s'}."
+  UpgradedExtraDescription2: "{UltimateCostIcon}Draw {Value2} card{Value2:plural one='' other='s'}."
+
+#SampleCharacterNewCard:
+#  Name: New Card
+#  Description: |-
+#    Deal {Damage} damage.
+#    Gain {Block} |Block|.
+#    Draw {Value1} card{Value1:plural one='' other='s'}.

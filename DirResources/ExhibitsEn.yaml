@@ -1,0 +1,13 @@
+ShouDullPagoda:
+  Name: Dull Pagoda
+  Description: |-
+    Adds {BaseMana} to the mana base. Cards unique to |SampleCharacter| are added to the card pool.
+    At the start of the first turn each combat, gain {Mana} and {Value1} |Firepower|.
+  FlavorText: if you look closely, you can see a faint glimmer
+
+ShouMouseBasket:
+  Name: Wicker Basket
+  Description: |-
+    Adds {Mana} to the mana base. Cards unique to |SampleCharacter| are added to the card pool.
+    At the start of the first turn each compat, add a |Nazrin, Dowser General| with |Retain| to the hand.
+  FlavorText: comes with a free mouse

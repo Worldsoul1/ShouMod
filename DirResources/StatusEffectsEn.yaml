@@ -1,0 +1,69 @@
+ShouAbsoluteJusticeSe:
+  Name: Absolute Justice
+  Description: At the start of {PlayerName}'s turn, apply {Level} |Weak| or |Vulnerable| to a random enemy.
+
+ShouBloodMoneySe:
+  Name: Blood Money
+  Description: Whenever a non-|Summon| enemy dies, gain {Level} <sprite=\"Point\" name=\"Gold\">.
+
+ShouByakurenTeammateBuffSe:
+  Name: Enlightenment
+  Description: At the start of {PlayerName}'s turn, add a Completely Random Rare card to the hand. It has |Exile| and |Ethereal|, and mana of any color can be spent to pay its cost.
+  DetailText: "|Byakuren, Enlightened Magician| cannot be generated from this effect."
+
+ShouCrimsonTearsSe:
+  Name: Crimson Tears
+  Description: The first {Level} time{Level:plural one='' others='s'} that {OwnerName} is dealt attack damage each turn, add a |Ruby| to the draw pile.
+
+ShouEndlessWealthSe:
+  Name: Endless Wealth
+  Description: At the start of {OwnerName}'s turn, add a |Gemstone| to the hand based on the count of {SelfName}.
+  DetailText: |-
+    "The |Gemstone| added to the hand based on count is as follows:
+    |Ruby| -> |Onyx| -> |Sapphire| -> |Pearl| -> |Emerald| -> |Opal|"
+
+ShouFocusingLightSe:
+  Name: Focusing Light
+  Description: At the start of {OwnerName}'s turn, gain {Mana} and {Value1} |Firepower|.
+
+ShouHardenSe:
+  Name: Harden
+  Brief: Gain 30% extra |Block| and |Barrier|
+  Description: Gain {ExtraShield}% extra |Block| and |Barrier|.
+
+ShouHardenedSe:
+  Name: Hardened
+  Description: If {PlayerName} has any |Harden|, then they are |Hardened|.
+
+ShouHeartSutraRecitationSe:
+  Name: Heart Sutra Recitation
+  Description: Whenever a |Gemstone| is Exiled, gain {Level} |Block|.
+
+ShouLimitlessBenevolenceSe:
+  Name: Limitless Benevolence
+  Description: Whenever {OwnerName} takes attack damage, if they have any |Vigor|, apply {Level} |Lock On| to the attacker.
+
+ShouPrimalPowerSe:
+  Name: Primal Power
+  Description: After the next {Level} attacks, gain {Mana} and draw a card.
+
+ShouRefractingLightSe:
+  Name: Refracting Light
+  Description: Whenever a |Gemstone| is played, gain {Level} |Temporary Firepower| and |Temporary Spirit|.
+
+ShouResonanceSe:
+  Name: Resonance
+  Description: "|Vigor| and |Harden| are {Level}% more effective."
+
+ShouScatteredProtectionSe:
+  Name: Scattered Protection
+  Description: Whenever {OwnerName} deals attack damage, if they have an |Harden|, apply {Level} |Temporary Firepower Down| to the target.
+
+ShouVigorSe:
+  Name: Vigor
+  Description: Deal {ExtraDamage}% more attack damage.
+  Brief: Deal 30% more attack damage.
+
+ShouVigorousSe:
+  Name: Vigorous
+  Description: If {PlayerName} has any |Vigor|, then they are |Vigorous|.
