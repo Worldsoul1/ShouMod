@@ -4,7 +4,7 @@ ShouAbsoluteJusticeSe:
 
 ShouBloodMoneySe:
   Name: Blood Money
-  Description: Whenever a non-|Summon| enemy dies, gain {Level} <sprite=\"Point\" name=\"Gold\">.
+  Description: Whenever a non-|Summon| enemy dies, gain {Level} <sprite="Point" name="Gold">.
 
 ShouByakurenTeammateBuffSe:
   Name: Enlightenment
@@ -34,12 +34,13 @@ ShouFocusingLightSe:
 
 ShouHardenSe:
   Name: Harden
-  Brief: Gain 30% extra |Block| and |Barrier|
-  Description: Gain {ExtraShield}% extra |Block| and |Barrier|.
+  Brief: Gain 30% extra |Block| and |Barrier|. 
+  Description: Gain {ExtraShield}% extra |Block| and |Barrier| {Duration:plural one='until end of turn' other='for the next % turns'}.
 
 ShouHardenedSe:
   Name: Hardened
   Description: If {PlayerName} has any |Harden|, then they are |Hardened|.
+  Brief: If {PlayerName} has any |Harden|, then they are |Hardened|.
 
 ShouHeartSutraRecitationSe:
   Name: Heart Sutra Recitation
@@ -60,6 +61,7 @@ ShouRefractingLightSe:
 ShouResonanceSe:
   Name: Resonance
   Description: "|Vigor| and |Harden| are {Level}% more effective."
+  Brief: "|Vigor| and |Harden| are x% more effective."
 
 ShouScatteredProtectionSe:
   Name: Scattered Protection
@@ -67,9 +69,10 @@ ShouScatteredProtectionSe:
 
 ShouVigorSe:
   Name: Vigor
-  Description: Deal {ExtraDamage}% more attack damage.
+  Description: Deal {ExtraDamage}% more attack damage {Duration:plural one='until end of turn' other='for the next % turns'}
   Brief: Deal 30% more attack damage.
 
 ShouVigorousSe:
   Name: Vigorous
   Description: If {PlayerName} has any |Vigor|, then they are |Vigorous|.
+  Brief: If {PlayerName} has any |Vigor|, then they are |Vigorous|.

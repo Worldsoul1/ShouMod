@@ -36,8 +36,8 @@ namespace ShouMod.Cards
             config.RelativeKeyword = Keyword.Block;
             config.UpgradedRelativeKeyword = Keyword.Block;
 
-            config.RelativeCards = new List<string> { nameof(ShouRuby), nameof(ShouOpal) };
-            config.UpgradedRelativeCards = new List<string> { nameof(ShouRuby), nameof(ShouOpal) };
+            config.RelativeCards = new List<string> { nameof(ShouRuby), nameof(ShouPearl) };
+            config.UpgradedRelativeCards = new List<string> { nameof(ShouRuby), nameof(ShouPearl) };
 
             config.Illustrator = "";
 

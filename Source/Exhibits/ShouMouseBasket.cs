@@ -7,6 +7,7 @@ using LBoL.Core.Battle.BattleActions;
 using LBoL.EntityLib.Cards.Neutral.NoColor;
 using LBoL.EntityLib.Exhibits;
 using LBoLEntitySideloader.Attributes;
+using LBoL.Core.Cards;
 using ShouMod.Cards;
 
 namespace ShouMod.Exhibits
@@ -44,7 +45,9 @@ namespace ShouMod.Exhibits
             if (base.Battle.Player.TurnCounter == 1)
             {
                 base.NotifyActivating();
-                yield return new AddCardsToHandAction(Library.CreateCards<ShouNazrinTeammate>(base.Value1, false), AddCardsType.Normal);
+                Card card = Library.CreateCard<ShouNazrinTeammate>(false);
+                card.IsRetain = true;
+                yield return new AddCardsToHandAction(card);
             }
             yield break;
         }

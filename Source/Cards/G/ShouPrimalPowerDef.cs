@@ -28,6 +28,9 @@ namespace ShouMod.Cards
             config.UpgradedValue1 = 6;
             config.Mana = new ManaGroup() {  Philosophy = 1 };
 
+            config.Keywords = Keyword.Exile;
+            config.UpgradedKeywords = Keyword.Exile;
+
             config.Illustrator = "";
 
             config.Index = CardIndexGenerator.GetUniqueIndex(config);

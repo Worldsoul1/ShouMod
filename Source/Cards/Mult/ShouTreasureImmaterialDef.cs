@@ -33,7 +33,8 @@ namespace ShouMod.Cards
             config.Value2 = 1;
             config.UpgradedValue2 = 2;
 
-            config.Mana = new ManaGroup() { Philosophy = 1 };
+            config.Mana = new ManaGroup() { Red = 1 };
+            config.UpgradedMana = new ManaGroup() { Philosophy = 1 };
 
 
             //Add Weak, Vulnerable, Firepower Down descrption when hovering over the card.

@@ -33,7 +33,7 @@ namespace ShouMod.Cards
             //As of 1.5.1: Colorless hybrid are not supported.    
             config.Cost = new ManaGroup() { Any = 1, Hybrid = 1, HybridColor = 2 };
             config.UpgradedCost = new ManaGroup() { Hybrid = 1, HybridColor = 2 };
-            config.Rarity = Rarity.Uncommon;
+            config.Rarity = Rarity.Common;
 
             config.Type = CardType.Attack;
             config.TargetType = TargetType.SingleEnemy;

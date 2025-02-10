@@ -27,7 +27,7 @@ ShouDiamond:
 ShouEmerald:
   Name: Emerald
   Description: |-
-    Gain {Mana}
+    Gain {Mana}.
 
 ShouOnyx:
   Name: Onyx
@@ -35,7 +35,7 @@ ShouOnyx:
 
 ShouOpal:
   Name: Opal
-  Description: Draw {Value1} Cards.
+  Description: Draw {Value1} cards.
 
 ShouPearl:
   Name: Pearl
@@ -45,12 +45,12 @@ ShouPearl:
 ShouRuby:
   Name: Ruby
   Description: |-
-    Deal {Damage} Damage.
+    Deal {Damage} damage.
 
 ShouSapphire:
   Name: Sapphire
   Description: |-
-    Deal {Damage} Damage to each enemy.
+    Deal {Damage} damage to each enemy.
 
 ShouPrimalPower:
   Name: Primal Power
@@ -63,14 +63,14 @@ ShouAvatarofBishamonten:
   Description: |-
     Gain {Shield} |Barrier|.
     Gain {Value1} |Vigor| and |Harden|
-    Add {Value2} |Refracted Sunlight|s to the Discard Pile.
+    Add {Value2} |Refracted Sunlight|s to the discard pile.
 
 ShouBountyoftheEarth:
   Name: Bounty of the Earth
   Description: |-
-    Add {Value1} |Emerald|s to the Discard Pile.
+    Add {Value1} |Emerald|s to the discard pile.
   UpgradedDescription: |-
-    Add {Value1} |Emerald|+ to the Discard Pile.
+    Add {Value1} |Emerald+| to the discard pile.
     
 ShouByakurenTeammate:
   Name: Byakuren, Enlightened Magician
@@ -78,14 +78,14 @@ ShouByakurenTeammate:
   UpgradedDescription: "{Indent}Gain {Value1} |Firepower|.\n{PassiveCostIcon}Gain {Block} |Block| and |Reflection| for every 3 cards played this turn."
   ExtraDescription1: "{ActiveCostIcon}Gain {Value1} |Vigor| and |Harden|."
   UpgradedExtraDescription1: "{ActiveCostIcon}Gain {Value1} |Vigor| and |Harden|, and 5 |Resonance|."
-  ExtraDescription2: "{UltimateCostIcon}At the start of {PlayerName}'s turn, add a Completely Random Rare card to the hand. It has |Exile| and |Ethereal|, and mana of any color can be spent to pay its cost."
-  UpgradedExtraDescription2: "{UltimateCostIcon}At the start of {PlayerName}'s turn, add a Completely Random Rare card to the hand. It has |Exile| and |Ethereal|, and mana of any color can be spent to pay its cost."
+  ExtraDescription3: "{UltimateCostIcon}At the start of {PlayerName}'s turn, add a completely random rare card to the hand. It has |Exile| and |Ethereal|, and costs {Mana}."
+  UpgradedExtraDescription3: "{UltimateCostIcon}At the start of {PlayerName}'s turn, add a completely random rare card to the hand. It has |Exile| and |Ethereal|, and costs {Mana}."
 
 ShouCrimsonLaser:
   Name: Crimson Laser
   Description: |-
     Deal {Damage} Damage.
-    Add a |Pearl| or a |Ruby| to the Discard Pile.
+    Add a |Pearl| or a |Ruby| to the discard pile.
 
 ShouGoldenDawn:
   Name: Golden Dawn
@@ -96,16 +96,16 @@ ShouLimitlessBenevolence:
   Name: Limitless Benevolence
   Description: |-
     Gain {Value2} |Vigor|.
-    Whenever {PlayerName} takes Attack Damage, Apply {Value1} |Lock On| to the Attacker.
+    Whenever {PlayerName} takes attack damage, apply {Value1} |Lock On| to the attacker.
     
 ShouNazrinTeammate:
   Name: Nazrin, Dowser General
-  Description: "{Indent}Choose {Value1} of {Value2} |Gemstones|. Add the selected card to the Discard Pile.\n{PassiveCostIcon}Add a random |Gemstone| from the Draw and Discard Piles to the Hand."
-  UpgradedDescription: "{Indent}Choose {Value1} of {Value2} |Gemstones|. Add the selected card to the Discard Pile.\n{PassiveCostIcon}Add a random |Gemstone| from the Draw and Discard Piles to the Hand."
-  ExtraDescription1: "{ActiveCostIcon}Choose 2 |Gemstones| from the Discard Pile and add them to the Hand."
-  UpgradedExtraDescription1: "{ActiveCostIcon}Choose 2 |Gemstones| from the Discard Pile and add them to the Hand."
-  ExtraDescription2: "{UltimateCostIcon}Deal {Damage} Accurate Attack Damage to all enemies. If an Elite or Boss Enemy is defeated by this attack, gain an extra Exhibit as a combat reward."
-  UpgradedExtraDescription2: "{UltimateCostIcon}Deal {Damage} Accurate Attack Damage to all enemies. If an Elite or Boss Enemy is defeated by this attack, gain an extra Exhibit as a combat reward."
+  Description: "{Indent}Choose {Value1} of {Value2} |Gemstones|. Add the selected card to the discard pile.\n{PassiveCostIcon}Add a random |Gemstone| from the draw and discard piles to the Hand."
+  UpgradedDescription: "{Indent}Choose {Value1} of {Value2} |Gemstones|. Add the selected card to the discard pile.\n{PassiveCostIcon}Add a random |Gemstone| from the draw and discard piles to the Hand."
+  ExtraDescription1: "{ActiveCostIcon}Choose 2 |Gemstones| from the discard pile and add them to the Hand."
+  UpgradedExtraDescription1: "{ActiveCostIcon}Choose 2 |Gemstones| from the discard pile and add them to the Hand."
+  ExtraDescription3: "{UltimateCostIcon}Deal {Damage} accurate attack damage to all enemies. If an Elite or Boss Enemy is defeated by this attack, gain an extra Exhibit as a combat reward."
+  UpgradedExtraDescription3: "{UltimateCostIcon}Deal {Damage} accurate attack damage to all enemies. If an Elite or Boss Enemy is defeated by this attack, gain an extra Exhibit as a combat reward."
 
 
 ShouProtectionOfTheInnocent:
@@ -122,13 +122,13 @@ ShouScatteredProtection:
 ShouStoredWealth:
   Name: Stored Weath
   Description: |-
-    Deal {Damage} Damage.
-    Deal {Value1} Additional Damage for each |Gemstone| in the hand and the draw and discard piles.
+    Deal {Damage} damage.
+    Deal {Value1} additional damage for each |Gemstone| in the hand and the draw and discard piles.
 
 ShouTrackingLaser:
   Name: Tracking Laser
   Description: |-
-    Deal {Damage} Damage.
+    Deal {Damage} damage.
     |Vigorous|: Apply {Value1} |Weak|.
 
 ShouTreasureImmaterial:
@@ -136,12 +136,12 @@ ShouTreasureImmaterial:
   Description: |-
     Draw {Value1} Cards.
     |Vigorous|: Gain {Mana}.
-    |Harden|: Upgrade {Value1} random card{Value1:plural one='' other='s'} in the hand.
+    |Hardened|: Upgrade {Value1} random card{Value1:plural one='' other='s'} in the hand.
 
 ShouAbruptEntrance:
   Name: Abrupt Entrance
   Description: |-
-    Deal {Damage} Damage to all enemies.
+    Deal {Damage} damage to all enemies.
 
 ShouAbsoluteJustice:
   Name: Absolute Justice
@@ -153,13 +153,13 @@ ShouAlmightyFlash:
   Description: |-
     Deal {Damage} Damage.
     |Vigorous|: Deal {Value1} Damage.
-    |Harden|: Gain {Block} |Block|.
+    |Hardened|: Gain {Block} |Block|.
 
 ShouArcingRays:
   Name: Arcing Rays
   Description: |-
-    Deal {Damage} Damage to all enemies.
-    |Harden|: Draw {Value1} Cards.
+    Deal {Damage} damage to all enemies.
+    |Hardened|: Draw {Value1} Cards.
 
 ShouAuraofJustice:
   Name: Aura of Justice
@@ -170,7 +170,7 @@ ShouAuraofJustice:
 ShouBloodMoney:
   Name: Blood Money
   Description: |-
-    Whenever a non-|Summon| enemy dies, gain {Value1} <sprite=\"Point\" name=\"Gold\">.
+    Whenever a non-|Summon| enemy dies, gain {Value1} <sprite="Point" name="Gold">.
 
 ShouChannelingPower:
   Name: Channeling Power
@@ -243,12 +243,12 @@ ShouCycleofWealth:
   Name: Cycle of Wealth
   Description: |-
     Whenever a |Gemstone| is played, exile it.
-    Whenever a Gemstone is exiled this way, add a random |Gemstone| to the discard pile.
+    Whenever a |Gemstone| is exiled this way, add a random |Gemstone| to the discard pile.
 
-ShouDowsingAssisstance:
-  Name: Dowsing Assisstance
+ShouDowsingAssistance:
+  Name: Dowsing Assistance
   Description: |-
-    Deal {Damage} Damage.
+    Deal {Damage} damage.
     Add {Value1} random |Gemstone|{Value1:plural one= '' others = 's'} from the discard pile to the hand.
 
 ShouEndlessWealth:
@@ -266,7 +266,7 @@ ShouFortuneFound:
 
 ShouGemstoneManufacturing:
   Name: Gemstone Manufacturing
-  Description: Choose {Value1} of {Value2} |Gemstone|s. Add the chosen card to the hand.
+  Description: Choose {Value1} of {Value2} |Gemstones|. Add the chosen card to the hand.
 
 ShouGemWall:
   Name: Gem Wall
@@ -287,33 +287,39 @@ ShouHeartSutraRecitation:
   Name: Heart Sutra Recitation
   Description: Whenever a |Gemstone| is exiled, gain {Value1} |Block|.
 
+ShouHiddenSwipe:
+  Name: Hidden Swipe
+  Description: |-
+    Deal {Damage} damage.
+    Whenever a |Gemstone| is exiled, return {SelfName} from the discard pile to the hand.
+
 ShouPagodaLaser:
   Name: Pagoda Laser
   Description: |-
-    Deal {Damage} Damage.
+    Deal {Damage} damage.
     Add an |Onyx| to the top of the draw pile.
 
 ShouRainbowGems:
   Name: Rainbow Gems
   Description: |-
-    Deal {Damage} Damage to each enemy.
+    Deal {Damage} damage to each enemy.
     Add 1 of each |Gemstone| to the draw pile.
 
 ShouScatteredTreasure:
   Name: Scattered Treasure
-  Description: Add {Value1} random |Gemstone|s to the draw pile.
+  Description: Add {Value1} random |Gemstones| to the draw pile.
 
 ShouShatterbeam:
   Name: Shatterbeam
   Description: |-
-    Deal {Damage} Damage.
+    Deal {Damage} damage.
     You may exile a |Gemstone| from the discard pile. If you do, deal damage an additional time.
 
 ShouSweepingBlast:
   Name: Sweeping Blast
   Description: |-
-    Deal {Damage} Damage to each enemy.
-    |Vigorous|: Deal Damage an additional time.
+    Deal {Damage} damage to each enemy.
+    |Vigorous|: Deal damage an additional time.
 
 ShouTimelessBeauty:
   Name: Timeless Beauty
