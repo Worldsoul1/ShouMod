@@ -52,6 +52,12 @@ ShouSapphire:
   Description: |-
     Deal {Damage} damage to each enemy.
 
+ShouHungryTiger:
+  Name: Hungry Tiger
+  Description: |-
+    Deal {Damage} damage.
+    |Expel|: Gain {Value1} life.
+
 ShouPrimalPower:
   Name: Primal Power
   Description: |-
@@ -116,6 +122,12 @@ ShouProtectionOfTheInnocent:
   Name: Protection of the Innocent
   Description: |-
     Gain {Shield} |Barrier|. Gain {Value1} |Vigor|.
+
+ShouProtectiveMoney:
+  Name: Protective Money
+  Description: |-
+    Gain {Shield} |Barrier|.
+    Gain {Value1} <sprite="Point" name="Gold"> for each card in the hand.
 
 ShouScatteredProtection:
   Name: Scattered Protection
