@@ -87,6 +87,10 @@ ShouCrimsonLaser:
     Deal {Damage} Damage.
     Add a |Pearl| or a |Ruby| to the discard pile.
 
+ShouDivineProtector:
+  Name: Divine Protector
+  Description: Whenever a card is played, {PlayerName} gains {Value1} |Resonance|.
+
 ShouGoldenDawn:
   Name: Golden Dawn
   Description: |-

@@ -21,6 +21,10 @@ ShouCycleofWealthSe:
     Whenever a |Gemstone| is played, exile it.
     Whenever a Gemstone is exiled this way, add a random |Gemstone| to the discard pile.
 
+ShouDivineProtectorSe:
+  Name: Divine Protector
+  Description: Whenever a card is played, {OwnerName} gains {Level} |Resonance|.
+
 ShouEndlessWealthSe:
   Name: Endless Wealth
   Description: At the start of {OwnerName}'s turn, add a |Gemstone| to the hand based on the count of {SelfName}.
