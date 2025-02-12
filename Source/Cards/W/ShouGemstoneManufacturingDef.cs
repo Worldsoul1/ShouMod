@@ -41,7 +41,7 @@ namespace ShouMod.Cards
     }
 
     [EntityLogic(typeof(ShouGemstoneManufacturingDef))]
-    public sealed class ShouGemstoneReference : ShouGemstoneReferenceCard
+    public sealed class ShouGemstoneManufacturing : ShouGemstoneReferenceCard
     {
         protected override IEnumerable<BattleAction> Actions(UnitSelector selector, ManaGroup consumingMana, Interaction precondition)
         {

@@ -309,6 +309,26 @@ ShouHiddenSwipe:
     Deal {Damage} damage.
     Whenever a |Gemstone| is exiled, return {SelfName} from the discard pile to the hand.
 
+ShouOneMansTrash:
+  Name: One Man's Trash
+  Description: |-
+    Exile up to {Value1} cards ffrom the hand.
+    Add a number of |Gemstones| to the hand equal to the number of cards exiled.
+    The added |Gemstones| are determined by the types of cards exiled.
+  UpgradedDescription: |-
+    Exile up to {Value1} cards ffrom the hand, draw, and discard piles.
+    Add a number of |Gemstones| to the hand equal to the number of cards exiled.
+    The added |Gemstones| are determined by the types of cards exiled.
+  DetailText: |-
+    If an Attack is exiled, a |Ruby| will be added to the hand.
+    If a Defense is exiled, an |Onyx| will be added to the hand.
+    If a Skill is exilied, an |Opal| will be added to the hand.
+    If an Ability is exiled, a |Sapphire| will be added to the hand.
+    If a Teammate is exiled, a |Pearl| will be added to the hand.
+    If a Status is exiled, an |Emerald| will be added to the hand.
+    If a Tool is exiled, an |Amber| will be added to the hand.
+    If a Misfortune is exiled, a |Diamond| will be added to the hand.
+
 ShouPagodaLaser:
   Name: Pagoda Laser
   Description: |-
