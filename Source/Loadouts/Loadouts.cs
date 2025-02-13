@@ -22,7 +22,7 @@ namespace ShouMod
             nameof(ShouAttackW),
             nameof(ShouAttackR), 
             nameof(ShouBlockW), 
-            nameof(ShouBlockR),
+            nameof(ShouBlockW),
             nameof(ShouBlockR),
             nameof(ShouChannelingPower), 
         };

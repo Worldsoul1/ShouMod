@@ -194,7 +194,7 @@ namespace ShouMod.Cards
 		}
         private IEnumerable<BattleAction> OnEnemyDied(DieEventArgs args)
         {
-            if (args.DieSource == this && args.Unit is EnemyUnit enemyUnit && (enemyUnit.Config.Type == EnemyType.Elite || enemyUnit.Config.Type == EnemyType.Boss)) //EnemyType.Elite = 2; EnemyType.Boss = 3. 
+            if (args.DieSource == this && args.Unit is EnemyUnit enemyUnit && (enemyUnit.Config.Type is EnemyType.Elite || enemyUnit.Config.Type is EnemyType.Boss)) //EnemyType.Elite = 2; EnemyType.Boss = 3. 
             {
                 base.GameRun.ExtraExhibitReward = Library.CreateExhibit(base.GameRun.CurrentStage.GetEliteEnemyExhibit().Id);
             }

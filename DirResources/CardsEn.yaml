@@ -74,7 +74,7 @@ ShouAvatarofBishamonten:
 ShouBountyoftheEarth:
   Name: Bounty of the Earth
   Description: |-
-    Add {Value1} |Emerald|s to the discard pile.
+    Add {Value1} |Emeralds| to the discard pile.
   UpgradedDescription: |-
     Add {Value1} |Emerald+| to the discard pile.
     
@@ -236,7 +236,7 @@ ShouStillMind:
 ShouAdmonitionofAvarice:
   Name: Admonition of Avarice
   Description: |-
-    Exile up to {Value1} |Gemstones| from the discard pile.
+    Exile up to {Value1} random |Gemstones| from the discard pile.
     Gain 1 |Graze| for each |Gemstone| exiled.
 
 ShouBarrierofWealth:
@@ -265,7 +265,7 @@ ShouDowsingAssistance:
   Name: Dowsing Assistance
   Description: |-
     Deal {Damage} damage.
-    Add {Value1} random |Gemstone|{Value1:plural one= '' others = 's'} from the discard pile to the hand.
+    Add {Value1} random |Gemstone{Value1:plural one= '' others = 's'}| from the discard pile to the hand.
 
 ShouEndlessWealth:
   Name: Endless Wealth

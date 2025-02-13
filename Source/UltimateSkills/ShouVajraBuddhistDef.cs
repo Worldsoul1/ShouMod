@@ -39,8 +39,9 @@ namespace ShouMod.SampleCharacterUlt
 
         protected override IEnumerable<BattleAction> Actions(UnitSelector selector)
         {
-            EnemyUnit enemy = selector.GetEnemy(base.Battle);
-            yield return new DamageAction(base.Owner, enemy, this.Damage, base.GunName, GunType.Single);
+            Unit[] targets = selector.GetUnits(base.Battle);
+            yield return PerformAction.Spell(base.Owner, nameof(ShouVajraBuddhist));
+            yield return new DamageAction(base.Owner, targets, this.Damage, base.GunName, GunType.Single);
 
             //Only apply the status effect if the enemy is still alive after the attack. 
             if (base.Battle.BattleShouldEnd)
