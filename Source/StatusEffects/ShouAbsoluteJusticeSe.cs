@@ -17,7 +17,7 @@ namespace ShouMod.StatusEffects
         public override StatusEffectConfig MakeConfig()
         {
             StatusEffectConfig config = GetDefaultStatusEffectConfig();
-            config.RelativeEffects = new List<string>() { nameof(Spirit) };
+            config.RelativeEffects = new List<string>() { nameof(Weak), nameof(Vulnerable) };
             return config;
         }
     }

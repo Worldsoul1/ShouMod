@@ -309,6 +309,10 @@ ShouHiddenSwipe:
     Deal {Damage} damage.
     Whenever a |Gemstone| is exiled, return {SelfName} from the discard pile to the hand.
 
+ShouInstinctiveCharity:
+  Name: Instinctive Charity
+  Description: Att the start of {PlayerName}'s turn, add {Value1} random |Gemstones| to the draw pile.
+
 ShouOneMansTrash:
   Name: One Man's Trash
   Description: |-
@@ -368,6 +372,12 @@ ShouTreasureBlast:
   Description: |-
     Deal {Damage} damage.
     Exile up to {Value1} |Gemstones| from the discard pile. Deal {Value2} additional damage for each |Gemstone| exiled.
+
+ShouWantNot:
+  Name: Want Not
+  Description: |-
+    At the end of {PlayerName}'s turn, exile up to 3 |Gemstones| from the discard pile.
+    Gain {Value1} |Barrier| for each card exiled this way.
 
 SampleCharacterTeammate:
   Name: Sample Teammate

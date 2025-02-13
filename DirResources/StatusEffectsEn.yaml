@@ -50,6 +50,10 @@ ShouHeartSutraRecitationSe:
   Name: Heart Sutra Recitation
   Description: Whenever a |Gemstone| is Exiled, gain {Level} |Block|.
 
+ShouInstinctiveCharitySe:
+  Name: Instinctive Charity
+  Description: Att the start of {PlayerName}'s turn, add {Value1} random |Gemstones| to the draw pile.
+
 ShouLimitlessBenevolenceSe:
   Name: Limitless Benevolence
   Description: Whenever {OwnerName} takes attack damage, if they have any |Vigor|, apply {Level} |Lock On| to the attacker.
@@ -80,3 +84,9 @@ ShouVigorousSe:
   Name: Vigorous
   Description: If {PlayerName} has any |Vigor|, then they are |Vigorous|.
   Brief: If {PlayerName} has any |Vigor|, then they are |Vigorous|.
+
+ShouWantNotSe:
+  Name: Want Not
+  Description: |-
+    At the end of {PlayerName}'s turn, exile up to 3 |Gemstones| from the discard pile.
+    Gain {Level} |Barrier| for each card exiled this way.
