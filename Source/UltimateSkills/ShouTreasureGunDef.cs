@@ -50,6 +50,7 @@ namespace ShouMod.SampleCharacterUlt
         protected override IEnumerable<BattleAction> Actions(UnitSelector selector)
         {
 			    EnemyUnit enemy = selector.GetEnemy(base.Battle);
+            yield return PerformAction.Spell(base.Owner, nameof(ShouTreasureGun));
             List<Card> list = new List<Card>();
             this.Gemstones.Shuffle(base.GameRun.BattleCardRng);
             for (int i = 0; i < base.Value2; i++)

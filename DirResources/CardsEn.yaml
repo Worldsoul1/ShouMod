@@ -207,6 +207,13 @@ ShouGleamofHeaven:
     Gain {Value1} |Graze|.
     |Vigorous|: Draw {Value2} Cards.
 
+ShouGoldRush:
+  Name: Gold Rush
+  Description: |-
+    Deal {Damage} damage.
+    Lose {Value1} <sprite="Point" name="Gold">.
+    |Vigorous|: gain {Value1} <sprite="Point" name="Gold">.
+
 ShouIonicLink:
   Name: Ionic Link
   Description: |-
@@ -226,6 +233,13 @@ ShouRefractingLight:
   UpgradedDescription: |-
     Whenever a |Gemstone| is played, gain {Value1} |Temporary Firepower| and |Temporary Spirit|.
     Add a |Pearl| to the hand.
+
+ShouReleasingDesires:
+  Name: Releasing Desires
+  Description: |-
+    Deal {Damage} damage.
+    Deal damage an additional time for every {Value1} |Resonance| {PlayerName} has.
+    Remove {PlayerName}'s |Resonance|.
 
 ShouStillMind:
   Name: Still Mind
@@ -312,6 +326,12 @@ ShouHiddenSwipe:
 ShouInstinctiveCharity:
   Name: Instinctive Charity
   Description: Att the start of {PlayerName}'s turn, add {Value1} random |Gemstones| to the draw pile.
+
+ShouMerchantCall:
+  Name: Merchant Call
+  Description: |-
+    Exile a card from the hand.
+    If a |Gemstone| card is exiled, choose {Value1} of {Value2} random tool cards to add to the hand and library.
 
 ShouOneMansTrash:
   Name: One Man's Trash

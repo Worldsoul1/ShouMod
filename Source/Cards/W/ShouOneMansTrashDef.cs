@@ -85,6 +85,7 @@ namespace ShouMod.Cards
                         if (card.CardType == CardType.Status) { listGems.Add(Library.CreateCard<ShouEmerald>()); }
                         if (card.CardType == CardType.Tool) { listGems.Add(Library.CreateCard<ShouAmber>()); }
                         if (card.CardType == CardType.Misfortune) { listGems.Add(Library.CreateCard<ShouDiamond>()); }
+                        yield return new ExileCardAction(card);
                     }
                 }
                 yield return new AddCardsToHandAction(listGems);

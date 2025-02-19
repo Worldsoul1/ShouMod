@@ -17,7 +17,7 @@ namespace ShouMod.model
         public static bool useInGameModel = BepinexPlugin.useInGameModel;
         public static string model_name = useInGameModel ? BepinexPlugin.modelName : "ShouModel.png";
         //If a custom model is used, use a custom sprite for the Ultimate animation.
-        public static string spellsprite_name = "SampleCharacterStand.png";
+        public static string spellsprite_name = "ShouStand.png";
 
         public override IdContainer GetId()
         {
@@ -41,7 +41,7 @@ namespace ShouMod.model
             else
             {
                 //Load the custom character's sprite.
-                return new ModelOption(ResourceLoader.LoadSpriteAsync(model_name, BepinexPlugin.directorySource, ppu: 565));
+                return new ModelOption(ResourceLoader.LoadSpriteAsync(model_name, BepinexPlugin.directorySource, ppu: 265));
             }
         }
 
@@ -73,7 +73,7 @@ namespace ShouMod.model
                 UnitModelConfig config = DefaultConfig().Copy();
                 config.Flip = BepinexPlugin.modelIsFlipped;
                 config.Type = 0;
-                config.Offset = new Vector2(0, -0.10f);
+                config.Offset = new Vector2(-0.2f, -0.70f);
                 config.HasSpellPortrait = true;
                 return config;
             }   
