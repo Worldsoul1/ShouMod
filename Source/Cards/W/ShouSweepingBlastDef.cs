@@ -31,13 +31,13 @@ namespace ShouMod.Cards
             //TargetType.AllEnemies will change the selector to all enemies for attacks/status effects.
             config.TargetType = TargetType.AllEnemies;
 
-            config.Damage = 13;
-            config.UpgradedDamage = 17;
+            config.Damage = 10;
+            config.UpgradedDamage = 13;
             config.Value1 = 1;
-            config.UpgradedValue1 = 2;
+            config.UpgradedValue1 = 1;
 
-            config.RelativeEffects = new List<string>() { nameof(ShouVigorSe) };
-            config.UpgradedRelativeEffects = new List<string>() { nameof(ShouVigorSe) };
+            config.RelativeEffects = new List<string>() { nameof(ShouVigorSe), nameof(ShouVigorousSe) };
+            config.UpgradedRelativeEffects = new List<string>() { nameof(ShouVigorSe), nameof(ShouVigorousSe) };
 
             //Add Lock On descrption when hovering over the card.
 
