@@ -75,6 +75,12 @@ ShouScatteredProtectionSe:
   Name: Scattered Protection
   Description: Whenever {OwnerName} deals attack damage, if they have an |Harden|, apply {Level} |Temporary Firepower Down| to the target.
 
+ShouScorchedEarthMandalaSe:
+  Name: Scorched Earth Mandala
+  Description: |-
+    Whenever an Attack card is played, gain {Value1} |Resonance|.
+    Whenever a Defense card is played, remove {OwnerName}'s |Vigor|.
+
 ShouVigorSe:
   Name: Vigor
   Description: Deal {ExtraDamage}% more attack damage {Duration:plural one='until end of turn' other='for the next % turns'}

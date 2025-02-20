@@ -21,7 +21,6 @@ namespace ShouMod.StatusEffects
         {
             StatusEffectConfig config = GetDefaultStatusEffectConfig();
             config.HasLevel = true;
-            config.RelativeEffects = new List<string>() { nameof(TempFirepower), nameof(TempSpirit) };
             return config;
         }
     }

@@ -58,6 +58,21 @@ ShouHungryTiger:
     Deal {Damage} damage.
     |Expel|: Gain {Value1} life.
 
+ShouScorchedEarthMandala:
+  Name: Scorched Earth Mandala
+  Description: |-
+    Gain {Value2} |Vigor|.
+    Whenever an Attack card is played, gain {Value1} |Resonance|.
+    Whenever a Defense card is played, remove {PlayerName}'s |Vigor|.
+
+ShouAmberblast:
+  Name: Amberblast
+  Description: |-
+    Deal {Damage} damage.
+    Choose |Emerald| or |Amber|. Add {Value1} copies of the selected card to the hand, and {Value1} copies of the selected card to the discard pile.
+  ExtraDescription1: Add {Value1} |Emeralds| to the hand, and {Value1} |Amber| to the discard pile.
+  ExtraDescription2: Add {Value1} |Amber| to the hand and {Value1} |Emeralds| to the discard pile.
+
 ShouPrimalPower:
   Name: Primal Power
   Description: |-
