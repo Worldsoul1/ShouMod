@@ -18,6 +18,7 @@ ShouColdCashSe:
 ShouCrimsonTearsSe:
   Name: Crimson Tears
   Description: The first {Level} time{Level:plural one='' others='s'} that {OwnerName} is dealt attack damage each turn, add a |Ruby| to the draw pile.
+  Brief: The first 2 times that {PlayerName} is dealt attack damage each turn, add a |Ruby| to the draw pile.
 
 ShouCycleofWealthSe:
   Name: Cycle of Wealth
@@ -38,7 +39,7 @@ ShouEndlessWealthSe:
 
 ShouFocusingLightSe:
   Name: Focusing Light
-  Description: At the start of {OwnerName}'s turn, gain {Mana} and {Value1} |Firepower|.
+  Description: At the start of {OwnerName}'s turn, gain {Mana} and {Level} |Firepower|.
 
 ShouHardenSe:
   Name: Harden
@@ -56,7 +57,7 @@ ShouHeartSutraRecitationSe:
 
 ShouInstinctiveCharitySe:
   Name: Instinctive Charity
-  Description: Att the start of {PlayerName}'s turn, add {Value1} random |Gemstones| to the draw pile.
+  Description: Att the start of {PlayerName}'s turn, add {Level} random |Gemstones| to the draw pile.
 
 ShouLimitlessBenevolenceSe:
   Name: Limitless Benevolence
@@ -82,8 +83,11 @@ ShouScatteredProtectionSe:
 ShouScorchedEarthMandalaSe:
   Name: Scorched Earth Mandala
   Description: |-
-    Whenever an Attack card is played, gain {Value1} |Resonance|.
-    Whenever a Defense card is played, remove {OwnerName}'s |Vigor|.
+    Whenever an Attack card is played, gain {Level} |Resonance|.
+    Whenever a Defense card is played, remove {PlayerName}'s |Vigor|.
+  Brief: |-
+    Whenever an Attack card is played, gain {Level} |Resonance|.
+    Whenever a Defense card is played, remove {PlayerName}'s |Vigor|.
 
 ShouVigorSe:
   Name: Vigor

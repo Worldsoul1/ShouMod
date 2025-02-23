@@ -16,7 +16,7 @@ using System.Linq;
 
 namespace ShouMod.Cards
 {
-    public sealed class ShouByakurenTeammateDef : ShouGemstoneReferenceCardTemplate
+    public sealed class ShouByakurenTeammateDef : SampleCharacterCardTemplate
     {
         public override CardConfig MakeConfig()
         {
@@ -58,7 +58,7 @@ namespace ShouMod.Cards
     }
 
     [EntityLogic(typeof(ShouByakurenTeammateDef))]
-    public sealed class ShouByakurenTeammate : ShouGemstoneReferenceCard
+    public sealed class ShouByakurenTeammate : SampleCharacterCard
     {
         int Counter = 0;
         public string Indent { get; } = "<indent=80>";
