@@ -44,7 +44,7 @@ namespace ShouMod.Cards
             config.RelativeEffects = new List<string>() { nameof(ShouVigorSe) };
             config.UpgradedRelativeEffects = new List<string>() { nameof(ShouVigorSe) };
 
-            config.Illustrator = "";
+            config.Illustrator = "ROYL";
 
             config.Index = CardIndexGenerator.GetUniqueIndex(config);
             return config;

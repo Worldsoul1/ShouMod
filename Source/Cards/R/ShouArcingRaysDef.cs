@@ -44,7 +44,7 @@ namespace ShouMod.Cards
 
             //Add Lock On descrption when hovering over the card.
 
-            config.Illustrator = "";
+            config.Illustrator = "こざくら";
 
             config.Index = CardIndexGenerator.GetUniqueIndex(config);
             return config;

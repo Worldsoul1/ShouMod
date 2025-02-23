@@ -44,7 +44,7 @@ namespace ShouMod.Cards
             config.Value1 = 1;
             config.UpgradedValue1 = 2;
 
-            config.Illustrator = "";
+            config.Illustrator = "Chikuwa_savu";
 
             config.Index = CardIndexGenerator.GetUniqueIndex(config);
             return config;

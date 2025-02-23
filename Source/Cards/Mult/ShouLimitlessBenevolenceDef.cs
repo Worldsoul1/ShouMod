@@ -38,7 +38,7 @@ namespace ShouMod.Cards
             config.RelativeEffects = new List<string>() { nameof(ShouLimitlessBenevolenceSe), nameof(ShouVigorSe), nameof(LockedOn) };
             config.UpgradedRelativeEffects = new List<string>() { nameof(ShouLimitlessBenevolenceSe), nameof(ShouVigorSe), nameof(LockedOn) };
 
-            config.Illustrator = "";
+            config.Illustrator = "メイマ";
 
             config.Index = CardIndexGenerator.GetUniqueIndex(config);
             return config;
