@@ -22,7 +22,7 @@ namespace ShouMod.Cards
         {
             CardConfig config = GetCardDefaultConfig();
 
-            config.Colors = new List<ManaColor>() { ManaColor.Red };
+            config.Colors = new List<ManaColor>() { ManaColor.Green };
             //Hybrid colors:
             //0 = W/U
             //1 = W/B

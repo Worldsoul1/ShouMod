@@ -11,6 +11,10 @@ ShouByakurenTeammateBuffSe:
   Description: At the start of {PlayerName}'s turn, add a Completely Random Rare card to the hand. It has |Exile| and |Ethereal|, and mana of any color can be spent to pay its cost.
   DetailText: "|Byakuren, Enlightened Magician| cannot be generated from this effect."
 
+ShouColdCashSe:
+  Name: Freezing Beauty
+  Description: Whenever a |Gemstone| is played this turn, inflict |Cold| on a random enemy.
+
 ShouCrimsonTearsSe:
   Name: Crimson Tears
   Description: The first {Level} time{Level:plural one='' others='s'} that {OwnerName} is dealt attack damage each turn, add a |Ruby| to the draw pile.
@@ -96,3 +100,8 @@ ShouWantNotSe:
   Description: |-
     At the end of {PlayerName}'s turn, exile up to 3 |Gemstones| from the discard pile.
     Gain {Level} |Barrier| for each card exiled this way.
+
+ShouWondersofNatureSe:
+  Name: Wonders of Nature
+  Description: |-
+   Whenever a |Gemstone| is added to the hand, upgrade it.

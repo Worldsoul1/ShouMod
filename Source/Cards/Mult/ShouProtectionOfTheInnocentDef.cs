@@ -34,6 +34,9 @@ namespace ShouMod.Cards
             config.Value1 = 2;
             config.UpgradedValue1 = 3;
 
+            config.Keywords = Keyword.Exile;
+            config.UpgradedKeywords = Keyword.Exile;
+
             //Keyword that doesn't add an effect to the card, but to add to the card's tooltips.
             config.RelativeKeyword = Keyword.Shield;
             config.UpgradedRelativeKeyword = Keyword.Shield;

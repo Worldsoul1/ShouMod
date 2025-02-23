@@ -169,6 +169,12 @@ ShouTreasureImmaterial:
     |Vigorous|: Gain {Mana}.
     |Hardened|: Upgrade {Value1} random card{Value1:plural one='' other='s'} in the hand.
 
+ShouWondersofNature:
+  Name: Wonders of Nature
+  Description: |-
+   Add a |Pearl| and an |Amber| to the hand.
+   Whenever a |Gemstone| is added to the hand, upgrade it.
+
 ShouAbruptEntrance:
   Name: Abrupt Entrance
   Description: |-
@@ -261,6 +267,12 @@ ShouStillMind:
   Description:
     Gain {Block} |Block|.
     Gain {Mana} at the start of the next turn.
+
+ShouColdCash:
+  Name: Freezing Beauty
+  Description: |-
+    Add an |Opal| and a |Sapphire| to the hand.
+    Whenever a |Gemstone| is played this turn, inflict |Cold| on a random enemy.
 
 ShouAdmonitionofAvarice:
   Name: Admonition of Avarice
