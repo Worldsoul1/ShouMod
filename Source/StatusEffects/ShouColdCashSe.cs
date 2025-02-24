@@ -42,12 +42,12 @@ namespace ShouMod.StatusEffects
         };
         protected override void OnAdded(Unit unit)
         {
-            base.ReactOwnerEvent<CardUsingEventArgs>(base.Battle.CardPlayed, new EventSequencedReactor<CardUsingEventArgs>(this.OnCardPlayed));
+            base.ReactOwnerEvent<CardUsingEventArgs>(base.Battle.CardUsed, new EventSequencedReactor<CardUsingEventArgs>(this.OnCardUsed));
             base.ReactOwnerEvent<UnitEventArgs>(base.Owner.TurnEnding, new EventSequencedReactor<UnitEventArgs>(this.OnOwnerTurnEnding));
         }
 
         // Token: 0x060000C6 RID: 198 RVA: 0x000036D2 File Offset: 0x000018D2
-        private IEnumerable<BattleAction> OnCardPlayed(CardUsingEventArgs args)
+        private IEnumerable<BattleAction> OnCardUsed(CardUsingEventArgs args)
         {
             if (args.Card is ShouGemstoneCard)
             {

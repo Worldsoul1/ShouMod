@@ -41,12 +41,16 @@ namespace ShouMod.StatusEffects
         };
         protected override void OnAdded(Unit unit)
         {
-            base.ReactOwnerEvent<CardUsingEventArgs>(base.Battle.CardPlayed, new EventSequencedReactor<CardUsingEventArgs>(this.OnCardPlayed));
+            base.ReactOwnerEvent<CardUsingEventArgs>(base.Battle.CardUsed, new EventSequencedReactor<CardUsingEventArgs>(this.OnCardUsed));
         }
 
         // Token: 0x060000C6 RID: 198 RVA: 0x000036D2 File Offset: 0x000018D2
-        private IEnumerable<BattleAction> OnCardPlayed(CardUsingEventArgs args)
+        private IEnumerable<BattleAction> OnCardUsed(CardUsingEventArgs args)
         {
+            if(base.Battle.BattleShouldEnd)
+            {
+                yield break;
+            }
             if (args.Card is ShouGemstoneCard)
             {
                 yield return new ApplyStatusEffectAction<TempFirepower>(base.Battle.Player, base.Level, 0, 0, 0, 0.2f);

@@ -36,8 +36,8 @@ namespace ShouMod.Cards
             config.RelativeKeyword = Keyword.Block;
             config.UpgradedRelativeKeyword = Keyword.Block;
 
-            config.RelativeCards = new List<string> { nameof(ShouRuby), nameof(ShouPearl) };
-            config.UpgradedRelativeCards = new List<string> { nameof(ShouRuby), nameof(ShouPearl) };
+            config.RelativeCards = new List<string> { nameof(ShouRuby), nameof(ShouOnyx) };
+            config.UpgradedRelativeCards = new List<string> { nameof(ShouRuby), nameof(ShouOnyx) };
 
             config.Illustrator = "";
 
@@ -54,7 +54,7 @@ namespace ShouMod.Cards
             List<Card> cards = new List<Card>
             {
                 Library.CreateCard<ShouRuby>(),
-                Library.CreateCard<ShouPearl>()
+                Library.CreateCard<ShouOnyx>()
             };
             return new SelectCardInteraction(1, 1, cards, SelectedCardHandling.DoNothing);
         }
@@ -66,7 +66,7 @@ namespace ShouMod.Cards
             if (base.IsUpgraded)
             {
                 yield return new AddCardsToDiscardAction(Library.CreateCards<ShouOpal>(base.Value1, false), AddCardsType.Normal);
-                yield return new AddCardsToDiscardAction(Library.CreateCards<ShouRuby>(base.Value1, false), AddCardsType.Normal); 
+                yield return new AddCardsToDiscardAction(Library.CreateCards<ShouOnyx>(base.Value1, false), AddCardsType.Normal); 
             }
             else
             {

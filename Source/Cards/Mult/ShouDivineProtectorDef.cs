@@ -22,8 +22,8 @@ namespace ShouMod.Cards
             CardConfig config = GetCardDefaultConfig();
 
             config.Colors = new List<ManaColor>() { ManaColor.White, ManaColor.Red };
-            config.Cost = new ManaGroup() { Any = 3, White = 1, Red = 1};
-            config.UpgradedCost = new ManaGroup() { Any = 2, Hybrid = 1, HybridColor = 2 };
+            config.Cost = new ManaGroup() { Any = 1, White = 1, Red = 1};
+            config.UpgradedCost = new ManaGroup() { Any = 1, Hybrid = 1, HybridColor = 2 };
             config.Rarity = Rarity.Rare;
 
             config.Type = CardType.Ability;

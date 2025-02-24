@@ -5,15 +5,17 @@ ShouAbsoluteJusticeSe:
 ShouBloodMoneySe:
   Name: Blood Money
   Description: Whenever a non-|Summon| enemy dies, gain {Level} <sprite="Point" name="Gold">.
+  Brief: Whenever a non-|Summon| enemy dies, gain 8 <sprite="Point" name="Gold">.
 
 ShouByakurenTeammateBuffSe:
   Name: Enlightenment
-  Description: At the start of {PlayerName}'s turn, add a Completely Random Rare card to the hand. It has |Exile| and |Ethereal|, and mana of any color can be spent to pay its cost.
+  Description: At the start of {PlayerName}'s turn, add a Completely Random Rare card to the hand. It has |Exile| and |Ethereal|, and costs {Mana} to cast.
   DetailText: "|Byakuren, Enlightened Magician| cannot be generated from this effect."
 
 ShouColdCashSe:
   Name: Freezing Beauty
   Description: Whenever a |Gemstone| is played this turn, inflict |Cold| on a random enemy.
+  Brief: Whenever a |Gemstone| is played this turn, inflict |Cold| on a random enemy.
 
 ShouCrimsonTearsSe:
   Name: Crimson Tears
@@ -29,6 +31,7 @@ ShouCycleofWealthSe:
 ShouDivineProtectorSe:
   Name: Divine Protector
   Description: Whenever a card is played, {OwnerName} gains {Level} |Resonance|.
+  Brief: Whenever a card is played, {Playername} gains 1 |Resonance|.
 
 ShouEndlessWealthSe:
   Name: Endless Wealth
@@ -39,7 +42,8 @@ ShouEndlessWealthSe:
 
 ShouFocusingLightSe:
   Name: Focusing Light
-  Description: At the start of {OwnerName}'s turn, gain {Mana} and {Level} |Firepower|.
+  Description: At the start of {OwnerName}'s turn, add {Mana} and gain {Level} |Firepower|.
+  Brief: At the start of {PlayerName}'s turn, add {Mana} and gain {Level} |Firepower|.
 
 ShouHardenSe:
   Name: Harden
@@ -65,7 +69,7 @@ ShouLimitlessBenevolenceSe:
 
 ShouPrimalPowerSe:
   Name: Primal Power
-  Description: After the next {Level} attacks, gain {Mana} and draw a card.
+  Description: After the next {Level} attacks this turn, add {Mana}, draw a card, and gain 3 |Resonance|.
 
 ShouRefractingLightSe:
   Name: Refracting Light

@@ -77,7 +77,7 @@ ShouPrimalPower:
   Name: Primal Power
   Description: |-
     Gain 1 Vigor
-    After the next {Value1} Attacks {PlayerName} plays this turn, gain {Mana} and draw a card.
+    After the next {Value1} Attacks {PlayerName} plays this turn, add {Mana}, draw a card, and gain 3 |Resonance|.
 
 ShouAvatarofBishamonten:
   Name: Avatar of Bishamonten
@@ -238,7 +238,7 @@ ShouGoldRush:
 ShouIonicLink:
   Name: Ionic Link
   Description: |-
-    Apply {Value1} |Weak|.
+    Apply {Value1} |Vulnerable|.
     Gain {Value1} |Vigor|.
 
 ShouLightofTheDivine:

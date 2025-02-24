@@ -28,6 +28,9 @@ namespace ShouMod.Cards
             config.UpgradedValue1 = 6;
             config.Mana = new ManaGroup() {  Philosophy = 1 };
 
+            config.RelativeEffects = new List<string>() { nameof(ShouPrimalPowerSe), nameof(ShouResonanceSe)};
+            config.UpgradedRelativeEffects = new List<string>() { nameof(ShouPrimalPowerSe), nameof(ShouResonanceSe) };
+
             config.Keywords = Keyword.Exile;
             config.UpgradedKeywords = Keyword.Exile;
 

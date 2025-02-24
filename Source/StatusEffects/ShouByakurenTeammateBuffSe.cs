@@ -25,6 +25,13 @@ namespace ShouMod.StatusEffects
 }
 public sealed class ShouByakurenTeammateBuffSe : StatusEffect
     {
+        public ManaGroup Mana
+        {
+            get
+            {
+                return ManaGroup.Empty;
+            }
+        }
         // Token: 0x06000177 RID: 375 RVA: 0x00004E50 File Offset: 0x00003050
         protected override void OnAdded(Unit unit)
         {
@@ -39,7 +46,7 @@ public sealed class ShouByakurenTeammateBuffSe : StatusEffect
             {
                 card.IsEthereal = true;
                 card.IsExile = true;
-                card.SetBaseCost(ManaGroup.Anys(card.ConfigCost.Amount));
+                card.SetBaseCost(Mana);
             }
             yield return new AddCardsToHandAction(array);
             yield break;
