@@ -37,7 +37,7 @@ namespace ShouMod.Cards
             config.RelativeEffects = new List<string>() { nameof(ShouDivineProtectorSe) };
             config.UpgradedRelativeEffects = new List<string>() { nameof(ShouDivineProtectorSe) };
 
-            config.Illustrator = "";
+            config.Illustrator = "Akasia";
 
             config.Index = CardIndexGenerator.GetUniqueIndex(config);
             return config;

@@ -57,6 +57,7 @@ ShouHungryTiger:
   Description: |-
     Deal {Damage} damage.
     |Expel|: Gain {Value1} life.
+  FlavorText: Lord Bishamonten, please, just for a moment... avert your eyes.
 
 ShouScorchedEarthMandala:
   Name: Scorched Earth Mandala
@@ -273,6 +274,14 @@ ShouColdCash:
   Description: |-
     Add an |Opal| and a |Sapphire| to the hand.
     Whenever a |Gemstone| is played this turn, inflict |Cold| on a random enemy.
+
+ShouResoundingBlow:
+  Name: Resounding Blow
+  Description: |-
+    Deal {Damage} damage.
+    Deal additional damage equal to twice {PlayerName}'s |Resonance|.
+    |Vigorous|: Gain {Mana}.
+    |Hardened|: Deal damage an additional time.
 
 ShouAdmonitionofAvarice:
   Name: Admonition of Avarice

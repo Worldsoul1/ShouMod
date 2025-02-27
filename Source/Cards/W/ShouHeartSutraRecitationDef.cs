@@ -37,7 +37,7 @@ namespace ShouMod.Cards
             config.RelativeEffects = new List<string>() { nameof(ShouHeartSutraRecitationSe) };
             config.UpgradedRelativeEffects = new List<string>() { nameof(ShouHeartSutraRecitationSe) };
 
-            config.Illustrator = "";
+            config.Illustrator = "黄瓜";
 
             config.Index = CardIndexGenerator.GetUniqueIndex(config);
             return config;

@@ -39,7 +39,7 @@ namespace ShouMod.Cards
             config.Mana = new ManaGroup() { Red = 1 };
             config.UpgradedMana = new ManaGroup() { Red = 1, Philosophy = 1 };
 
-            config.Illustrator = "";
+            config.Illustrator = "にしもん";
 
             config.Index = CardIndexGenerator.GetUniqueIndex(config);
             return config;

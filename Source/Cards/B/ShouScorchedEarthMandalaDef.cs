@@ -40,7 +40,7 @@ namespace ShouMod.Cards
             config.RelativeEffects = new List<string>() { nameof(ShouVigorSe), nameof(ShouResonanceSe), nameof(ShouScorchedEarthMandalaSe) };
             config.UpgradedRelativeEffects = new List<string>() { nameof(ShouVigorSe), nameof(ShouResonanceSe), nameof(ShouScorchedEarthMandalaSe) };
 
-            config.Illustrator = "";
+            config.Illustrator = "ぶるぅぎ";
 
             config.Index = CardIndexGenerator.GetUniqueIndex(config);
             return config;

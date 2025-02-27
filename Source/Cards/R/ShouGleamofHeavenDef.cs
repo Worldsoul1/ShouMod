@@ -46,7 +46,7 @@ namespace ShouMod.Cards
             config.RelativeEffects = new List<string>() { nameof(Graze), nameof(ShouVigorSe), nameof(ShouVigorousSe) };
             config.UpgradedRelativeEffects = new List<string>() { nameof(Graze), nameof(ShouVigorSe), nameof(ShouVigorousSe) };
 
-            config.Illustrator = "";
+            config.Illustrator = "Messiah & Crea";
 
             config.Index = CardIndexGenerator.GetUniqueIndex(config);
             return config;

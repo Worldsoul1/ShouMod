@@ -48,7 +48,7 @@ namespace ShouMod.Cards
             config.RelativeEffects = new List<string>() { nameof(ShouResonanceSe) };
             config.UpgradedRelativeEffects = new List<string>() { nameof(ShouResonanceSe) };
 
-            config.Illustrator = "";
+            config.Illustrator = "\r\n糸麦くん";
 
             config.Index = CardIndexGenerator.GetUniqueIndex(config);
             return config;

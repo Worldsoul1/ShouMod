@@ -41,7 +41,7 @@ namespace ShouMod.Cards
             config.RelativeEffects = new List<string>() { nameof(Firepower), nameof(ShouFocusingLightSe) };
             config.UpgradedRelativeEffects = new List<string>() { nameof(Firepower), nameof(ShouFocusingLightSe) };
 
-            config.Illustrator = "";
+            config.Illustrator = "c7肘";
 
             config.Index = CardIndexGenerator.GetUniqueIndex(config);
             return config;

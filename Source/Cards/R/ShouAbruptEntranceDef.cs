@@ -32,7 +32,7 @@ namespace ShouMod.Cards
             config.Keywords = Keyword.Initial | Keyword.Accuracy | Keyword.Exile;
             config.UpgradedKeywords = Keyword.Initial | Keyword.Accuracy | Keyword.Exile | Keyword.Replenish;
 
-            config.Illustrator = "";
+            config.Illustrator = "Radal";
 
             config.Index = CardIndexGenerator.GetUniqueIndex(config);
             return config;
