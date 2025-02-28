@@ -66,7 +66,7 @@ namespace ShouMod.Cards
             {
                 foreach (Card card in readOnlyList)
                 {
-                    yield return new ExileCardAction(card);
+                    
                     if(card is ShouGemstoneCard)
                     {
                         Card[] array = base.Battle.RollCards(new CardWeightTable(RarityWeightTable.NoneRare, OwnerWeightTable.Valid, CardTypeWeightTable.OnlyTool, false), base.Value2, null);
@@ -91,8 +91,11 @@ namespace ShouMod.Cards
                             });
                             interaction = null;
                         }
+
                         yield break;
                     }
+                    yield return new ExileCardAction(card);
+                    yield break;
                 }
             }
         }
