@@ -401,6 +401,12 @@ ShouRainbowGems:
     Deal {Damage} damage to each enemy.
     Add 1 of each |Gemstone| to the draw pile.
 
+ShouRefractedDefenses:
+  Name: Refracted Defenses
+  Description: |-
+    Gain {Block} |Block|.
+    Add a random |Gemstone| in the discard pile to the hand.
+
 ShouScatteredTreasure:
   Name: Scattered Treasure
   Description: Add {Value1} random |Gemstones| to the draw pile.
