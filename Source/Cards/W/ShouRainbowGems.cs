@@ -33,9 +33,7 @@ namespace ShouMod.Cards
             config.Value1 = 8;
             config.UpgradedValue1 = 8;
 
-            config.Value2 = 4;
-            config.UpgradedValue2 = 6;
-
+            config.Keywords = Keyword.Accuracy;
             config.UpgradedKeywords = Keyword.Accuracy;
 
             config.Illustrator = "";

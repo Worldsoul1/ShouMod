@@ -33,14 +33,15 @@ namespace ShouMod.Cards
             //8 = B/G
             //9 = R/G
             //As of 1.5.1: Colorless hybrid are not supported.    
-            config.Cost = new ManaGroup() { Any = 1, Red = 2};
+            config.Cost = new ManaGroup() { Any = 3, Red = 2};
+            config.UpgradedCost = new ManaGroup() { Any = 3, Red = 1 };
             config.Rarity = Rarity.Rare;
 
             config.Type = CardType.Attack;
             config.TargetType = TargetType.SingleEnemy;
 
-            config.Damage = 11;
-            config.UpgradedDamage = 15;
+            config.Damage = 22;
+            config.UpgradedDamage = 22;
 
             config.Value1 = 8;
             config.UpgradedValue1 = 6;
@@ -48,7 +49,7 @@ namespace ShouMod.Cards
             config.RelativeEffects = new List<string>() { nameof(ShouResonanceSe) };
             config.UpgradedRelativeEffects = new List<string>() { nameof(ShouResonanceSe) };
 
-            config.Illustrator = "\r\n糸麦くん";
+            config.Illustrator = "糸麦くん";
 
             config.Index = CardIndexGenerator.GetUniqueIndex(config);
             return config;
@@ -65,13 +66,11 @@ namespace ShouMod.Cards
             yield return base.AttackAction(selector, base.GunName);
             if (base.Battle.Player.HasStatusEffect<ShouResonanceSe>())
             {
-                ShouResonanceSe Resonance = base.Battle.Player.GetStatusEffect<ShouResonanceSe>();
                 int count = base.Battle.Player.GetStatusEffect<ShouResonanceSe>().Level / base.Value1;
                 for (int i = 0; i < count; i++)
                 {
                     yield return base.AttackAction(selector, base.GunName);
                 }
-                yield return new RemoveStatusEffectAction(Resonance, true, 0.1f);
             }
             yield break;
         }

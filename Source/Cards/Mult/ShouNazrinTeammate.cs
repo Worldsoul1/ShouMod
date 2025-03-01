@@ -12,6 +12,7 @@ using LBoL.Base.Extensions;
 using LBoL.Core.StatusEffects;
 using System.Linq;
 using LBoL.Core.Units;
+using LBoL.Core.Stations;
 
 namespace ShouMod.Cards
 {
@@ -196,7 +197,7 @@ namespace ShouMod.Cards
         {
             if (args.DieSource == this && args.Unit is EnemyUnit enemyUnit && (base.Battle.EnemyGroup.EnemyType == EnemyType.Elite || base.Battle.EnemyGroup.EnemyType == EnemyType.Boss) && !args.Unit.HasStatusEffect<Servant>()) //EnemyType.Elite = 2; EnemyType.Boss = 3. 
             {
-                base.GameRun.ExtraExhibitReward = Library.CreateExhibit(base.GameRun.CurrentStage.GetEliteEnemyExhibit().Id);
+                GameRun.CurrentStation.Rewards.Add(StationReward.CreateExhibit(base.GameRun.CurrentStage.GetEliteEnemyExhibit()));
             }
             yield break;
         }

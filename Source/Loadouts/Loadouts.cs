@@ -37,7 +37,7 @@ namespace ShouMod
             nameof(ShouBlockW), 
             nameof(ShouBlockR),
             nameof(ShouBlockW),
-            nameof(ShouScatteredTreasure),
+            nameof(ShouGemstoneManufacturing),
         };
 
         public static PlayerUnitConfig playerUnitConfig = new PlayerUnitConfig(

@@ -31,9 +31,11 @@ namespace ShouMod.Cards
             config.Damage = 7;
             config.UpgradedDamage = 7;
 
-            config.Keywords = Keyword.Replenish;
+            config.ToolPlayableTimes = 2;
+
+            config.Keywords = Keyword.Replenish | Keyword.Tool;
             //Setting Upgrading Keyword only provides the keyword when the card is upgraded.    
-            config.UpgradedKeywords = Keyword.Replenish;
+            config.UpgradedKeywords = Keyword.Replenish | Keyword.Tool;
 
             config.Illustrator = "Radal";
 
@@ -45,7 +47,12 @@ namespace ShouMod.Cards
     [EntityLogic(typeof(ShouSapphireDef))]
     public sealed class ShouSapphire : ShouGemstoneCard
     {
-       
+        public override void Initialize()
+        {
+            base.Initialize();
+            DeckCounter = ToolPlayableTimes;
+        }
+
         protected override IEnumerable<BattleAction> Actions(UnitSelector selector, ManaGroup consumingMana, Interaction precondition)
         {
             //Attack all enemies, selector is set to Battle.AllAliveEnemies.

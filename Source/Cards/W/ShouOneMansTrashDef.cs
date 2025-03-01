@@ -29,6 +29,8 @@ namespace ShouMod.Cards
             config.Value1 = 3;
             config.UpgradedValue1 = 3;
 
+            config.Keywords = Keyword.Exile;
+            config.UpgradedKeywords = Keyword.Exile;
 
             config.Illustrator = "";
 
@@ -77,20 +79,21 @@ namespace ShouMod.Cards
                 {
                     foreach (Card card in readOnlyList) 
                     { 
-                        if (card.CardType is CardType.Attack) { listGems.Add(Library.CreateCard<ShouRuby>()); }
-                        if (card.CardType is CardType.Defense) { listGems.Add(Library.CreateCard<ShouOnyx>()); }
-                        if (card.CardType is CardType.Skill) { listGems.Add(Library.CreateCard<ShouOpal>()); }
-                        if (card.CardType is CardType.Ability) { listGems.Add(Library.CreateCard<ShouSapphire>()); }
-                        if (card.CardType is CardType.Friend) { listGems.Add(Library.CreateCard<ShouPearl>()); }
-                        if (card.CardType is CardType.Status) { listGems.Add(Library.CreateCard<ShouEmerald>()); }
-                        if (card.CardType is CardType.Tool) { listGems.Add(Library.CreateCard<ShouAmber>()); }
-                        if (card.CardType is CardType.Misfortune) { listGems.Add(Library.CreateCard<ShouDiamond>()); }
+                        if (card.CardType == CardType.Attack) { listGems.Add(Library.CreateCard<ShouRuby>()); }
+                        if (card.CardType == CardType.Defense) { listGems.Add(Library.CreateCard<ShouOnyx>()); }
+                        if (card.CardType == CardType.Skill) { listGems.Add(Library.CreateCard<ShouOpal>()); }
+                        if (card.CardType == CardType.Ability) { listGems.Add(Library.CreateCard<ShouSapphire>()); }
+                        if (card.CardType == CardType.Friend) { listGems.Add(Library.CreateCard<ShouPearl>()); }
+                        if (card.CardType == CardType.Status) { listGems.Add(Library.CreateCard<ShouEmerald>()); }
+                        if (card.CardType == CardType.Tool) { listGems.Add(Library.CreateCard<ShouAmber>()); }
+                        if (card.CardType == CardType.Misfortune) { listGems.Add(Library.CreateCard<ShouDiamond>()); }
                         yield return new ExileCardAction(card);
                     }
+                    yield return new AddCardsToHandAction(listGems, AddCardsType.Normal);
                 }
-                yield return new AddCardsToHandAction(listGems, AddCardsType.Normal);
                 yield break;
             }
+            yield break;
         }
     }
 }
