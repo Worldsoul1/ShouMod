@@ -92,7 +92,7 @@ ShouBountyoftheEarth:
   Description: |-
     Add {Value1} |Emeralds| to the discard pile.
   UpgradedDescription: |-
-    Add {Value1} |Emerald+| to the discard pile.
+    Add {Value1} |Emeralds+| to the discard pile.
     
 ShouByakurenTeammate:
   Name: Byakuren, Enlightened Magician
@@ -315,7 +315,10 @@ ShouDowsingAssistance:
   Name: Dowsing Assistance
   Description: |-
     Deal {Damage} damage.
-    Add {Value1} random |Gemstone{Value1:plural one= '' others = 's'}| from the discard pile to the hand.
+    Add {Value1} random |Gemstone| from the discard pile to the hand.
+  UpgradedDescription: |-
+    Deal {Damage} damage.
+    Add {Value1} random |Gemstones| from the discard pile to the hand.
 
 ShouEndlessWealth:
   Name: Endless Wealth
@@ -328,7 +331,9 @@ ShouEndlessWealth:
 
 ShouFortuneFound:
   Name: Fortune Found
-  Description: Add a random |Gemstone| from the discard pile to the hand.
+  Description: |-
+    Add a random |Gemstone| from the discard pile to the hand.
+    Apply {Value1} |Weak|.
 
 ShouGemstoneManufacturing:
   Name: Gemstone Manufacturing

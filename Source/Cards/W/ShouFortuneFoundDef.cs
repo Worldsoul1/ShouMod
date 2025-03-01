@@ -9,9 +9,11 @@ using LBoL.Core.Battle;
 using LBoL.Core;
 using LBoL.Core.Cards;
 using LBoL.Base.Extensions;
+using LBoL.Core.StatusEffects;
 using LBoL.Core.Randoms;
 using LBoL.Core.Battle.Interactions;
 using LBoL.Core.Battle.BattleActions;
+using LBoL.Core.Units;
 
 
 namespace ShouMod.Cards
@@ -28,12 +30,15 @@ namespace ShouMod.Cards
             config.Rarity = Rarity.Uncommon;
 
             config.Type = CardType.Skill;
-            config.TargetType = TargetType.Self;
+            config.TargetType = TargetType.SingleEnemy;
 
             config.Value1 = 1;
             config.UpgradedValue1 = 1;
 
             config.Value2 = 1;
+
+            config.RelativeEffects = new List<string>() { nameof(Weak) };
+            config.UpgradedRelativeEffects = new List<string>() { nameof(Weak) };
 
             config.Illustrator = "";
 
@@ -47,6 +52,7 @@ namespace ShouMod.Cards
     {
         protected override IEnumerable<BattleAction> Actions(UnitSelector selector, ManaGroup consumingMana, Interaction precondition)
         {
+            EnemyUnit selectedEnemy = selector.SelectedEnemy;
             if (base.Battle.DiscardZone.Count > 0)
             {
                 List<Card> list = base.Battle.DiscardZone.Where(c => c is ShouGemstoneCard).SampleManyOrAll(base.Value1, base.GameRun.BattleRng).ToList<Card>();
@@ -60,14 +66,15 @@ namespace ShouMod.Cards
                 }
 
             }
-            
+
+            yield return base.DebuffAction<Weak>(selectedEnemy, 0, base.Value1, 0, 0, true, 0.2f);
 
             //To choose more than 1 card.
-			/*Interaction interactionMultiple = new SelectCardInteraction(0, base.Value2, array, 0);
+            /*Interaction interactionMultiple = new SelectCardInteraction(0, base.Value2, array, 0);
             IReadOnlyList<Card> cards = ((SelectCardInteraction)interactionMultiple).SelectedCards;
             yield return new AddCardsToHandAction(cards);*/
-            
-			yield break;
+
+            yield break;
         }
     }
 }
