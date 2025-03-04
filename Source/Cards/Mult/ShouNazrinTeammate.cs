@@ -195,9 +195,11 @@ namespace ShouMod.Cards
 		}
         private IEnumerable<BattleAction> OnEnemyDied(DieEventArgs args)
         {
-            if (args.DieSource == this && args.Unit is EnemyUnit enemyUnit && (base.Battle.EnemyGroup.EnemyType == EnemyType.Elite || base.Battle.EnemyGroup.EnemyType == EnemyType.Boss) && !args.Unit.HasStatusEffect<Servant>()) //EnemyType.Elite = 2; EnemyType.Boss = 3. 
+            bool hasActivated = false;
+            if (args.DieSource == this && args.Unit is EnemyUnit enemyUnit && (base.Battle.EnemyGroup.EnemyType == EnemyType.Elite || base.Battle.EnemyGroup.EnemyType == EnemyType.Boss) && !args.Unit.HasStatusEffect<Servant>() && !hasActivated) //EnemyType.Elite = 2; EnemyType.Boss = 3. 
             {
                 GameRun.CurrentStation.Rewards.Add(StationReward.CreateExhibit(base.GameRun.CurrentStage.GetEliteEnemyExhibit()));
+                hasActivated = true;
             }
             yield break;
         }

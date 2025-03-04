@@ -34,6 +34,9 @@ namespace ShouMod.Cards
             config.Value2 = 3;
             config.UpgradedValue2 = 3;
 
+            config.Keywords = Keyword.Exile;
+            config.UpgradedKeywords = Keyword.Exile;
+
             config.Illustrator = "";
 
 
@@ -61,43 +64,36 @@ namespace ShouMod.Cards
         protected override IEnumerable<BattleAction> Actions(UnitSelector selector, ManaGroup consumingMana, Interaction precondition)
         {
             //Add a token card to the hand.
-            IReadOnlyList<Card> readOnlyList = this.IsUpgraded ? ((SelectCardInteraction)precondition).SelectedCards : ((SelectHandInteraction)precondition).SelectedCards;
-            if (readOnlyList.Count > 0)
+            SelectCardInteraction selectCardInteraction = (SelectCardInteraction)precondition;
+            Card card = (selectCardInteraction != null) ? selectCardInteraction.SelectedCards.FirstOrDefault<Card>() : null;
+            if (card != null)
             {
-                foreach (Card card in readOnlyList)
-                {
-                    
-                    if(card is ShouGemstoneCard)
-                    {
-                        Card[] array = base.Battle.RollCards(new CardWeightTable(RarityWeightTable.NoneRare, OwnerWeightTable.Valid, CardTypeWeightTable.OnlyTool, false), base.Value2, null);
-                        if (array.Length != 0)
-                        {
-                            foreach (Card toolcard in array)
-                            {
-                                toolcard.DeckCounter = new int?(1);
-                            }
-                            MiniSelectCardInteraction interaction = new MiniSelectCardInteraction(array, false, false, false)
-                            {
-                                Source = this
-                            };
-                            yield return new InteractionAction(interaction, false);
-                            yield return new AddCardsToHandAction(new Card[]
-                            {
-                    interaction.SelectedCard
-                            });
-                            yield return new AddCardsToDeckAction(new Card[]
-                            {
-                    interaction.SelectedCard
-                            });
-                            interaction = null;
-                        }
 
-                        yield break;
+                if (card is ShouGemstoneCard)
+                {
+                    Card[] array = base.Battle.RollCards(new CardWeightTable(RarityWeightTable.NoneRare, OwnerWeightTable.Valid, CardTypeWeightTable.OnlyTool, false), base.Value2, null);
+                    if (array.Length != 0)
+                    {
+                        foreach (Card toolcard in array)
+                        {
+                            toolcard.DeckCounter = new int?(1);
+                        }
+                        MiniSelectCardInteraction interaction = new MiniSelectCardInteraction(array, false, false, false)
+                        {
+                            Source = this
+                        };
+                        yield return new InteractionAction(interaction, false);
+                        yield return new AddCardsToHandAction(new Card[]
+                              {
+                    interaction.SelectedCard
+                              });
+                        interaction = null;
                     }
-                    yield return new ExileCardAction(card);
-                    yield break;
                 }
             }
+            yield return new ExileCardAction(card);
+            yield break;
         }
     }
 }
+    

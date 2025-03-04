@@ -39,7 +39,7 @@ namespace ShouMod.Cards
             config.TargetType = TargetType.Self;
 
             config.Value1 = 2;
-            config.UpgradedValue1 = 3;
+            config.UpgradedValue1 = 4;
             config.RelativeEffects = new List<string>() { nameof(ShouHardenSe), nameof(ShouVigorSe), nameof(ShouResonanceSe) };
             config.UpgradedRelativeEffects = new List<string>() { nameof(ShouHardenSe), nameof(ShouVigorSe), nameof(ShouResonanceSe) };
 
@@ -55,16 +55,14 @@ namespace ShouMod.Cards
     {
         protected override IEnumerable<BattleAction> Actions(UnitSelector selector, ManaGroup consumingMana, Interaction precondition)
         {
-            if(base.Battle.Player.HasStatusEffect<ShouVigorSe>() || base.Battle.Player.HasStatusEffect<ShouHardenSe>())
+            if (base.Battle.Player.HasStatusEffect<ShouVigorSe>() || base.Battle.Player.HasStatusEffect<ShouHardenSe>())
             {
                 ShouVigorSe vigor = base.Battle.Player.GetStatusEffect<ShouVigorSe>();
                 ShouHardenSe harden = base.Battle.Player.GetStatusEffect<ShouHardenSe>();
                 int bonus = base.Value1 * (vigor.Duration + harden.Duration);
                 yield return new ApplyStatusEffectAction<ShouResonanceSe>(base.Battle.Player, bonus, 0, 0, 0, 0.2f);
-                yield return new RemoveStatusEffectAction(vigor, true, 0.1f);
-                yield return new RemoveStatusEffectAction(harden, true, 0.1f);
+                yield break;
             }
-            yield break;
         }
     }
 }

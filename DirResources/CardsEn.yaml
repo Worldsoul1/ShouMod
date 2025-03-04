@@ -269,6 +269,12 @@ ShouStillMind:
     Gain {Block} |Block|.
     Gain {Mana} at the start of the next turn.
 
+ShouValuableVajra:
+  Name: Most Valuable Vajra
+  Description: |-
+    Deal {Damage} damage.
+    Exile up to {Value1} random |Gemstone| from the discard pile. For each |Gemstone| exiled this way, gain {Value2} |Vigor|.
+
 ShouColdCash:
   Name: Freezing Beauty
   Description: |-
@@ -299,7 +305,6 @@ ShouCenterSoul:
   Name: Center Soul
   Description: |-
     Gain {Value1} |Resonance| for each stack of |Vigor| and |Harden| that {PlayerName} has.
-    Remove {PlayerName}'s |Vigor| and |Harden|.
 
 ShouCrimsonTears:
   Name: Crimson Tears
@@ -358,12 +363,6 @@ ShouHeartSutraRecitation:
   Name: Heart Sutra Recitation
   Description: Whenever a |Gemstone| is exiled, gain {Value1} |Block|.
 
-ShouHiddenSwipe:
-  Name: Hidden Swipe
-  Description: |-
-    Deal {Damage} damage.
-    Whenever a |Gemstone| is exiled, return {SelfName} from the discard pile to the hand.
-
 ShouInstinctiveCharity:
   Name: Instinctive Charity
   Description: Att the start of {PlayerName}'s turn, add {Value1} random |Gemstones| to the draw pile.
@@ -372,7 +371,7 @@ ShouMerchantCall:
   Name: Merchant Call
   Description: |-
     Exile a card from the hand.
-    If a |Gemstone| card is exiled, choose {Value1} of {Value2} random tool cards to add to the hand and library.
+    If a |Gemstone| card is exiled, choose {Value1} of {Value2} random tool cards to add to the hand. It can only be played once.
 
 ShouOneMansTrash:
   Name: One Man's Trash

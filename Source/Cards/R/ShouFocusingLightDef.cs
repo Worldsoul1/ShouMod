@@ -53,8 +53,8 @@ namespace ShouMod.Cards
     {
         protected override IEnumerable<BattleAction> Actions(UnitSelector selector, ManaGroup consumingMana, Interaction precondition)
         {
-            yield return BuffAction<ShouFocusingLightSe>(base.Value1, 0, 0, 0, 0.2f);
-            if(this.IsUpgraded) { BuffAction<Firepower>(base.Value2, 0, 0, 0, 0.2f); }
+            yield return base.BuffAction<ShouFocusingLightSe>(base.Value1, 0, 0, 0, 0.2f);
+            if(this.IsUpgraded) { base.BuffAction<Firepower>(base.Value2, 0, 0, 0, 0.2f); }
             //This is equivalent to:
             //yield return new CastBlockShieldAction(Battle.Player, base.Block, base.Shield, BlockShieldType.Normal, true); 
         }

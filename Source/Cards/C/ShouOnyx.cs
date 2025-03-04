@@ -20,7 +20,7 @@ namespace ShouMod.Cards
             //If IsPooled is false then the card cannot be discovered or added to the library at the end of combat.
             config.IsPooled = false;
 
-            config.Colors = new List<ManaColor>() { ManaColor.Colorless };
+            config.Colors = new List<ManaColor>() { ManaColor.Black };
             config.Cost = new ManaGroup() { Any = 1 };
             config.UpgradedCost = new ManaGroup() { Any = 0 };
             config.Rarity = Rarity.Common;
