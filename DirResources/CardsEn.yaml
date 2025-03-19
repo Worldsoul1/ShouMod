@@ -427,6 +427,12 @@ ShouSweepingBlast:
     Deal {Damage} damage to each enemy.
     |Vigorous|: Deal damage an additional time.
 
+ShouTimeisMoney:
+  Name: Time is Money
+  Description: |-
+    End the turn.
+    At the start of the next turn, instead of drawing cards, add {Value1} |Gemstones| to the hand.
+
 ShouTimelessBeauty:
   Name: Timeless Beauty
   Description: |-
