@@ -37,7 +37,7 @@ namespace ShouMod.Cards
             config.RelativeEffects = new List<string>() { nameof(ShouBloodMoneySe) };
             config.UpgradedRelativeEffects = new List<string>() { nameof(ShouBloodMoneySe) };
 
-            config.Illustrator = "";
+            config.Illustrator = "末成";
 
             config.Index = CardIndexGenerator.GetUniqueIndex(config);
             return config;

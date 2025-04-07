@@ -40,7 +40,7 @@ namespace ShouMod.Cards
             //Setting Upgrading Keyword only provides the keyword when the card is upgraded.    
             config.UpgradedKeywords = Keyword.Exile | Keyword.Accuracy;
 
-            config.Illustrator = "だいたいこんなかんじ。";
+            config.Illustrator = "茨木童子";
 
             config.Index = CardIndexGenerator.GetUniqueIndex(config);
             return config;

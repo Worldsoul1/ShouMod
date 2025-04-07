@@ -36,7 +36,7 @@ namespace ShouMod.Cards
             config.RelativeEffects = new List<string>() { nameof(ShouWondersofNatureSe) };
             config.UpgradedRelativeEffects = new List<string>() { nameof(ShouWondersofNatureSe) };
 
-            config.Illustrator = "";
+            config.Illustrator = "茶餅";
 
             config.Index = CardIndexGenerator.GetUniqueIndex(config);
             return config;

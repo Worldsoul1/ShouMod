@@ -38,7 +38,7 @@ namespace ShouMod.Cards
             config.RelativeEffects = new List<string>() { nameof(ShouScatteredProtectionSe), nameof(ShouHardenSe), nameof(TempFirepowerNegative) };
             config.UpgradedRelativeEffects = new List<string>() { nameof(ShouScatteredProtectionSe), nameof(ShouHardenSe), nameof(TempFirepowerNegative) };
 
-            config.Illustrator = "";
+            config.Illustrator = "Radal";
 
             config.Index = CardIndexGenerator.GetUniqueIndex(config);
             return config;

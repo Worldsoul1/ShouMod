@@ -18,39 +18,50 @@ ShouAmber:
   Name: Amber
   Description: |-
     Gain {Value1} life.
+    |Limited [{DeckCounter}]|.
 
 ShouDiamond:
   Name: Diamond
   Description: |-
     Gain {Value1} |Amulet| and {Value1} |Ward|.
+    |Limited [{DeckCounter}]|.
 
 ShouEmerald:
   Name: Emerald
   Description: |-
     Gain {Mana}.
+    |Limited [{DeckCounter}]|.
 
 ShouOnyx:
   Name: Onyx
-  Description: Gain {Block} |Block|.
+  Description: |-
+    Gain {Block} |Block|.
+    |Limited [{DeckCounter}]|.
 
 ShouOpal:
   Name: Opal
-  Description: Draw {Value1} cards.
+  Description: |-
+    Draw {Value1} cards.
+    |Limited [{DeckCounter}]|.
 
 ShouPearl:
   Name: Pearl
   Description: |-
     Gain {Shield} |Barrier|.
+    |Limited [{DeckCounter}]|.
 
 ShouRuby:
   Name: Ruby
   Description: |-
     Deal {Damage} damage.
+    |Limited [{DeckCounter}]|.
 
 ShouSapphire:
   Name: Sapphire
   Description: |-
     Deal {Damage} damage to each enemy.
+    |Limited [{DeckCounter}]|.
+    
 
 ShouHungryTiger:
   Name: Hungry Tiger
@@ -280,6 +291,12 @@ ShouColdCash:
   Description: |-
     Add an |Opal| and a |Sapphire| to the hand.
     Whenever a |Gemstone| is played this turn, inflict |Cold| on a random enemy.
+
+ShouDiamondDust:
+  Name: Diamond Dust
+  Description: |-
+    Gain {Block} |Block|.
+    Exile up to {Value1} |Gemstones| from the draw and discard piles. Gain {Value2} |Frost Armor| for each |Gemstone| exiled this way.
 
 ShouResoundingBlow:
   Name: Resounding Blow

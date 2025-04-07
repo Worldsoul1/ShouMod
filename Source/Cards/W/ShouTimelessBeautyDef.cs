@@ -47,7 +47,7 @@ namespace ShouMod.Cards
             config.UpgradedBlock = 7;
 
 
-            config.Illustrator = "";
+            config.Illustrator = "frozen time";
 
             config.Index = CardIndexGenerator.GetUniqueIndex(config);
             return config;

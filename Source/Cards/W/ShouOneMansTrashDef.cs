@@ -32,7 +32,7 @@ namespace ShouMod.Cards
             config.Keywords = Keyword.Exile;
             config.UpgradedKeywords = Keyword.Exile;
 
-            config.Illustrator = "";
+            config.Illustrator = "核能松饼";
 
 
             config.Index = CardIndexGenerator.GetUniqueIndex(config);

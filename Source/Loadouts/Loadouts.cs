@@ -42,12 +42,16 @@ namespace ShouMod
 
         public static PlayerUnitConfig playerUnitConfig = new PlayerUnitConfig(
             Id: BepinexPlugin.modUniqueID,
+            HasHomeName: false,
             ShowOrder: 8, 
             Order: 0,
             UnlockLevel: 0,
             ModleName: "",
             NarrativeColor: "#f3c259",
             IsSelectable: true,
+            BasicRingOrder: 6,
+            LeftColor: ManaColor.Red,
+            RightColor: ManaColor.White,
             MaxHp: 80,
             InitialMana: new ManaGroup() { White = 3, Red = 1},
             InitialMoney: 99,

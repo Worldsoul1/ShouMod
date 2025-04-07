@@ -10,7 +10,7 @@ namespace ShouMod.Enemies.Template
     {
         public override IdContainer GetId()
         {
-            return SampleCharacterDefaultConfig.GetDefaultID(this);
+            return SampleCharacterDefaultConfig.DefaultID(this);
         }
 
         public override EnemyGroupConfig MakeConfig()

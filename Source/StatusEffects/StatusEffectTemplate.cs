@@ -13,7 +13,7 @@ namespace ShouMod.StatusEffects
     {
         public override IdContainer GetId()
         {
-            return SampleCharacterDefaultConfig.GetDefaultID(this);
+            return SampleCharacterDefaultConfig.DefaultID(this);
         }
 
         public override LocalizationOption LoadLocalization()
@@ -31,9 +31,9 @@ namespace ShouMod.StatusEffects
             return GetDefaultStatusEffectConfig();
         }
 
-        public static StatusEffectConfig GetDefaultStatusEffectConfig()
+        public static StatusEffectConfig GetDefaultStatusEffectConfig(EntityDefinition entity = null)
         {
-            return SampleCharacterDefaultConfig.GetDefaultStatusEffectConfig();
+            return SampleCharacterDefaultConfig.DefaultStatusEffectConfig(entity);
         }        
     }
 }

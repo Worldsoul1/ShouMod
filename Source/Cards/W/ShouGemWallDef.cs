@@ -39,7 +39,7 @@ namespace ShouMod.Cards
             config.RelativeCards = new List<string> { nameof(ShouRuby), nameof(ShouOnyx) };
             config.UpgradedRelativeCards = new List<string> { nameof(ShouRuby), nameof(ShouOnyx) };
 
-            config.Illustrator = "";
+            config.Illustrator = "Radal";
 
             config.Index = CardIndexGenerator.GetUniqueIndex(config);
             return config;

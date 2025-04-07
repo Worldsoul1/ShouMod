@@ -36,7 +36,7 @@ namespace ShouMod.Cards
             config.RelativeEffects = new List<string>() { nameof(ShouCrimsonTearsSe) };
             config.UpgradedRelativeEffects = new List<string>() { nameof(ShouCrimsonTearsSe) };
 
-            config.Illustrator = "";
+            config.Illustrator = "こゆび";
 
             config.Index = CardIndexGenerator.GetUniqueIndex(config);
             return config;

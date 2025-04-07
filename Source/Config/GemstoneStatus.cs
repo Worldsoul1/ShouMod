@@ -36,30 +36,8 @@ namespace ShouMod.Source.Config
         public override StatusEffectConfig MakeConfig()
         {
             //not used for anything
-            var statusEffectConfig = new StatusEffectConfig(
-                            Id: "",
-                            Index: 0,
-                            Order: 10,
-                            Type: StatusEffectType.Positive,
-                            IsVerbose: false,
-                            IsStackable: true,
-                            StackActionTriggerLevel: null,
-                            HasLevel: true,
-                            LevelStackType: StackType.Add,
-                            HasDuration: false,
-                            DurationStackType: StackType.Add,
-                            DurationDecreaseTiming: DurationDecreaseTiming.Custom,
-                            HasCount: false,
-                            CountStackType: StackType.Keep,
-                            LimitStackType: StackType.Keep,
-                            ShowPlusByLimit: false,
-                            Keywords: Keyword.None,
-                            RelativeEffects: new List<string>() { },
-                            VFX: "Default",
-                            VFXloop: "Default",
-                            SFX: "Default"
-                );
-            return statusEffectConfig;
+            StatusEffectConfig config = GetDefaultStatusEffectConfig();
+            return config;
         }
     }
     [EntityLogic(typeof(GemstoneEffect))]

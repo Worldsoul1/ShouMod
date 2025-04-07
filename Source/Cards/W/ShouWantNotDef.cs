@@ -37,7 +37,7 @@ namespace ShouMod.Cards
             config.RelativeEffects = new List<string>() { nameof(ShouWantNotSe) };
             config.UpgradedRelativeEffects = new List<string>() { nameof(ShouWantNotSe)};
 
-            config.Illustrator = "";
+            config.Illustrator = "Radal";
 
             config.Index = CardIndexGenerator.GetUniqueIndex(config);
             return config;

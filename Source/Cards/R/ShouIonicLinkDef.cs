@@ -31,7 +31,7 @@ namespace ShouMod.Cards
             config.RelativeEffects = new List<string>() { nameof(ShouVigorSe), nameof(Vulnerable) };
             config.UpgradedRelativeEffects = new List<string>() { nameof(ShouVigorSe), nameof(Vulnerable) };
 
-            config.Illustrator = "";
+            config.Illustrator = "塗立ペンキ";
 
             config.Index = CardIndexGenerator.GetUniqueIndex(config);
             return config;

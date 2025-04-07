@@ -12,14 +12,19 @@ namespace ShouMod.Config
     public sealed class SampleCharacterDefaultConfig
     {
         private static readonly string OwnerName = BepinexPlugin.modUniqueID;
-        public static string GetDefaultID(EntityDefinition entity)
+        public static string DefaultID(EntityDefinition entity)
         {
+            if (entity == null)
+            {
+                return "";
+            }
             string IDdef = entity.GetType().Name;
-            //Remove the Def at the end of the entity (class name) to get the ID. 
             //string ID = IDdef.Replace(@"Def", "");
+            //Remove the Def at the end of the class definition.
             string ID = IDdef.Remove(IDdef.Length - 3);
             return ID;
         }
+
 
         public static CardConfig GetCardDefaultConfig()
         {
@@ -46,6 +51,8 @@ namespace ShouMod.Config
                IsXCost: false,
                Cost: new ManaGroup() { },
                UpgradedCost: null,
+               Kicker : null,
+               UpgradedKicker : null,
                MoneyCost: null,
                Damage: null,
                UpgradedDamage: null,
@@ -125,10 +132,11 @@ namespace ShouMod.Config
             );
         }
 
-        public static StatusEffectConfig GetDefaultStatusEffectConfig()
+        public static StatusEffectConfig DefaultStatusEffectConfig(EntityDefinition entity)
         {
             return new StatusEffectConfig(
                 Id: "",
+                ImageId: DefaultID(entity),
                 Index: 0,
                 Order: 10,
                 Type: StatusEffectType.Positive,
@@ -234,7 +242,9 @@ namespace ShouMod.Config
                 RollBossExhibit: true,
                 PlayerRoot: new Vector2(-4f, 0.5f),
                 PreBattleDialogName: "",
-                PostBattleDialogName: ""
+                PostBattleDialogName: "",
+                Hidden: true,
+                Environment: null
             );
         }
     }

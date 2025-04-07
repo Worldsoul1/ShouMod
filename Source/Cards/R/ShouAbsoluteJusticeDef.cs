@@ -37,7 +37,7 @@ namespace ShouMod.Cards
             config.RelativeEffects = new List<string>() { nameof(Weak), nameof(Vulnerable) };
             config.UpgradedRelativeEffects = new List<string>() { nameof(Weak), nameof(Vulnerable) };
 
-            config.Illustrator = "";
+            config.Illustrator = "晴れ田";
 
             config.Index = CardIndexGenerator.GetUniqueIndex(config);
             return config;

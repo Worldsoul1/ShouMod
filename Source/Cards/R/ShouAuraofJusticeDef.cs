@@ -44,7 +44,7 @@ namespace ShouMod.Cards
             config.RelativeEffects = new List<string>() { nameof(Weak), nameof(ShouHardenSe) };
             config.UpgradedRelativeEffects = new List<string>() { nameof(Weak), nameof(ShouHardenSe) };
 
-            config.Illustrator = "";
+            config.Illustrator = "守矢 銛森";
 
             config.Index = CardIndexGenerator.GetUniqueIndex(config);
             return config;

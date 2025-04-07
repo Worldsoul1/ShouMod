@@ -23,7 +23,7 @@ namespace ShouMod.Cards
             config.Colors = new List<ManaColor>() { ManaColor.White, ManaColor.Red };
             config.Cost = new ManaGroup() { Any = 1, Hybrid = 2, HybridColor = 2 };
             config.UpgradedCost = new ManaGroup() { Any = 2, Hybrid = 1, HybridColor = 2 };
-            config.Rarity = Rarity.Uncommon;
+            config.Rarity = Rarity.Rare;
 
             config.Type = CardType.Defense;
             config.TargetType = TargetType.Self;

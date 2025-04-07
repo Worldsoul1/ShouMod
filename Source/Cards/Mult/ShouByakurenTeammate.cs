@@ -49,7 +49,7 @@ namespace ShouMod.Cards
             config.Value2 = 3;
             config.UpgradedValue2 = 3;
 
-            config.Illustrator = "";
+            config.Illustrator = "宵野コタロー";
 
             config.Index = CardIndexGenerator.GetUniqueIndex(config);
 
