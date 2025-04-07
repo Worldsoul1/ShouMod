@@ -58,6 +58,8 @@ namespace ShouMod.Cards
             //Attack all enemies, selector is set to Battle.AllAliveEnemies.
 
             yield return HealAction(base.Value1);
+            DeckCounter--;
+            if (this.DeckCounter == 0) { yield return new RemoveCardAction(this); }
             yield break;
         }
     }

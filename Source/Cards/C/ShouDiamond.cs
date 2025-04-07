@@ -59,6 +59,9 @@ namespace ShouMod.Cards
 
             yield return BuffAction<Amulet>(base.Value1, 0, 0, 0, 0.2f);
             yield return BuffAction<AmuletForCard>(base.Value1, 0, 0, 0, 0.2f);
+            DeckCounter--;
+            if (this.DeckCounter == 0) { yield return new RemoveCardAction(this); }
+            yield break;
             yield break;
         }
     }

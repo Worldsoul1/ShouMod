@@ -58,6 +58,9 @@ namespace ShouMod.Cards
             //Attack all enemies, selector is set to Battle.AllAliveEnemies.
 
             yield return base.AttackAction(selector, base.GunName);
+            DeckCounter--;
+            if (this.DeckCounter == 0) { yield return new RemoveCardAction(this); }
+            yield break;
             yield break;
         }
     }
