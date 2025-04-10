@@ -9,6 +9,7 @@ using LBoL.Core.Battle.BattleActions;
 using LBoL.Core.Cards;
 using LBoL.Core.Units;
 using LBoL.EntityLib.StatusEffects.ExtraTurn;
+using LBoLEntitySideloader.Attributes;
 using ShouMod.Cards;
 
 namespace ShouMod.StatusEffects
@@ -24,6 +25,7 @@ namespace ShouMod.StatusEffects
         }
     }
 
+    [EntityLogic(typeof(ShouTimeisMoneySeDef))]
     public sealed class ShouTimeisMoneySe : ExtraTurnPartner
     {
         public List<Type> Gemstones = new List<Type>

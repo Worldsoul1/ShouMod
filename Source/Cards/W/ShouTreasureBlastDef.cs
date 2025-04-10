@@ -48,7 +48,7 @@ namespace ShouMod.Cards
     }
 
     [EntityLogic(typeof(ShouTreasureBlastDef))]
-    public sealed class ShouTrasureBlast : ShouGemstoneReferenceCard
+    public sealed class ShouTreasureBlast : ShouGemstoneReferenceCard
     {
         //By default, if config.Damage / config.Block / config.Shield are set:
         //The card will deal damage or gain Block/Barrier without having to set anything.

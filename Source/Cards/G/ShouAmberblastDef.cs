@@ -44,11 +44,8 @@ namespace ShouMod.Cards
             config.Damage = 15;
             config.UpgradedDamage = 20;
 
-            config.Value1 = 2;
-            config.UpgradedValue1 = 2;
-
-            config.Block = 6;
-            config.UpgradedBlock = 8;
+            config.Value2 = 2;
+            config.UpgradedValue2 = 2;
 
             
 

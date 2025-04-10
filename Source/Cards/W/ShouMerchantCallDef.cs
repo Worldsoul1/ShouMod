@@ -50,49 +50,52 @@ namespace ShouMod.Cards
     {
         public override Interaction Precondition()
         {
-            
-                List<Card> list = (from card in base.Battle.HandZone
-                                    where card != this
-                                    select card).ToList<Card>();
-                if (!list.Empty<Card>())
-                {
-                    return new SelectHandInteraction(0, base.Value1, list);
-                }
-                return null;
-            
+
+            List<Card> list = (from card in base.Battle.HandZone
+                               where card != this
+                               select card).ToList<Card>();
+            if (!list.Empty<Card>())
+            {
+                return new SelectHandInteraction(0, base.Value1, list);
+            }
+            return null;
+
         }
         protected override IEnumerable<BattleAction> Actions(UnitSelector selector, ManaGroup consumingMana, Interaction precondition)
         {
-            //Add a token card to the hand.
-            SelectCardInteraction selectCardInteraction = (SelectCardInteraction)precondition;
-            Card card = (selectCardInteraction != null) ? selectCardInteraction.SelectedCards.FirstOrDefault<Card>() : null;
-            if (card != null)
+            if (precondition != null)
             {
-
-                if (card is ShouGemstoneCard)
+                //Add a token card to the hand.
+                SelectCardInteraction selectCardInteraction = (SelectCardInteraction)precondition;
+                Card card = (selectCardInteraction != null) ? selectCardInteraction.SelectedCards.FirstOrDefault<Card>() : null;
+                if (card != null)
                 {
-                    Card[] array = base.Battle.RollCards(new CardWeightTable(RarityWeightTable.NoneRare, OwnerWeightTable.Valid, CardTypeWeightTable.OnlyTool, false), base.Value2, null);
-                    if (array.Length != 0)
+
+                    if (card is ShouGemstoneCard)
                     {
-                        foreach (Card toolcard in array)
+                        Card[] array = base.Battle.RollCards(new CardWeightTable(RarityWeightTable.NoneRare, OwnerWeightTable.Valid, CardTypeWeightTable.OnlyTool, false), base.Value2, null);
+                        if (array.Length != 0)
                         {
-                            toolcard.DeckCounter = new int?(1);
-                        }
-                        MiniSelectCardInteraction interaction = new MiniSelectCardInteraction(array, false, false, false)
-                        {
-                            Source = this
-                        };
-                        yield return new InteractionAction(interaction, false);
-                        yield return new AddCardsToHandAction(new Card[]
-                              {
+                            foreach (Card toolcard in array)
+                            {
+                                toolcard.DeckCounter = new int?(1);
+                            }
+                            MiniSelectCardInteraction interaction = new MiniSelectCardInteraction(array, false, false, false)
+                            {
+                                Source = this
+                            };
+                            yield return new InteractionAction(interaction, false);
+                            yield return new AddCardsToHandAction(new Card[]
+                                  {
                     interaction.SelectedCard
-                              });
-                        interaction = null;
+                                  });
+                            interaction = null;
+                        }
                     }
                 }
+                yield return new ExileCardAction(card);
+                yield break;
             }
-            yield return new ExileCardAction(card);
-            yield break;
         }
     }
 }

@@ -18,49 +18,49 @@ ShouAmber:
   Name: Amber
   Description: |-
     Gain {Value1} life.
-    |Limited [{DeckCounter}]|.
+    |Unstable [{DeckCounter}]|.
 
 ShouDiamond:
   Name: Diamond
   Description: |-
     Gain {Value1} |Amulet| and {Value1} |Ward|.
-    |Limited [{DeckCounter}]|.
+    |Unstable [{DeckCounter}]|.
 
 ShouEmerald:
   Name: Emerald
   Description: |-
     Gain {Mana}.
-    |Limited [{DeckCounter}]|.
+    |Unstable [{DeckCounter}]|.
 
 ShouOnyx:
   Name: Onyx
   Description: |-
     Gain {Block} |Block|.
-    |Limited [{DeckCounter}]|.
+    |Unstable [{DeckCounter}]|.
 
 ShouOpal:
   Name: Opal
   Description: |-
     Draw {Value1} cards.
-    |Limited [{DeckCounter}]|.
+    |Unstable [{DeckCounter}]|.
 
 ShouPearl:
   Name: Pearl
   Description: |-
     Gain {Shield} |Barrier|.
-    |Limited [{DeckCounter}]|.
+    |Unstable [{DeckCounter}]|.
 
 ShouRuby:
   Name: Ruby
   Description: |-
     Deal {Damage} damage.
-    |Limited [{DeckCounter}]|.
+    |Unstable [{DeckCounter}]|.
 
 ShouSapphire:
   Name: Sapphire
   Description: |-
     Deal {Damage} damage to each enemy.
-    |Limited [{DeckCounter}]|.
+    |Unstable [{DeckCounter}]|.
     
 
 ShouHungryTiger:
@@ -163,7 +163,7 @@ ShouScatteredProtection:
     Whenever {PlayerName} deals attack damage to an opponent, if they have |Harden|, apply {Value1} |Temporary Firepower Down|.
 
 ShouStoredWealth:
-  Name: Stored Weath
+  Name: Stored Wealth
   Description: |-
     Deal {Damage} damage.
     Deal {Value1} additional damage for each |Gemstone| in the hand and the draw and discard piles.
@@ -306,7 +306,7 @@ ShouResoundingBlow:
     |Vigorous|: Gain {Mana}.
     |Hardened|: Deal damage an additional time.
 
-ShouAdmonitionofAvarice:
+ShouAdmonitionOfAvarice:
   Name: Admonition of Avarice
   Description: |-
     Exile up to {Value1} random |Gemstones| from the discard pile.
@@ -382,7 +382,7 @@ ShouHeartSutraRecitation:
 
 ShouInstinctiveCharity:
   Name: Instinctive Charity
-  Description: Att the start of {PlayerName}'s turn, add {Value1} random |Gemstones| to the draw pile.
+  Description: At the start of {PlayerName}'s turn, add {Value1} random |Gemstones| to the draw pile.
 
 ShouMerchantCall:
   Name: Merchant Call
@@ -393,11 +393,11 @@ ShouMerchantCall:
 ShouOneMansTrash:
   Name: One Man's Trash
   Description: |-
-    Exile up to {Value1} cards ffrom the hand.
+    Exile up to {Value1} cards from the hand.
     Add a number of |Gemstones| to the hand equal to the number of cards exiled.
     The added |Gemstones| are determined by the types of cards exiled.
   UpgradedDescription: |-
-    Exile up to {Value1} cards ffrom the hand, draw, and discard piles.
+    Exile up to {Value1} cards from the hand, draw, and discard piles.
     Add a number of |Gemstones| to the hand equal to the number of cards exiled.
     The added |Gemstones| are determined by the types of cards exiled.
   DetailText: |-

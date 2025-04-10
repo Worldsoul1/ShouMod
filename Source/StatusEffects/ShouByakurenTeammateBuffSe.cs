@@ -10,6 +10,7 @@ using LBoL.Core.Cards;
 using LBoL.Core.Randoms;
 using LBoL.Core.StatusEffects;
 using LBoL.Core.Units;
+using LBoLEntitySideloader.Attributes;
 
 namespace ShouMod.StatusEffects
 {
@@ -23,6 +24,7 @@ namespace ShouMod.StatusEffects
         return config;
     }
 }
+    [EntityLogic(typeof(ShouByakurenTeammateBuffSeDef))]
 public sealed class ShouByakurenTeammateBuffSe : StatusEffect
     {
         public ManaGroup Mana

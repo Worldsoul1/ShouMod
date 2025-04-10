@@ -31,6 +31,9 @@ namespace ShouMod.Cards
             config.Block = 5;
             config.UpgradedBlock = 8;
 
+            config.Mana = new ManaGroup() { Any = 0 };
+            config.UpgradedMana = new ManaGroup() { Any = 0 };
+
             //Loyalty is called "Unity" ingame.
             config.Loyalty = 4;
             config.UpgradedLoyalty = 5;

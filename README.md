@@ -14,6 +14,12 @@ There are 74 cards in Shou's card pool
 
 *Vigor and Harden*: Shou has access to Vigor, a counterpart to Weak, and Harden, a counterpart to Frail. Vigor scales all outgoing attack damage from the player by 25%, and Harden scales block and barrier generation by 25%. Shou also has access to Resonance, a special status effect that increases the scaling of Vigor and Resonance.
 
+### Known and/or Suspected Bugs
+
+* Gemstones currently do not fully display when a card references them.
+* The Status Effect for Scorched Earth mandala does not work.
+* The cards Merchant's Call and Amberblast are capable of softlocking the game when played.
+
 ## Additional Notes
 
 Bug reports, card suggestions, balance feedback are appreciated. For feedback, post your suggestions in the modding channel in the LBoL Discord(https://discord.gg/kRute8RG).

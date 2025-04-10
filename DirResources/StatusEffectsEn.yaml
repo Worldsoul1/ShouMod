@@ -45,6 +45,11 @@ ShouFocusingLightSe:
   Description: At the start of {OwnerName}'s turn, add {Mana} and gain {Level} |Firepower|.
   Brief: At the start of {PlayerName}'s turn, add {Mana} and gain {Level} |Firepower|.
 
+ShouGemstoneSe:
+  Name: Unstable X
+  Description: After playing this card X times, Exile it.
+  DetailText: A card returned from exile with Unstable 0 will remain in the deck until played, at which point it will be exiled.
+
 ShouHardenSe:
   Name: Harden
   Brief: Gain 30% extra |Block| and |Barrier|. 

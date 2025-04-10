@@ -50,7 +50,7 @@ namespace ShouMod.Cards
     }
 
     [EntityLogic(typeof(ShouAdmonitionOfAvariceDef))]
-    public sealed class ShouAdmonitionofAvarice : ShouGemstoneReferenceCard
+    public sealed class ShouAdmonitionOfAvarice : ShouGemstoneReferenceCard
     {
         protected override IEnumerable<BattleAction> Actions(UnitSelector selector, ManaGroup consumingMana, Interaction precondition)
         {

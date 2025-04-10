@@ -73,7 +73,7 @@ namespace ShouMod.Cards
             //Add a token card to the hand.
             if (precondition != null)
             {
-                List<Card> listGems = null;
+                List<Card> listGems = new List<Card>();
                 IReadOnlyList<Card> readOnlyList = this.IsUpgraded ? ((SelectCardInteraction)precondition).SelectedCards : ((SelectHandInteraction)precondition).SelectedCards;
                 if (readOnlyList.Count > 0)
                 {

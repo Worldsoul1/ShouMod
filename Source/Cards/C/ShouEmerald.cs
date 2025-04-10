@@ -32,9 +32,9 @@ namespace ShouMod.Cards
 
             config.ToolPlayableTimes = 1;
 
-            config.Keywords = Keyword.Replenish | Keyword.Tool;
+            config.Keywords = Keyword.Replenish;
             //Setting Upgrading Keyword only provides the keyword when the card is upgraded.    
-            config.UpgradedKeywords = Keyword.Replenish | Keyword.Tool;
+            config.UpgradedKeywords = Keyword.Replenish;
 
             config.Illustrator = "Radal";
 
@@ -57,7 +57,7 @@ namespace ShouMod.Cards
 
             yield return new GainManaAction(base.Mana);
             DeckCounter--;
-            if (this.DeckCounter == 0) { yield return new RemoveCardAction(this); }
+            if (this.DeckCounter <= 0) { yield return new ExileCardAction(this); }
             yield break;
             yield break;
         }
