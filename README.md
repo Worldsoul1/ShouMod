@@ -16,9 +16,7 @@ There are 74 cards in Shou's card pool
 
 ### Known and/or Suspected Bugs
 
-* Gemstones currently do not fully display when a card references them.
-* The Status Effect for Scorched Earth mandala does not work.
-* The cards Merchant's Call and Amberblast are capable of softlocking the game when played.
+* The Cards Amberblast and Merchant's Call may be capable of softlocking the game when played.
 
 ## Additional Notes
 
@@ -26,7 +24,7 @@ Bug reports, card suggestions, balance feedback are appreciated. For feedback, p
 
 As this mod is currently in Beta, do not expect a polished experience. Currently, several cards are missing art, and several status effects unique to Shou do not have unique icons. These will be added in future patches. I am fully open to any feedback, and frequent the discord server linked above. 
 
-* For the list of all the arts used, check ART.md.
+* For the list of all the arts used, who the artist is, and where they can be found, check ART.md.
 * For a log of all changes, check CHANGELOG.md.
 
 A massive thank you to the LBoL Modding Discord server, without which I never would have made this mod. Specifically, I would like to highlight a few individuals who helped me massively during the creation process:

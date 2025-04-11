@@ -1,3 +1,11 @@
+## 0.1.3
+
+More bug fixing
+
+* Heart Sutra Recitation and Divine Protector should work.
+* Attempted a fix for Amberblast and merchant Call softlocking the game when played.
+* Added a status effect icon for Refracting Light, and fixed the icons for Crimson Tears and Freezing Beauty
+
 ## 0.1.2
 
 Bug Fixing:
