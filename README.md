@@ -16,7 +16,7 @@ There are 74 cards in Shou's card pool
 
 ### Known and/or Suspected Bugs
 
-* The Cards Amberblast and Merchant's Call may be capable of softlocking the game when played.
+* None Currently
 
 ## Additional Notes
 

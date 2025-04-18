@@ -39,7 +39,7 @@ namespace ShouMod.Cards
 
             config.Value1 = 1;
             config.UpgradedValue1 = 1;
-            config.Value2 = 1;
+            config.Value2 = 2;
 
             //The Accuracy keyword is enough to make an attack accurate.
 

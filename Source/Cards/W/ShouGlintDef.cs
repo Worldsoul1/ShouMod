@@ -27,6 +27,9 @@ namespace ShouMod.Cards
             config.Type = CardType.Skill;
             config.TargetType = TargetType.Nobody;
 
+            config.Keywords = Keyword.Exile;
+            config.UpgradedKeywords = Keyword.Exile;
+
             config.Value1 = 8;
             config.UpgradedValue1 = 8;
 

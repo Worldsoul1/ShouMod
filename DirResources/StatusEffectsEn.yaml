@@ -31,7 +31,7 @@ ShouCycleofWealthSe:
 ShouDivineProtectorSe:
   Name: Divine Protector
   Description: Whenever a card is played, {OwnerName} gains {Level} |Resonance|.
-  Brief: Whenever a card is played, {Playername} gains 1 |Resonance|.
+  Brief: Whenever a card is played, {PlayerName} gains 1 |Resonance|.
 
 ShouEndlessWealthSe:
   Name: Endless Wealth
@@ -117,4 +117,4 @@ ShouWantNotSe:
 ShouWondersofNatureSe:
   Name: Wonders of Nature
   Description: |-
-   Whenever a |Gemstone| is added to the hand, upgrade it.
+   Whenever a |Gemstone| is added, upgrade it.

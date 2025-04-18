@@ -65,7 +65,7 @@ namespace ShouMod.Cards
             {
                 if (base.Battle != null && base.Battle.Player.HasStatusEffect<ShouResonanceSe>())
                 {
-                    return 2 * base.Battle.Player.GetStatusEffect<ShouResonanceSe>().Count;
+                    return 2 * base.Battle.Player.GetStatusEffect<ShouResonanceSe>().Level;
                 }
                 return 0;
             }
@@ -88,7 +88,7 @@ namespace ShouMod.Cards
             yield return base.AttackAction(selector, base.GunName);
             if (base.Battle.Player.HasStatusEffect<ShouVigorSe>()) { VigorCheck = true; }
             if (base.Battle.Player.HasStatusEffect<ShouHardenSe>()) { HardenCheck = true; }
-            if (HardenCheck) { yield return new DamageAction(Battle.Player, selectedEnemy, DamageInfo.Attack(base.Value1, true), base.GunName); }
+            if (HardenCheck) { yield return new DamageAction(Battle.Player, selectedEnemy, DamageInfo.Attack(base.Damage.Damage, true), base.GunName); }
             if (VigorCheck) { yield return new GainManaAction(Mana); }
             yield break;
         }

@@ -65,7 +65,7 @@ namespace ShouMod.Cards
 
             if (base.IsUpgraded)
             {
-                yield return new AddCardsToDiscardAction(Library.CreateCards<ShouOpal>(base.Value1, false), AddCardsType.Normal);
+                yield return new AddCardsToDiscardAction(Library.CreateCards<ShouRuby>(base.Value1, false), AddCardsType.Normal);
                 yield return new AddCardsToDiscardAction(Library.CreateCards<ShouOnyx>(base.Value1, false), AddCardsType.Normal); 
             }
             else

@@ -8,6 +8,7 @@ using LBoL.Core.Battle;
 using LBoL.Core;
 using LBoL.Core.Battle.BattleActions;
 using LBoL.Core.Cards;
+using ShouMod.StatusEffects;
 
 namespace ShouMod.Cards
 {
@@ -36,6 +37,9 @@ namespace ShouMod.Cards
             config.Keywords = Keyword.Replenish;
             //Setting Upgrading Keyword only provides the keyword when the card is upgraded.    
             config.UpgradedKeywords = Keyword.Replenish;
+
+            config.RelativeEffects = new List<string>() { nameof(ShouGemstoneReferenceSe) };
+            config.UpgradedRelativeEffects = new List<string>() { nameof(ShouGemstoneReferenceSe) };
 
             config.Illustrator = "Radal";
 

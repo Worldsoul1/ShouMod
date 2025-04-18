@@ -1,3 +1,22 @@
+## 0.1.5
+
+Minor Fixes
+
+* Fixed an error where Amberblast would not deal damage, and fixed a localization error.
+* Added clarifications on all Gemstones to make it clear what Unstable does.
+* Added new art for Bounty of the Earth.
+
+## 0.1.4
+
+Bug Fixing
+
+* Fixed an error where Gem Wall+ would add an Opal and an Onyx instead of a Ruby and an Onyx.
+* Fixed a bug in the localization for Amberblast
+* Fixed a bug that would cause Resounding Blow to create a softlock when played while Shou had any Resonance.
+* Most Valuable Vajra+ now grants 2 Vigor if a Gemstone is exiled.
+* Wonders of Nature now upgrades all Gemstones in the deck on play, and upgrades all added Gemstones in the future.
+* Glint and Glint+ now exile on play.
+
 ## 0.1.3
 
 More bug fixing

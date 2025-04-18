@@ -81,9 +81,9 @@ ShouAmberblast:
   Name: Amberblast
   Description: |-
     Deal {Damage} damage.
-    Choose |Emerald| or |Amber|. Add {Value1} copies of the selected card to the hand, and {Value1} copies of the selected card to the discard pile.
-  ExtraDescription1: Add {Value1} |Emeralds| to the hand, and {Value1} |Amber| to the discard pile.
-  ExtraDescription2: Add {Value1} |Amber| to the hand and {Value1} |Emeralds| to the discard pile.
+    Choose |Emerald| or |Amber|. Add {Value2} copies of the selected card to the hand, and {Value2} copies of the unselected card to the discard pile.
+  ExtraDescription1: Add {Value2} |Emeralds| to the hand, and {Value2} |Amber| to the discard pile.
+  ExtraDescription2: Add {Value2} |Amber| to the hand and {Value2} |Emeralds| to the discard pile.
 
 ShouPrimalPower:
   Name: Primal Power
@@ -185,7 +185,8 @@ ShouWondersofNature:
   Name: Wonders of Nature
   Description: |-
    Add a |Pearl| and an |Amber| to the hand.
-   Whenever a |Gemstone| is added to the hand, upgrade it.
+   Upgrade all |Gemstones|.
+   Whenever a |Gemstone| is added, upgrade it.
 
 ShouAbruptEntrance:
   Name: Abrupt Entrance
@@ -284,7 +285,7 @@ ShouValuableVajra:
   Name: Most Valuable Vajra
   Description: |-
     Deal {Damage} damage.
-    Exile up to {Value1} random |Gemstone| from the discard pile. For each |Gemstone| exiled this way, gain {Value2} |Vigor|.
+    Exile up to {Value1} random |Gemstones| from the discard pile. For each |Gemstone| exiled this way, gain {Value2} |Vigor|.
 
 ShouColdCash:
   Name: Freezing Beauty

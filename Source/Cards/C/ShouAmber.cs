@@ -38,6 +38,9 @@ namespace ShouMod.Cards
             //Setting Upgrading Keyword only provides the keyword when the card is upgraded.    
             config.UpgradedKeywords = Keyword.Replenish;
 
+            config.RelativeEffects = new List<string>() { nameof(ShouGemstoneReferenceSe) };
+            config.UpgradedRelativeEffects = new List<string>() { nameof(ShouGemstoneReferenceSe) };
+
             config.Illustrator = "Radal";
 
             config.Index = CardIndexGenerator.GetUniqueIndex(config);

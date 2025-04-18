@@ -61,7 +61,7 @@ namespace ShouMod.Cards
     {
         protected override IEnumerable<BattleAction> Actions(UnitSelector selector, ManaGroup consumingMana, Interaction precondition)
         {
-            base.AttackAction(selector);
+            yield return base.AttackAction(selector);
             List<ShouAmberblast> list = Library.CreateCards<ShouAmberblast>(2, this.IsUpgraded).ToList<ShouAmberblast>();
             ShouAmberblast first = list[0];
             ShouAmberblast gemChoice = list[1];
