@@ -1,6 +1,6 @@
 {
   "name": "ShouMod",
-  "version_number": "0.1.5",
+  "version_number": "0.2.0",
   "website_url": "https://gitlab.com/rmrfmaxxc1/lbol_sample_character_mod",
   "description": "Adds Shou Toramaru as a playable character.",
   "dependencies": [ "BepInEx-BepInExPack-5.4.2100", "TeamNeo-Sideloader-0.9.7601"]

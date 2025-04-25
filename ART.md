@@ -65,7 +65,7 @@ Barrier of Wealth:
 Crimson Tears: こゆび(https://www.pixiv.net/en/users/41197)
 Fortune Found: まめ助(https://www.pixiv.net/en/users/29029857)
 Heart Sutra Recitation: 黄瓜(https://www.pixiv.net/en/users/6681779)
-Merchant Call:
+Merchant Call: Jintouhou(https://x.com/Jintouhou)
 One Man's Trash: 核能松饼(https://www.pixiv.net/en/users/3372901)
 Refracted Defenses: Mayo(becky2006)(https://mayomoyo.tumblr.com/)
 Treasure Blast: なゝ(https://www.pixiv.net/en/users/100824662)
@@ -85,7 +85,7 @@ Want Not: Radal
 
 #### Common
 
-Bounty of the Earth:
+Bounty of the Earth: Radal
 Crimson Laser: Radal
 
 #### Uncommon

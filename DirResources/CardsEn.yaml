@@ -449,7 +449,8 @@ ShouTimeisMoney:
   Name: Time is Money
   Description: |-
     End the turn.
-    At the start of the next turn, instead of drawing cards, add {Value1} |Gemstones| to the hand.
+    At the start of the next turn, instead of drawing cards, add {Value1} random |Gemstones| to the hand.
+    |d:Time Limit {Mana}.|
 
 ShouTimelessBeauty:
   Name: Timeless Beauty

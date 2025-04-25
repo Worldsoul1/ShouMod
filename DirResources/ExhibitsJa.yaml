@@ -1,0 +1,13 @@
+ShouDullPagoda:
+  Name: ぼんやりした宝塔
+  Description: |-
+    マナ基盤に{BaseMana}を加え、|星|専用のカードが出現するようになる。
+    最初のターン開始時、{Mana}と|火力|{Value1}を得る。
+  FlavorText: よく見ると、かすかな光が見える
+
+ShouMouseBasket:
+  Name: 枝編みのかご
+  Description: |-
+    マナ基盤に{BaseMana}を加え、|星|専用のカードが出現するようになる。
+    最初のターン開始時、|ダウザーの小さな大将、ナズーリン|を手札に加える。それは|保留|を持つ。
+  FlavorText: 無料マウスつき

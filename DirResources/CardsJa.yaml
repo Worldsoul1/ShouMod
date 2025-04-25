@@ -1,0 +1,498 @@
+ShouAttackW:
+  Name: 毘沙門天の光
+  Description: |-
+    {Damage}ダメージを与える。
+
+ShouAttackR:
+  Name: 内なる猛威
+  Description: |-
+    {Damage}ダメージを与える。
+
+ShouBlockW:
+  Name: 天佑神助
+  Description: |-
+    {Block}|ブロック|を得る。
+
+ShouBlockR:
+  Name: 本能防御
+  Description: |-
+    {Block}|ブロック|を得る。
+
+ShouAmber:
+  Name: アンバー
+  Description: |-
+    ライフを{Value1}得る。
+    |消耗品 [{DeckCounter}]|。
+
+ShouDiamond:
+  Name: ダイアモンド
+  Description: |-
+    |加護|{Value1}と|庇護|{Value1}を得る。
+    |消耗品 [{DeckCounter}]|。
+
+ShouEmerald:
+  Name: エメラルド
+  Description: |-
+    {Mana}を得る。
+    |消耗品 [{DeckCounter}]|。
+
+ShouOnyx:
+  Name: オニキス
+  Description: |-
+    {Block}|ブロック|を得る。
+    |消耗品 [{DeckCounter}]|。
+
+ShouOpal:
+  Name: オパール
+  Description: |-
+    カードを{Value1}枚引く。
+    |消耗品 [{DeckCounter}]|。
+
+ShouPearl:
+  Name: パール
+  Description: |-
+    {Shield}|バリア|を得る。
+    |消耗品 [{DeckCounter}]|。
+
+ShouRuby:
+  Name: ルビー
+  Description: |-
+    {Damage}ダメージを与える。
+    |消耗品 [{DeckCounter}]|。
+
+ShouSapphire:
+  Name: サファイア
+  Description: |-
+    敵全体に{Damage}ダメージを与える。
+    |消耗品 [{DeckCounter}]|。
+    
+
+ShouHungryTiger:
+  Name: ハングリータイガー
+  Description: |-
+    {Damage}ダメージを与える。
+    |退治|: ライフを{Value1}を得る。
+  FlavorText: 毘沙門天様、ちょっと目をそらしてお待ちください。
+
+ShouScorchedEarthMandala:
+  Name: 焦土曼荼羅
+  Description: |-
+    |奮迅の気|{Value2}を得る。
+    攻撃カードをプレイする度に、|宝光共振|{Value1}を得る。
+    防御カードをプレイする度に、{PlayerName}の|奮迅の気|を取り除く。
+
+ShouAmberblast:
+  Name: 琥珀色の爆発
+  Description: |-
+    {Damage}ダメージを与える。
+    |エメラルド|か|アンバー|を選ぶ。選んだカードの{Value2}枚のコピーを手札に加え、選ばれなかったカードの{Value2}枚のコピーを山札に加える。
+  ExtraDescription1: 手札に|エメラルド|を{Value2}枚加え、捨て札に|アンバー|を{Value2}枚加える。
+  ExtraDescription2: 手札に|アンバー|を{Value2}枚加え、捨て札に|エメラルド|を{Value2}枚加える。
+
+ShouPrimalPower:
+  Name: 原初の力
+  Description: |-
+    |奮迅の気|1を得る。
+    このターンに{PlayerName}が{Value1}回攻撃した後、{Mana}を得て、カードを1枚引き、|宝光共振|3を得る。
+
+ShouAvatarofBishamonten:
+  Name: 毘沙門天の化身
+  Description: |-
+    {Shield}|バリア|を得る。
+    |奮迅の気|{Value1}と|護法結界|{Value1}を得る。
+    捨て札に|日の照射|を{Value2}枚加える。
+
+ShouBountyoftheEarth:
+  Name: 大地の恵み
+  Description: |-
+    捨て札に|エメラルド|を{Value1}枚加える。
+  UpgradedDescription: |-
+    捨て札に|エメラルド+|を{Value1}枚加える。
+    
+ShouByakurenTeammate:
+  Name: 封印された大魔法使い、白蓮
+  Description: "{Indent}|火力|{Value1}を得る。\n{PassiveCostIcon}このターンカードを3枚プレイする度に、{Block}|ブロック|と|反射|{Block}を得る。"
+  UpgradedDescription: "{Indent}|火力|{Value1}を得る。\n{PassiveCostIcon}このターンカードを3枚プレイする度に、{Block}|ブロック|と|反射|{Block}を得る。"
+  ExtraDescription1: "{ActiveCostIcon}|奮迅の気|{Value1}と|護法結界|{Value1}を得る。"
+  UpgradedExtraDescription1: "{ActiveCostIcon}|奮迅の気|{Value1}と|護法結界|{Value1}、|宝光共振|5を得る。"
+  ExtraDescription3: "{UltimateCostIcon}{PlayerName}のターン開始時、手札に完全ランダムなレアカードを１枚加える。それは|廃棄|と|虚無|を持ち、そのコストは{Mana}"
+  UpgradedExtraDescription3: "{UltimateCostIcon}{PlayerName}のターン開始時、手札に完全ランダムなレアカードを１枚加える。それは|廃棄|と|虚無|を持ち、そのコストは{Mana}"
+
+ShouCrimsonLaser:
+  Name: クリムゾンレーザー
+  Description: |-
+    {Damage}ダメージを与える。
+    捨て札に|パール|か|ルビー|を1枚加える。
+
+ShouDivineProtector:
+  Name: 毘沙門の守護者
+  Description: カードをプレイする度に、{PlayerName}は|宝光共振|{Value1}を得る。
+
+ShouGoldenDawn:
+  Name: 金剛黎明
+  Description: |-
+    |宝光共振|{Value1}を得る。
+
+ShouLimitlessBenevolence:
+  Name: 無量の慈悲
+  Description: |-
+    |奮迅の気|{Value2}を得る。
+    {PlayerName}が攻撃を受ける度に、攻撃者に|ロックオン|{Value1}を与える。
+    
+ShouNazrinTeammate:
+  Name: ダウザーの小さな大将、ナズーリン
+  Description: "{Indent}{Value2}枚の|宝石|から{Value1}枚選ぶ。選んだカードを捨て札に加える。 \n{PassiveCostIcon}山札と捨て札からランダムな|宝石|を手札に1枚加える。"
+  UpgradedDescription: "{Indent}{Value2}枚の|宝石|から{Value1}枚選ぶ。選んだカードを捨て札に加える。 \n{PassiveCostIcon}山札と捨て札からランダムな|宝石|を手札に1枚加える。"
+  ExtraDescription1: "{ActiveCostIcon}捨て札から2枚の|宝石|を選び手札に加える。"
+  UpgradedExtraDescription1: "{ActiveCostIcon}捨て札から2枚の|宝石|を選び手札に加える。"
+  ExtraDescription3: "{UltimateCostIcon}敵全体に{Damage}ダメージを与える。|精密|。もしこの攻撃でエリートかボスを倒したとき、報酬に追加の展示品を得る。"
+  UpgradedExtraDescription3: "{UltimateCostIcon}敵全体に{Damage}ダメージを与える。|精密|。もしこの攻撃でエリートかボスを倒したとき、報酬に追加の展示品を得る。"
+
+
+ShouProtectionOfTheInnocent:
+  Name: 罪なき者の保護
+  Description: |-
+    {Shield}|バリア|を得る。|奮迅の気|{Value1}を得る。
+
+ShouProtectiveMoney:
+  Name: みかじめ料
+  Description: |-
+    {Shield}|バリア|を得る。
+    手札のカード1枚ごとに、<sprite="Point" name="Gold">{Value1}を得る。
+
+ShouScatteredProtection:
+  Name: 弾幕防衛術
+  Description: |-
+    |護法結界|{Value2}を得る。。
+    |護法結界|を持っているならば、{PlayerName}が対象を攻撃する度に|臨時火力ダウン|{Value1}を与える。
+
+ShouStoredWealth:
+  Name: 貯蔵された富
+  Description: |-
+    {Damage}ダメージを与える。
+    手札、山札、捨て札にある|宝石|1枚ごとに、追加で{Value1}ダメージを与える。
+
+ShouTrackingLaser:
+  Name: 追尾レーザー
+  Description: |-
+    {Damage}ダメージを与える。
+    |奮迅状態|: |脱力|{Value1}を与える。
+
+ShouTreasureImmaterial:
+  Name: 形なき宝物
+  Description: |-
+    カードを{Value1}枚引く。
+    |奮迅状態|: {Mana}を得る。
+    |護法状態|: 手札のランダムなカード{Value1}枚をアップグレードする。
+
+ShouWondersofNature:
+  Name: 森羅万象の宝
+  Description: |-
+   手札に|パール|を1枚、|アンバー|を1枚加える。
+   すべての|宝石|をアップグレードする。
+   |宝石|が手札に加えられるたびに、それをアップグレードする。
+
+ShouAbruptEntrance:
+  Name: 突然の登場
+  Description: |-
+    敵全体に{Damage}ダメージを与える。
+
+ShouAbsoluteJustice:
+  Name: アブソリュートジャスティス
+  Description: |-
+    {PlayerName}のターン開始時、ランダムな敵に|脱力|{Value1}または|弱体|{Value1}を与える。
+
+ShouAlmightyFlash:
+  Name: 妙光一閃
+  Description: |-
+    {Damage}ダメージを与える。
+    |奮迅状態|: {Value1}ダメージを与える。
+    |護法状態|: {Block}|ブロック|を得る。
+
+ShouArcingRays:
+  Name: 弧を描く光線
+  Description: |-
+    敵全体に{Damage}ダメージを与える。
+    |護法状態|: カードを{Value1}枚引く。
+
+ShouAuraofJustice:
+  Name: 正義の威光
+  Description: |-
+    敵全体に|脱力|{Value1}を与える。
+    |護法結界|{Value1}を得る。
+
+ShouBloodMoney:
+  Name: 血税
+  Description: |-
+    召還されてない敵が倒れるたびに、<sprite="Point" name="Gold">{Value1}を得る。
+
+ShouChannelingPower:
+  Name: チャネリングパワー
+  Description: |-
+    |奮迅の気|{Value1}を得る。
+    |護法結界|{Value1}を得る。
+
+ShouFocusingLight:
+  Name: 集光
+  Description: |-
+    {PlayerName}のターン開始時、{Mana}と|火力|{Value1}を得る。
+  UpgradedDescription: |-
+    |火力|{Value2}を得る。
+    {PlayerName}のターン開始時、{Mana}と|火力|{Value1}を得る。
+    
+ShouGleamofHeaven:
+  Name: 天国の煌めき
+  Description: |-
+    |グレイズ|{Value1}を得る。
+    |奮迅状態|: カードを{Value2}枚引く。
+
+ShouGoldRush:
+  Name: ゴールドラッシュ
+  Description: |-
+    {Damage}ダメージを与える。
+    <sprite="Point" name="Gold">{Value1}を失う。。
+    |奮迅状態|: <sprite="Point" name="Gold">{Value1}を得る。
+
+ShouIonicLink:
+  Name: イオンのつながり
+  Description: |-
+    |弱体|{Value1}を与える。
+    |奮迅の気|{Value1}を得る。
+
+ShouLightofTheDivine:
+  Name: 神聖なる光
+  Description: |-
+    |奮迅の気|{Value2}を得る。
+    |護法結界|{Value2}を得る。
+    |宝光共振|{Value1}を得る。
+
+ShouRefractingLight:
+  Name: 屈折する光
+  Description: |-
+    |宝石|がプレイされる度に、|臨時火力|{Value1}と|臨時霊力|{Value1}を得る。
+  UpgradedDescription: |-
+    |宝石|がプレイされる度に、|臨時火力|{Value1}と|臨時霊力|{Value1}を得る。
+    手札に|パール|を1枚加える。
+
+ShouReleasingDesires:
+  Name: 欲望の解放
+  Description: |-
+    {Damage}ダメージを与える。
+    {PlayerName}の|宝光共振|{Value1}ごとに、追加で一回攻撃する。
+    {PlayerName}の|宝光共振|を取り除く。
+
+ShouStillMind:
+  Name: 不動心
+  Description: |-
+    {Block}|ブロック|を得る。
+    次のターン開始時、{Mana}を得る。
+
+ShouValuableVajra:
+  Name: 至宝・金剛杵
+  Description: |-
+    {Damage}ダメージを与える。
+    捨て札からランダムな|宝石|を最大{Value1}枚廃棄する。この方法で廃棄された|宝石|ごとに、|奮迅の気|{Value2}を得る。
+
+ShouColdCash:
+  Name: 氷華
+  Description: |-
+    手札に|オパール|を1枚、|サファイア|を1枚加える。
+    このターンに|宝石|をプレイする度に、ランダムな敵に|凍結|を与える。
+
+ShouDiamondDust:
+  Name: ダイアモンドダスト
+  Description: |-
+    {Block}|ブロック|を得る。
+    山札と捨て札から|宝石|を最大{Value1}枚廃棄する。この方法で廃棄された|宝石|ごとに、|フロストアーマー|{Value2}を得る。
+
+ShouResoundingBlow:
+  Name: 響撃
+  Description: |-
+    {Damage}ダメージを与える。
+    {PlayerName}の|宝光共振|の2倍に等しいダメージを追加で与える。
+    |奮迅状態|: {Mana}を得る。
+    |護法状態|: 追加で一回攻撃する。
+
+ShouAdmonitionOfAvarice:
+  Name: 欲念の戒め
+  Description: |-
+    捨て札からランダムな|宝石|を最大{Value1}枚廃棄する。
+    この方法で廃棄された|宝石|1枚ごとに|グレイズ|1を得る。
+
+ShouBarrierofWealth:
+  Name: 富のバリア
+  Description: |-
+    {Block}|ブロック|を得る。
+    捨て札からランダムな|宝石|を1枚廃棄する。もし|宝石|がこの方法で廃棄されたのならば、|護法結界|{Value2}を得る。
+
+ShouCenterSoul:
+  Name: 心核
+  Description: |-
+    {PlayerName}が持っている|奮迅の気|と|護法結界|のスタック数それぞれ1つにつき、|宝光共振|{Value1}を得る。
+
+ShouCrimsonTears:
+  Name: 血の涙
+  Description: 毎ターン、{PlayerName}がダメージを受けるたび(最初の{Value1}回まで)、山札に|ルビー|を加える。
+
+ShouCycleofWealth:
+  Name: 財宝の輪廻
+  Description: |-
+    |宝石|をプレイする度、それを廃棄する。
+    この方法で|宝石|が廃棄された時、捨て札にランダムな|宝石|を1枚加える。
+
+ShouDowsingAssistance:
+  Name: 探知の手助け
+  Description: |-
+    {Damage}ダメージを与える。
+    捨て札からランダムな|宝石|{Value1}枚を手札に加える。
+  UpgradedDescription: |-
+    {Damage}ダメージを与える。
+    捨て札からランダムな|宝石|{Value1}枚を手札に加える。
+
+ShouEndlessWealth:
+  Name: 終わりなき富
+  Description: |-
+    手札に|ルビー|を1枚加える。
+    {PlayerName}のターンの開始時、現在の{SelfName}のカウントに基づいて、手札にコモンまたはアンコモンの|宝石|を加える。
+  DetailText: |-
+    "手札に加えられる|宝石|は、カウントに基づいて以下の通りです：
+    |ルビー| -> |オニキス| -> |サファイア| -> |パール| -> |エメラルド| -> |オパール|"
+
+ShouFortuneFound:
+  Name: 見つけ出した運命
+  Description: |-
+    捨て札からランダムな|宝石|を1枚手札に加える。
+    |脱力|{Value1}を与える。
+
+ShouGemstoneManufacturing:
+  Name: 宝石の製造
+  Description: |-
+    {Value2}枚の|宝石|から{Value1}枚を選ぶ。選んだカードを手札に加える。
+
+ShouGemWall:
+  Name: 宝石の壁
+  Description: |-
+    {Block}|ブロック|を得る。
+    |ルビー|または|オニキス|を捨て札に加える。
+  UpgradedDescription: |-
+    {Block}|ブロック|を得る。
+    |ルビー|または|オニキス|を捨て札に加える。
+
+ShouGlint:
+  Name: 煌めき
+  Description: |-
+    すべての|宝石|を1枚ず山札に加える。
+    山札と捨て札から最大{Value2}枚の|宝石|を選び、手札に加える。
+
+ShouHeartSutraRecitation:
+  Name: 般若心経の読経
+  Description: |-
+    |宝石|が廃棄される度に、{Value1}|ブロック|を得る。
+
+ShouInstinctiveCharity:
+  Name: 本能的な施し
+  Description: |-
+    {PlayerName}のターン開始時、山札にランダムな|宝石|を{Value1}枚加える。
+
+ShouMerchantCall:
+  Name: 商人の呼び声
+  Description: |-
+    手札からカードを1枚廃棄する。
+    もし|宝石|を廃棄したのならば、{Value2}枚のランダムな道具の中から{Value1}枚選び、手札に加える。
+    それは一度だけ使える。
+
+ShouOneMansTrash:
+  Name: 拾遺宝物
+  Description: |-
+    手札から最大{Value1}枚のカードを廃棄する。
+    廃棄したカードの枚数と同じ枚数の|宝石|を手札に加える。
+    加えられる|宝石|の種類は、廃棄したカードの種類によって決まる。
+  UpgradedDescription: |-
+    手札、山札、捨て札から最大{Value1}枚のカードを廃棄する。
+    廃棄したカードの枚数と同じ枚数の|宝石|を手札に加える。
+    加えられる|宝石|の種類は、廃棄したカードの種類によって決まる。
+  DetailText: |-
+    攻撃カードなら、|ルビー|を1枚手札に加える。
+    防御カードなら、|オニキス|を1枚手札に加える。
+    スキルカードなら、|オパール|を1枚手札に加える。
+    能力カードなら、|サファイア|を1枚手札に加える。
+    パートナーなら、|パール|を1枚手札に加える。
+    状態異常なら、|エメラルド|を1枚手札に加える。
+    道具なら、|アンバー|を1枚手札に加える。
+    厄災なら、|ダイアモンド|を1枚手札に加える。
+
+ShouPagodaLaser:
+  Name: 宝塔レーザー
+  Description: |-
+    {Damage}ダメージを与える。
+    山札の一番上に|オニキス|を1枚加える。
+
+ShouRainbowGems:
+  Name: 虹色の宝石
+  Description: |-
+    敵全体に{Damage}ダメージを与える。
+    すべての|宝石|を1枚ず山札に加える。
+
+ShouRefractedDefenses:
+  Name: 屈光守護
+  Description: |-
+    {Block}|ブロック|を得る。
+    捨て札にある|宝石|をランダムに1枚手札に加える。
+
+ShouScatteredTreasure:
+  Name: 散らばった宝
+  Description: |-
+    山札にランダムな|宝石|を{Value1}枚加える。
+
+ShouShatterbeam:
+  Name: 破壊光線
+  Description: |-
+    {Damage}ダメージを与える。
+    捨て札の中から|宝石|を1枚廃棄できる。もし廃棄したなら、さらにもう1回ダメージを与える。
+
+ShouSweepingBlast:
+  Name: 掃滅光撃
+  Description: |-
+    敵全体に{Damage}ダメージを与える。
+    |奮迅状態|: 追加でもう一度ダメージを与える。
+
+ShouTimeisMoney:
+  Name: 時は金なり
+  Description: |-
+    ターンを終了する。
+    次のターン開始時、カードを引く代わりに手札にランダムな|宝石|を{Value1}枚加える。
+    |時間制限{Mana}|
+
+ShouTimelessBeauty:
+  Name: 時を超えた美しさ
+  Description: |-
+    カードを{Value1}枚引く。
+    この方法で引いた|宝石|1枚ごとに、{Block}|ブロック|を得る。
+
+ShouTreasureBlast:
+  Name: トレジャーブラスト
+  Description: |-
+    {Damage}ダメージを与える。
+    捨て札から|宝石|を最大{Value1}枚廃棄する。今回廃棄された|宝石|ごとに追加で{Value2}ダメージを与える。
+
+ShouWantNot:
+  Name: 欲しがらず
+  Description: |-
+    プレイヤーのターン終了時に、捨て札から最大3枚までの|宝石|を廃棄する。
+    この方法で廃棄されたカード1枚ごとに、{Value1}|バリア|を得る 
+
+SampleCharacterTeammate:
+  Name: Sample Teammate
+  Description: "{Indent}Draw {Value1} card{Value1:plural one='' other='s'}。\n{PassiveCostIcon}Draw {Value1} card。"
+  UpgradedDescription: "{Indent}Draw {Value1} card{Value1:plural one='' other='s'}。\n{PassiveCostIcon}Draw {Value1} card。"
+  ExtraDescription1: "{ActiveCostIcon}Draw {Value1} card{Value1:plural one='' other='s'}。"
+  UpgradedExtraDescription1: "{ActiveCostIcon}Draw {Value1} card{Value1:plural one='' other='s'}。"
+  ExtraDescription2: "{UltimateCostIcon}Draw {Value2} card{Value2:plural one='' other='s'}。"
+  UpgradedExtraDescription2: "{UltimateCostIcon}Draw {Value2} card{Value2:plural one='' other='s'}。"
+
+#SampleCharacterNewCard:
+#  Name: New Card
+#  Description: |-
+#    {Damage}ダメージを与える。
+#    {Block}|ブロック|を得る。
+#    Draw {Value1} card{Value1:plural one='' other='s'}。

@@ -1,10 +1,23 @@
+## 0.2.0
+
+Localization
+
+* Added Japanese localization, courtesy of neff from the LBoL Modding Discord
+
+## 0.1.6
+
+Minor Fixes
+
+* Fixed the status effect localization for Unstable and the effect granted by Byakuren, Enlightened Magician's Ultimate Ability.
+
 ## 0.1.5
 
 Minor Fixes
 
 * Fixed an error where Amberblast would not deal damage, and fixed a localization error.
 * Added clarifications on all Gemstones to make it clear what Unstable does.
-* Added new art for Bounty of the Earth.
+* Added new art for Bounty of the Earth and Merchant Call.
+* Added some clarifying text to Time is Money
 
 ## 0.1.4
 

@@ -1,0 +1,7 @@
+SampleCharacterMod:
+  Title: 'Test'
+  Move:
+  - '攻撃 a'
+  - '攻撃 b'
+  - '攻撃 c'
+  - '攻撃 d'

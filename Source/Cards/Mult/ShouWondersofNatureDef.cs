@@ -50,6 +50,10 @@ namespace ShouMod.Cards
         protected override IEnumerable<BattleAction> Actions(UnitSelector selector, ManaGroup consumingMana, Interaction precondition)
         {
             List<Card> Gemstones = base.Battle.HandZone.Where(c => c is ShouGemstoneCard).Concat(base.Battle.DiscardZone.Where(c => c is ShouGemstoneCard).Concat(base.Battle.DrawZoneToShow.Where(c => c is ShouGemstoneCard))).ToList<Card>();
+            foreach (Card card in Gemstones) 
+            {
+                yield return new UpgradeCardAction(card);    
+            }
             yield return BuffAction<ShouWondersofNatureSe>(base.Value1, 0, 0, 0, 0.2f);
             List<Card> cards = new List<Card>();
             cards.Add(Library.CreateCard<ShouAmber>(false));

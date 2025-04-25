@@ -1,0 +1,149 @@
+ShouAbsoluteJusticeSe:
+  Name: アブソリュートジャスティス
+  Description: "{PlayerName}のターン開始時、ランダムな敵に|脱力|{Level}または|弱体|{Level}を与える。"
+
+ShouBloodMoneySe:
+  Name: 血税
+  Description: "召還されてない敵が倒れるたびに、<sprite=\"Point\" name=\"Gold\">{Level}を得る。"
+  Brief: "召還されてない敵が倒れるたびに、<sprite=\"Point\" name=\"Gold\">8を得る。"
+
+ShouByakurenTeammateBuffSe:
+  Name: 真理の境地
+  Description: "{PlayerName}のターン開始時、手札に完全ランダムなレアカードを１枚加える。それは|廃棄|と|虚無|を持ち、そのコストは{Mana}。"
+  DetailText: "|封印された大魔法使い|はこの効果により生成されない。"
+  Brief: "{PlayerName}のターン開始時、手札に完全ランダムなレアカードを１枚加える。それは|廃棄|と|虚無|を持ち、そのコストは{Mana}。"
+
+ShouColdCashSe:
+  Name: 氷華
+  Description: このターンに|宝石|をプレイする度に、ランダムな敵に|凍結|を与える。
+  Brief: このターンに|宝石|をプレイする度に、ランダムな敵に|凍結|を与える。
+
+ShouCrimsonTearsSe:
+  Name: 血の涙
+  Description: 毎ターン、{OwnerName}がダメージを受けるたび(最初の{Level}回まで)、山札に|ルビー|を加える。
+  Brief: 毎ターン、{OwnerName}がダメージを受けるたび(最初の数回まで)、山札に|ルビー|を加える。
+
+ShouCycleofWealthSe:
+  Name: 財宝の輪廻
+  Description: |-
+    |宝石|をプレイする度、それを廃棄する。
+    この方法で|宝石|が廃棄された時、捨て札にランダムな|宝石|を1枚加える。
+
+ShouDivineProtectorSe:
+  Name: 毘沙門の守護者
+  Description: カードをプレイする度に、{PlayerName}は|宝光共振|{Level}を得る。
+  Brief: カードをプレイする度に、{PlayerName}は|宝光共振|1を得る。
+
+ShouEndlessWealthSe:
+  Name: 終わりなき富
+  Description: |-
+    {OwnerName}のターンの開始時、現在の{SelfName}のカウントに基づいて、手札に|宝石|を加える。
+    
+    加えられる順番
+    |ルビー| -> |オニキス| -> |サファイア| 
+    -> |パール| -> |エメラルド| -> |オパール|
+  Brief: "{OwnerName}のターンの開始時、現在の{SelfName}のカウントに基づいて、手札に|宝石|を加える。"
+  DetailText: |-
+    手札に加えられる|宝石|は、カウントに基づいて以下の通りです：
+    |ルビー| -> |オニキス| -> |サファイア| -> |パール| -> |エメラルド| -> |オパール|
+
+ShouFocusingLightSe:
+  Name: 集光
+  Description: "{OwnerName}のターン開始時、{Mana}と|火力|{Level}を得る。"
+  Brief: "{PlayerName}のターン開始時、{Mana}と|火力|を得る。"
+
+ShouGemstoneReferenceSe:
+  Name: 消耗品 X
+  Description: "その戦闘中のみ有効なカード。X回プレイした後、それを廃棄する。"
+  DetailText: "その戦闘中のみ有効なカード。\n消耗品0の状態で廃棄場から戻されたカードは、そのカードはプレイされるまでデッキ内に留まり、プレイされた時点で再び廃棄される。"
+  Brief: "その戦闘中のみ有効なカード。\n消耗品0の状態で廃棄場から戻されたカードは、そのカードはプレイされるまでデッキ内に留まり、プレイされた時点で再び廃棄される。"
+
+ShouHardenSe:
+  Name: 護法結界
+  Brief: "追加で30%の|ブロック|と|バリア|を得る。"
+  Description: "{ExtraShield}%の追加の|ブロック|と|バリア|を得る。その効果は次の{Duration}ターンの間持続する。"
+
+ShouHardenedSe:
+  Name: 護法状態
+  Description: "{PlayerName}が|護法結界|のバフを持っている状態。"
+  Brief: "{PlayerName}が|護法結界|のバフを持っている状態。"
+
+ShouHeartSutraRecitationSe:
+  Name: 般若心経の読経
+  Description: |-
+    |宝石|が廃棄される度に、{Level}|ブロック|を得る。
+  Brief: |-
+    |宝石|が廃棄される度に、|ブロック|を得る。
+
+ShouInstinctiveCharitySe:
+  Name: 本能的な施し
+  Description: |-
+    {PlayerName}のターン開始時、山札にランダムな|宝石|を{Level}枚加える。
+  Brief: |-
+    {PlayerName}のターン開始時、山札にランダムな|宝石|を加える。
+  
+ShouLimitlessBenevolenceSe:
+  Name: 無量の慈悲
+  Description: |-
+    |奮迅の気|を持っているとき、{OwnerName}が攻撃を受ける度に、攻撃者に|ロックオン|{Value1}を与える。
+  Brief: |-
+    |奮迅の気|を持っているとき、{OwnerName}が攻撃を受ける度に、攻撃者に|ロックオン|を与える。
+
+ShouPrimalPowerSe:
+  Name: 原初の力
+  Description: このターン、次の{Level}回の攻撃の後、{Mana}を獲得し、カードを1枚引き、|宝光共振|3を得る。
+  Brief:  このターン、次の数回の攻撃の後、{Mana}を獲得し、カードを1枚引き、|宝光共振|3を得る。
+ 
+ShouRefractingLightSe:
+  Name: 屈折する光
+  Description: |-
+    |宝石|がプレイされる度に、|臨時火力|{Level}と|臨時霊力|{Level}を得る。
+  Brief: |-
+    |宝石|がプレイされる度に、|臨時火力|と|臨時霊力|を得る。
+
+ShouResonanceSe:
+  Name: 宝光共振
+  Description: "|奮迅の気|と|護法結界|の効果が{Level}%増加する。"
+  Brief: "|奮迅の気|と|護法結界|の効果が{Level}%増加する。"
+
+ShouScatteredProtectionSe:
+  Name: 弾幕防衛術
+  Description: |-
+    |護法結界|を持っているならば、{OwnerName}が対象を攻撃する度に|臨時火力ダウン|{Level}を与える。
+  Brief: |-
+    |護法結界|を持っているならば、{OwnerName}が対象を攻撃する度に|臨時火力ダウン|を与える。"
+
+ShouScorchedEarthMandalaSe:
+  Name: 焦土曼荼羅
+  Description: |-
+    攻撃カードをプレイする度に、|宝光共振|{Level}を得る。
+    防御カードをプレイする度に、{PlayerName}の|奮迅の気|を取り除く。
+  Brief: |-
+    攻撃カードをプレイする度に、|宝光共振|を得る。
+    防御カードをプレイする度に、{PlayerName}の|奮迅の気|を取り除く。
+
+ShouVigorSe:
+  Name: 奮迅の気
+  Description: 次の{Duration}ターンの間、与える攻撃ダメージが{ExtraDamage}%増加する。
+  Brief: 攻撃ダメージが通常より30%増加する。
+
+ShouVigorousSe:
+  Name: 奮迅状態
+  Description: "{PlayerName}が|奮迅の気|のバフを持っている状態。"
+  Brief: "{PlayerName}が|奮迅の気|のバフを持っている状態。"
+
+ShouWantNotSe:
+  Name: 欲しがらず
+  Description: |-
+    {PlayerName}のターン終了時に、捨て札から最大3枚までの|宝石|を廃棄する。
+    この方法で廃棄されたカード1枚ごとに、{Level}|バリア|を得る。
+  Brief: |-
+    {PlayerName}のターン終了時に、捨て札から最大3枚までの|宝石|を廃棄する。
+    この方法で廃棄されたカード1枚ごとに、幾分の|バリア|を得る。
+
+ShouWondersofNatureSe:
+  Name: 森羅万象の宝
+  Description: |-
+   |宝石|が手札に加えられるたびに、それをアップグレードする。
+  Brief: |-
+   |宝石|が手札に加えられるたびに、それをアップグレードする。

@@ -17,7 +17,7 @@ using LBoL.Core.Units;
 
 
 namespace ShouMod.Cards
-{
+{ 
     public sealed class ShouFortuneFoundDef : ShouGemstoneReferenceCardTemplate
     {
         public override CardConfig MakeConfig()

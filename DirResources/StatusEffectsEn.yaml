@@ -11,6 +11,7 @@ ShouByakurenTeammateBuffSe:
   Name: Enlightenment
   Description: At the start of {PlayerName}'s turn, add a Completely Random Rare card to the hand. It has |Exile| and |Ethereal|, and costs {Mana} to cast.
   DetailText: "|Byakuren, Enlightened Magician| cannot be generated from this effect."
+  Brief: At the start of {PlayerName}'s turn, add a Completely Random Rare card to the hand. It has |Exile| and |Ethereal|, and costs {Mana} to cast.
 
 ShouColdCashSe:
   Name: Freezing Beauty
@@ -43,11 +44,12 @@ ShouEndlessWealthSe:
 ShouFocusingLightSe:
   Name: Focusing Light
   Description: At the start of {OwnerName}'s turn, add {Mana} and gain {Level} |Firepower|.
-  Brief: At the start of {PlayerName}'s turn, add {Mana} and gain {Level} |Firepower|.
+  Brief: At the start of {PlayerName}'s turn, add {Mana} and gain |Firepower|.
 
-ShouGemstoneSe:
+ShouGemstoneReferenceSe:
   Name: Unstable X
   Description: After playing this card X times, Exile it.
+  Brief: After playing this card X times, Exile it.
   DetailText: A card returned from exile with Unstable 0 will remain in the deck until played, at which point it will be exiled.
 
 ShouHardenSe:
@@ -63,22 +65,27 @@ ShouHardenedSe:
 ShouHeartSutraRecitationSe:
   Name: Heart Sutra Recitation
   Description: Whenever a |Gemstone| is Exiled, gain {Level} |Block|.
+  Brief: Whenever a |Gemstone| is Exiled, gain |Block|.
 
 ShouInstinctiveCharitySe:
   Name: Instinctive Charity
-  Description: Att the start of {PlayerName}'s turn, add {Level} random |Gemstones| to the draw pile.
+  Description: At the start of {PlayerName}'s turn, add {Level} random |Gemstones| to the draw pile.
+  Brief: At the start of {PlayerName}'s turn, add random |Gemstones| to the draw pile.
 
 ShouLimitlessBenevolenceSe:
   Name: Limitless Benevolence
   Description: Whenever {OwnerName} takes attack damage, if they have any |Vigor|, apply {Level} |Lock On| to the attacker.
+  Brief: Whenever {OwnerName} takes attack damage, if they have any |Vigor|, apply |Lock On| to the attacker.
 
 ShouPrimalPowerSe:
   Name: Primal Power
-  Description: After the next {Level} attacks this turn, add {Mana}, draw a card, and gain 3 |Resonance|.
+  Description: After the next {Level} Attack cards are played this turn, add {Mana}, draw a card, and gain 3 |Resonance|.
+  Brief: After an Attack card is played, gain {Mana}, draw a card, and gain 3 |Resonance|.
 
 ShouRefractingLightSe:
   Name: Refracting Light
   Description: Whenever a |Gemstone| is played, gain {Level} |Temporary Firepower| and |Temporary Spirit|.
+  Brief: Whenever a |Gemstone| is played, gain |Temporary Firepower| and |Temporary Spirit|.
 
 ShouResonanceSe:
   Name: Resonance
@@ -88,6 +95,7 @@ ShouResonanceSe:
 ShouScatteredProtectionSe:
   Name: Scattered Protection
   Description: Whenever {OwnerName} deals attack damage, if they have an |Harden|, apply {Level} |Temporary Firepower Down| to the target.
+  Brief: Whenever {OwnerName} deals attack damage, if they have an |Harden|, apply |Temporary Firepower Down| to the target.
 
 ShouScorchedEarthMandalaSe:
   Name: Scorched Earth Mandala
@@ -113,8 +121,13 @@ ShouWantNotSe:
   Description: |-
     At the end of {PlayerName}'s turn, exile up to 3 |Gemstones| from the discard pile.
     Gain {Level} |Barrier| for each card exiled this way.
+  Brief: |-
+    At the end of {PlayerName}'s turn, exile up to 3 |Gemstones| from the discard pile.
+    Gain |Barrier| for each card exiled this way.
 
 ShouWondersofNatureSe:
   Name: Wonders of Nature
   Description: |-
    Whenever a |Gemstone| is added, upgrade it.
+  Brief: |-
+   Whenever a |Gemstone| is added to the hand, upgrade it.

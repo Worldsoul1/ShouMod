@@ -61,6 +61,7 @@ namespace ShouMod.Cards
     [EntityLogic(typeof(ShouNazrinTeammateDef))]
     public sealed class ShouNazrinTeammate : ShouGemstoneReferenceCard
     {
+        bool hasActivated = false;
         protected override void OnEnterBattle(BattleController battle)
         {
             base.ReactBattleEvent<DieEventArgs>(base.Battle.EnemyDied, this.OnEnemyDied);
@@ -99,6 +100,7 @@ namespace ShouMod.Cards
             //Triigger the effect only if the card has been summoned. 
 			if (!base.Summoned || base.Battle.BattleShouldEnd)
 			{
+                hasActivated = false;
 				yield break;
 			}
 			base.NotifyActivating();
@@ -195,7 +197,6 @@ namespace ShouMod.Cards
 		}
         private IEnumerable<BattleAction> OnEnemyDied(DieEventArgs args)
         {
-            bool hasActivated = false;
             if (args.DieSource == this && args.Unit is EnemyUnit enemyUnit && (base.Battle.EnemyGroup.EnemyType == EnemyType.Elite || base.Battle.EnemyGroup.EnemyType == EnemyType.Boss) && !args.Unit.HasStatusEffect<Servant>() && !hasActivated) //EnemyType.Elite = 2; EnemyType.Boss = 3. 
             {
                 GameRun.CurrentStation.Rewards.Add(StationReward.CreateExhibit(base.GameRun.CurrentStage.GetEliteEnemyExhibit()));

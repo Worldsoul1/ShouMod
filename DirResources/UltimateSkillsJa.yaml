@@ -1,0 +1,16 @@
+ShouVajraBuddhist:
+  Title: 法灯
+  Content: 隙間無い法の独鈷杵
+  Description: |-
+    敵全体に{Damage}ダメージを与える。
+    |護法結界|{Value1}と|火力|{Value2}を得る。
+    |精密|
+
+ShouTreasureGun:
+  Title: 宝塔
+  Content: レイディアントトレジャーガン
+  Description: |-
+    {Damage}ダメージを{Value1}回与える。
+    手札にランダムな|宝石|を{Value2}枚加える。
+    |精密|    
+
