@@ -190,7 +190,10 @@ namespace ShouMod.Cards
 			{
 				base.Loyalty += base.UltimateCost;
                 base.UltimateUsed = true;
-				yield return base.AttackAction(selector, base.GunName);
+                foreach (Unit enemyUnit in base.Battle.AllAliveEnemies) 
+                {
+                    yield return new DamageAction(base.Battle.Player, enemyUnit, DamageInfo.Attack(base.Damage.Damage, true), base.GunName, GunType.Single);
+                }
                 yield return base.SkillAnime;
 			}
 			yield break;

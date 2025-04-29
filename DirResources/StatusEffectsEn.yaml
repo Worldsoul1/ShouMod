@@ -21,7 +21,7 @@ ShouColdCashSe:
 ShouCrimsonTearsSe:
   Name: Crimson Tears
   Description: The first {Level} time{Level:plural one='' others='s'} that {OwnerName} is dealt attack damage each turn, add a |Ruby| to the draw pile.
-  Brief: The first 2 times that {PlayerName} is dealt attack damage each turn, add a |Ruby| to the draw pile.
+  Brief: The first time that {PlayerName} is dealt attack damage each turn, add a |Ruby| to the draw pile.
 
 ShouCycleofWealthSe:
   Name: Cycle of Wealth

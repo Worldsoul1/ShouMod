@@ -22,21 +22,22 @@ namespace ShouMod.Cards
             CardConfig config = GetCardDefaultConfig();
 
             config.Colors = new List<ManaColor>() { ManaColor.White };
-            config.Cost = new ManaGroup() { Any = 1, White = 1 };
+            config.Cost = new ManaGroup() { Any = 2, White = 1 };
+            config.UpgradedCost = new ManaGroup() { White = 1 };
             config.Rarity = Rarity.Uncommon;
 
             config.Type = CardType.Ability;
             config.TargetType = TargetType.Self;
 
-            config.Value1 = 2;
-            config.UpgradedValue1 = 3;
+            config.Value1 = 1;
+            config.UpgradedValue1 = 1;
 
             //Keyword that doesn't add an effect to the card, but to add to the card's tooltips.
 
             config.RelativeEffects = new List<string>() { nameof(ShouCrimsonTearsSe) };
             config.UpgradedRelativeEffects = new List<string>() { nameof(ShouCrimsonTearsSe) };
 
-            config.Illustrator = "こゆび";
+            config.Illustrator = "Radal";
 
             config.Index = CardIndexGenerator.GetUniqueIndex(config);
             return config;

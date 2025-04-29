@@ -575,9 +575,9 @@
     </Reference>	
   </ItemGroup>
 
-  <ItemGroup>
-    <EmbeddedResource Include="Resources\**" />
-  </ItemGroup>
+	<ItemGroup>
+		<EmbeddedResource Include="Resources\**" />
+	</ItemGroup>
 
   <ItemGroup>
     <Folder Include="DirResources\" />

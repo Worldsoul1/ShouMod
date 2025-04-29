@@ -66,7 +66,7 @@ namespace ShouMod.Cards
             if (precondition != null)
             {
                 //Add a token card to the hand.
-                SelectCardInteraction selectCardInteraction = (SelectCardInteraction)precondition;
+                SelectHandInteraction selectCardInteraction = (SelectHandInteraction)precondition;
                 Card card = (selectCardInteraction != null) ? selectCardInteraction.SelectedCards.FirstOrDefault<Card>() : null;
                 if (card != null)
                 {
