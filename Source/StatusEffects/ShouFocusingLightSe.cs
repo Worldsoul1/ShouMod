@@ -41,7 +41,7 @@ namespace ShouMod.StatusEffects
             //At the start of the Player's turn, gain Spirit.
             if (!base.Battle.BattleShouldEnd)
             {
-                yield return new GainManaAction(ManaGroup.Philosophies(base.Level));
+                yield return new GainManaAction(ManaGroup.Philosophies(1));
                 yield return BuffAction<Firepower>(base.Level, 0, 0, 0, 0.2f);
                 //This is equivalent to:
                 //yield return new ApplyStatusEffectAction<SampleCharacterTurnGainSpiritSe>(base.Owner, base.Level, 0, 0, 0, 0.2f);

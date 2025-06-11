@@ -49,7 +49,7 @@ namespace ShouMod.Cards
             config.RelativeEffects = new List<string>() { nameof(Weak), nameof(ShouVigorSe), nameof(ShouVigorousSe) };
             config.UpgradedRelativeEffects = new List<string>() { nameof(Weak), nameof(ShouVigorSe), nameof(ShouVigorousSe) };
 
-            config.Illustrator = "";
+            config.Illustrator = "cato";
 
             config.Index = CardIndexGenerator.GetUniqueIndex(config);
             return config;

@@ -63,7 +63,7 @@ namespace ShouMod.Cards
             }
             else if (base.Battle.DiscardZone.Count > 0 )
             {
-                List<Card> list = base.Battle.DiscardZone.Where(c => c is ShouGemstoneCard).SampleManyOrAll(base.Value1, base.GameRun.BattleRng).ToList<Card>();
+                List<Card> list = base.Battle.DiscardZone.Where(c => c is ShouGemstoneCard).Concat(base.Battle.DrawZoneToShow.Where(c => c is ShouGemstoneCard)).SampleManyOrAll(base.Value1, base.GameRun.BattleRng).ToList<Card>();
                 int count = list.Count;
                 if (count > 0)
                 {

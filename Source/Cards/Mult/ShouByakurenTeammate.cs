@@ -114,8 +114,8 @@ namespace ShouMod.Cards
                 {
                     yield break;
                 }
-                yield return BuffAction<Reflect>(base.Block.Block * (Counter % 3), 0, 0, 0, 0.2f);
-                yield return new CastBlockShieldAction(base.Battle.Player, base.Block.Block * (Counter % 3), 0, BlockShieldType.Direct, false);
+                yield return BuffAction<Reflect>(base.Block.Block * (Counter/3), 0, 0, 0, 0.2f);
+                yield return new CastBlockShieldAction(base.Battle.Player, base.Block.Block * (Counter/3), 0, BlockShieldType.Direct, false);
                 num = i;
             }
             Counter = 0;

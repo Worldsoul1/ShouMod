@@ -22,7 +22,7 @@ namespace ShouMod.Cards
             CardConfig config = GetCardDefaultConfig();
 
             config.Colors = new List<ManaColor>() { ManaColor.Red };
-            config.Cost = new ManaGroup() { Any = 2, Red = 1 };
+            config.Cost = new ManaGroup() { Any = 1, Red = 1 };
             config.UpgradedCost = new ManaGroup() { Red = 1 };
             config.Rarity = Rarity.Uncommon;
 
@@ -30,7 +30,7 @@ namespace ShouMod.Cards
             config.TargetType = TargetType.Self;
 
             config.Value1 = 8;
-            config.UpgradedValue1 = 8;
+            config.UpgradedValue1 = 12;
 
             //Keyword that doesn't add an effect to the card, but to add to the card's tooltips.
 

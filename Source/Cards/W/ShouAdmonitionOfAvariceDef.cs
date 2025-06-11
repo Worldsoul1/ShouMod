@@ -10,6 +10,7 @@ using LBoL.Core.Cards;
 using System.Linq;
 using LBoL.Base.Extensions;
 using LBoL.Core.StatusEffects;
+using ShouMod.StatusEffects;
 
 namespace ShouMod.Cards
 {
@@ -39,10 +40,15 @@ namespace ShouMod.Cards
             config.Type = CardType.Skill;
             config.TargetType = TargetType.Self;
 
-            config.Value1 = 2;
-            config.UpgradedValue1 = 3;
+            config.Value1 = 5;
+            config.UpgradedValue1 = 8;
 
-            config.Illustrator = "";
+            config.Value2 = 2;
+
+            config.RelativeEffects = new List<string>() { nameof(Graze), nameof(ShouResonanceSe) };
+            config.UpgradedRelativeEffects = new List<string>() { nameof(Graze), nameof(ShouResonanceSe) };
+
+            config.Illustrator = "Radal";
 
             config.Index = CardIndexGenerator.GetUniqueIndex(config);
             return config;
@@ -54,13 +60,14 @@ namespace ShouMod.Cards
     {
         protected override IEnumerable<BattleAction> Actions(UnitSelector selector, ManaGroup consumingMana, Interaction precondition)
         {
+            yield return new ApplyStatusEffectAction<Graze>(base.Battle.Player, base.Value2, 0, 0, 0, 0.2f);
             if (base.Battle.BattleShouldEnd)
             {
                 yield break;
             }
             else if (base.Battle.DiscardZone.Count > 0)
             {
-                List<Card> list = base.Battle.DiscardZone.Where(c => c is ShouGemstoneCard).SampleManyOrAll(base.Value1, base.GameRun.BattleRng).ToList<Card>();
+                List<Card> list = base.Battle.DiscardZone.Where(c => c is ShouGemstoneCard).SampleManyOrAll(2, base.GameRun.BattleRng).ToList<Card>();
                 int count = list.Count;
                 if (count > 0)
                 {
@@ -68,7 +75,7 @@ namespace ShouMod.Cards
                     {
                         yield return new ExileCardAction(card);
                     }
-                    yield return new ApplyStatusEffectAction<Graze>(base.Battle.Player, count, 0, 0, 0, 0.2f);
+                    yield return new ApplyStatusEffectAction<ShouResonanceSe>(base.Battle.Player, 0, count * base.Value1, 0, 0, 0.2f);
                 }
 
             }

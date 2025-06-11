@@ -43,7 +43,7 @@ namespace ShouMod.Cards
             config.RelativeEffects = new List<string>() { nameof(ShouHardenSe), nameof(ShouVigorSe), nameof(ShouResonanceSe) };
             config.UpgradedRelativeEffects = new List<string>() { nameof(ShouHardenSe), nameof(ShouVigorSe), nameof(ShouResonanceSe) };
 
-            config.Illustrator = "";
+            config.Illustrator = "吉岡よしこ";
 
             config.Index = CardIndexGenerator.GetUniqueIndex(config);
             return config;
@@ -61,6 +61,10 @@ namespace ShouMod.Cards
                 ShouHardenSe harden = base.Battle.Player.GetStatusEffect<ShouHardenSe>();
                 int bonus = base.Value1 * (vigor.Duration + harden.Duration);
                 yield return new ApplyStatusEffectAction<ShouResonanceSe>(base.Battle.Player, bonus, 0, 0, 0, 0.2f);
+                yield break;
+            }
+            else
+            {
                 yield break;
             }
         }

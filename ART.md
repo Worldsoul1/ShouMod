@@ -60,12 +60,12 @@ Timeless Beauty: frozen time(https://www.pixiv.net/en/users/45558357)
 
 #### Uncommon
 
-Admonition of Avarice:
-Barrier of Wealth:
-Crimson Tears: こゆび(https://www.pixiv.net/en/users/41197)
+Admonition of Avarice: Radal
+Barrier of Wealth: Radal
+Crimson Tears: Radal
 Fortune Found: まめ助(https://www.pixiv.net/en/users/29029857)
 Heart Sutra Recitation: 黄瓜(https://www.pixiv.net/en/users/6681779)
-Merchant Call: Jintouhou(https://x.com/Jintouhou)
+Merchant Call: Radal
 One Man's Trash: 核能松饼(https://www.pixiv.net/en/users/3372901)
 Refracted Defenses: Mayo(becky2006)(https://mayomoyo.tumblr.com/)
 Treasure Blast: なゝ(https://www.pixiv.net/en/users/100824662)
@@ -77,8 +77,8 @@ Cycle of Wealth: Radal
 Endless Wealth: Radal
 Glint: Radal
 Instinctive Charity: Radal
-Rainbow Gems:
-Time is Money:
+Rainbow Gems: Radal
+Time is Money: Radal
 Want Not: Radal
 
 ### Red/White
@@ -94,6 +94,7 @@ Limitless Benevolence: メイマ(https://www.pixiv.net/en/users/22947104)
 Nazrin, Dowser General: Fe (tetsu)(https://x.com/Fe_8823)
 Protection of the Innocent: ROYL(https://www.pixiv.net/en/users/16733344)
 Scattered Protection: Radal
+Tracking Laser: cato(https://www.pixiv.net/en/users/277898)
 Treasure Immaterial: 餅千歳あぐり(https://www.pixiv.net/en/users/61028298)
 
 #### Rare
@@ -101,8 +102,9 @@ Treasure Immaterial: 餅千歳あぐり(https://www.pixiv.net/en/users/61028298)
 Avatar of Bishamonten: スティル(https://www.pixiv.net/en/users/28671707)
 Divine Protector: Akasia(https://www.pixiv.net/en/users/109404)
 Golden Dawn: 双子島(https://www.pixiv.net/en/users/1686873)
-Protective Money:
-Stored Wealth:
+Protective Money: Radal
+Refracting Light: Radal
+Stored Wealth: Radal
 
 ### Black
 
@@ -118,6 +120,6 @@ Resounding Blow: ぽろねぎ(https://www.pixiv.net/en/users/1347561)
 
 ### Green:
 
-Amberblast:
-Primal Power: DreamerXD(https://www.pixiv.net/en/users/13840268)
+Amberblast: Radal
+Primal Power: Radal
 Wonders of Nature: 茶餅(https://www.pixiv.net/en/users/845717)

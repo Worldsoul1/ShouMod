@@ -32,7 +32,7 @@ namespace ShouMod.Cards
             config.Value2 = 3;
             config.UpgradedValue2 = 5;
 
-            config.Illustrator = "";
+            config.Illustrator = "なゝ";
 
 
             config.Index = CardIndexGenerator.GetUniqueIndex(config);

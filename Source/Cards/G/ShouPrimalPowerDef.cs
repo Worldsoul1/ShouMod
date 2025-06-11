@@ -34,7 +34,7 @@ namespace ShouMod.Cards
             config.Keywords = Keyword.Exile;
             config.UpgradedKeywords = Keyword.Exile;
 
-            config.Illustrator = "";
+            config.Illustrator = "Radal";
 
             config.Index = CardIndexGenerator.GetUniqueIndex(config);
             return config;

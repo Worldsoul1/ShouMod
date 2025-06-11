@@ -39,6 +39,10 @@ namespace ShouMod.StatusEffects
         // Token: 0x060000C6 RID: 198 RVA: 0x000036D2 File Offset: 0x000018D2
         private IEnumerable<BattleAction> OnOwnerTurnEnding(UnitEventArgs args)
         {
+            if (base.Battle.BattleShouldEnd)
+            {
+                yield break;
+            }
             List<Card> list = base.Battle.DiscardZone.Where(c => c is ShouGemstoneCard).ToList<Card>();
             SelectCardInteraction interaction = new SelectCardInteraction(0, 3, list, SelectedCardHandling.DoNothing)
             {

@@ -43,7 +43,7 @@ namespace ShouMod.Cards
 
             //The Accuracy keyword is enough to make an attack accurate.
 
-            config.Illustrator = "";
+            config.Illustrator = "紅葉狩";
 
             config.Index = CardIndexGenerator.GetUniqueIndex(config);
             return config;

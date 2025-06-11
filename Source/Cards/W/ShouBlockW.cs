@@ -32,7 +32,7 @@ namespace ShouMod.Cards
             config.RelativeKeyword = Keyword.Block;
             config.UpgradedRelativeKeyword = Keyword.Block;
 
-            config.Illustrator = "Cool_illustrator";
+            config.Illustrator = "Radal";
 
             config.Index = CardIndexGenerator.GetUniqueIndex(config);
             return config;

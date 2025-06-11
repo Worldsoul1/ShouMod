@@ -133,7 +133,7 @@ ShouLimitlessBenevolence:
   Name: Limitless Benevolence
   Description: |-
     Gain {Value2} |Vigor|.
-    Whenever {PlayerName} takes attack damage, apply {Value1} |Lock On| to the attacker.
+    Whenever {PlayerName} takes attack damage, if they have |Vigor|, apply {Value1} |Lock On| to the attacker.
     
 ShouNazrinTeammate:
   Name: Nazrin, Dowser General
@@ -310,8 +310,9 @@ ShouResoundingBlow:
 ShouAdmonitionOfAvarice:
   Name: Admonition of Avarice
   Description: |-
-    Exile up to {Value1} random |Gemstones| from the discard pile.
-    Gain 1 |Graze| for each |Gemstone| exiled.
+    Gain {Value2} Graze.
+    Exile up to 2 random |Gemstones| from the discard pile.
+    Gain {Value1} |Resonance| for each |Gemstone| exiled.
 
 ShouBarrierofWealth:
   Name: Barrier of Wealth
@@ -326,7 +327,7 @@ ShouCenterSoul:
 
 ShouCrimsonTears:
   Name: Crimson Tears
-  Description: The first {Value1} times {PlayerName} takes damage each turn, add a |Ruby| to the draw pile.
+  Description: The first {Value1} times {PlayerName} takes damage each turn, add a |Ruby| to the discard pile.
 
 ShouCycleofWealth:
   Name: Cycle of Wealth
@@ -431,7 +432,9 @@ ShouRefractedDefenses:
 
 ShouScatteredTreasure:
   Name: Scattered Treasure
-  Description: Add {Value1} random |Gemstones| to the draw pile.
+  Description: |-
+    Select {Value1} of {Value2} Random |Gemstones|.
+    Add the selected |Gemstones to the Hand, and the unselected |Gemstones| to the draw pile.
 
 ShouShatterbeam:
   Name: Shatterbeam

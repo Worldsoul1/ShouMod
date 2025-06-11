@@ -136,7 +136,7 @@ namespace ShouMod.Config
         {
             return new StatusEffectConfig(
                 Id: "",
-                ImageId: DefaultID(entity),
+                ImageId: null,
                 Index: 0,
                 Order: 10,
                 Type: StatusEffectType.Positive,

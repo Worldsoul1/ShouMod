@@ -38,10 +38,10 @@ namespace ShouMod.Cards
             config.Type = CardType.Skill;
             config.TargetType = TargetType.Self;
 
-            config.Value1 = 1;
+            config.Value1 = 2;
             config.UpgradedValue1 = 2;
             config.Value2 = 2;
-            config.UpgradedValue2 = 3;
+            config.UpgradedValue2 = 4;
 
             config.RelativeEffects = new List<string>() { nameof(Graze), nameof(ShouVigorSe), nameof(ShouVigorousSe) };
             config.UpgradedRelativeEffects = new List<string>() { nameof(Graze), nameof(ShouVigorSe), nameof(ShouVigorousSe) };

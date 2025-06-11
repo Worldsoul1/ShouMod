@@ -40,7 +40,7 @@ namespace ShouMod.Cards
             config.RelativeKeyword = Keyword.Shield;
             config.UpgradedRelativeKeyword = Keyword.Shield;
 
-            config.Illustrator = "";
+            config.Illustrator = "Radal";
 
             config.Index = CardIndexGenerator.GetUniqueIndex(config);
             return config;

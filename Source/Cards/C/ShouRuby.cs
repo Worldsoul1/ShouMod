@@ -29,8 +29,8 @@ namespace ShouMod.Cards
             config.Type = CardType.Attack;
             config.TargetType = TargetType.SingleEnemy;
 
-            config.Damage = 10;
-            config.UpgradedDamage = 10;
+            config.Damage = 14;
+            config.UpgradedDamage = 14;
 
             config.ToolPlayableTimes = 3;
 

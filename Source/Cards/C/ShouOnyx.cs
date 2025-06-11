@@ -29,8 +29,8 @@ namespace ShouMod.Cards
             config.Type = CardType.Defense;
             config.TargetType = TargetType.Self;
 
-            config.Block = 10;
-            config.UpgradedBlock = 10;
+            config.Block = 12;
+            config.UpgradedBlock = 12;
 
             config.ToolPlayableTimes = 3;
 

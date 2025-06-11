@@ -37,7 +37,7 @@ namespace ShouMod.Cards
             config.Keywords = Keyword.Exile;
             config.UpgradedKeywords = Keyword.Exile;
 
-            config.Illustrator = "Jintouhou";
+            config.Illustrator = "Radal";
 
 
             config.Index = CardIndexGenerator.GetUniqueIndex(config);

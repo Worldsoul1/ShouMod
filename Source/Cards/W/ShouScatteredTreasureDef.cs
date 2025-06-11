@@ -9,6 +9,8 @@ using LBoL.Core;
 using LBoL.Core.Battle.BattleActions;
 using ShouMod.StatusEffects;
 using LBoL.Core.Cards;
+using LBoL.Core.Battle.Interactions;
+using System.Linq;
 
 namespace ShouMod.Cards
 {
@@ -18,15 +20,17 @@ namespace ShouMod.Cards
         {
             CardConfig config = GetCardDefaultConfig();
             config.Colors = new List<ManaColor>() { ManaColor.White };
-            config.Cost = new ManaGroup() { White = 2 };
-            config.UpgradedCost = new ManaGroup() { White = 1 };
+            config.Cost = new ManaGroup() { Any = 1, White = 1 };
+            config.UpgradedCost = new ManaGroup() { Any = 1, White = 1 };
             config.Rarity = Rarity.Common;
 
             config.Type = CardType.Skill;
             config.TargetType = TargetType.Nobody;
 
-            config.Value1 = 3;
-            config.UpgradedValue1 = 3;
+            config.Value1 = 1;
+            config.UpgradedValue1 = 2;
+            config.Value2 = 3;
+            config.UpgradedValue2 = 5;
 
             config.Illustrator = "Radal";
 
@@ -44,11 +48,21 @@ namespace ShouMod.Cards
             //Add a token card to the hand.
             List<Card> list = new List<Card>();
             this.Gemstones.Shuffle(base.GameRun.BattleCardRng);
-            for (int i = 0; i < base.Value1; i++)
+            for (int i = 0; i < base.Value2; i++)
             {
                 list.Add(Library.CreateCard(this.Gemstones[i]));
             }
-            yield return new AddCardsToDrawZoneAction(list, DrawZoneTarget.Random, AddCardsType.Normal);
+            SelectCardInteraction interaction = new SelectCardInteraction(0, base.Value1, list, SelectedCardHandling.DoNothing)
+            {
+                Source = this
+            };
+            yield return new InteractionAction(interaction, false);
+            IReadOnlyList<Card> selectedCards = interaction.SelectedCards;
+            foreach (Card card in selectedCards) 
+            {
+                yield return new AddCardsToHandAction(new Card[] { card });
+            }
+            yield return new AddCardsToDrawZoneAction(list.Except(selectedCards), DrawZoneTarget.Random, AddCardsType.Normal);
             yield break;
         }
     }

@@ -42,7 +42,7 @@ namespace ShouMod.StatusEffects
                 base.NotifyActivating();
                 if (count < base.Level)
                 {
-                    yield return new AddCardsToDrawZoneAction(Library.CreateCards<ShouRuby>(1, false), DrawZoneTarget.Random, AddCardsType.Normal);
+                    yield return new AddCardsToDiscardAction(Library.CreateCards<ShouRuby>(1, false), AddCardsType.Normal);
                     count = count + 1;
                 }
             }

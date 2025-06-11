@@ -43,7 +43,7 @@ public sealed class ShouByakurenTeammateBuffSe : StatusEffect
         // Token: 0x06000178 RID: 376 RVA: 0x00004E74 File Offset: 0x00003074
         private IEnumerable<BattleAction> OnTurnStarted(UnitEventArgs args)
         {
-            Card[] array = base.Battle.RollCardsWithoutManaLimit(new CardWeightTable(RarityWeightTable.BattleCard, OwnerWeightTable.AllOnes, CardTypeWeightTable.CanBeLoot, false), base.Level, (CardConfig config) => config.Rarity == Rarity.Rare && config.Id != "ShouByakurenTeammateDef");
+            Card[] array = base.Battle.RollCardsWithoutManaLimit(new CardWeightTable(RarityWeightTable.BattleCard, OwnerWeightTable.AllOnes, CardTypeWeightTable.CanBeLoot, false), 1, (CardConfig config) => config.Rarity == Rarity.Rare && config.Id != "ShouByakurenTeammateDef");
             foreach (Card card in array)
             {
                 card.IsEthereal = true;

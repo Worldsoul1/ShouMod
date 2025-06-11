@@ -29,7 +29,7 @@ namespace ShouMod.Cards
             config.Type = CardType.Skill;
             config.TargetType = TargetType.Self;
 
-            config.Mana = new ManaGroup() { Philosophy = 2, Colorless = 1 };
+            config.Mana = new ManaGroup() { Philosophy = 3, Colorless = 1 };
 
             config.ToolPlayableTimes = 1;
 

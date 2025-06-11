@@ -37,7 +37,7 @@ namespace ShouMod.Cards
             config.RelativeEffects = new List<string>() { nameof(ShouColdCashSe), nameof(Cold) };
             config.UpgradedRelativeEffects = new List<string>() { nameof(ShouColdCashSe), nameof(Cold) };
 
-            config.Illustrator = "";
+            config.Illustrator = "g5";
 
             config.Index = CardIndexGenerator.GetUniqueIndex(config);
             return config;

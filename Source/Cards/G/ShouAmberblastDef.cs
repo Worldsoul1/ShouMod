@@ -49,7 +49,7 @@ namespace ShouMod.Cards
 
             
 
-            config.Illustrator = "";
+            config.Illustrator = "Radal";
 
             config.Index = CardIndexGenerator.GetUniqueIndex(config);
             return config;

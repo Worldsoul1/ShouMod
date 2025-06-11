@@ -22,8 +22,8 @@ namespace ShouMod.Cards
         {
             CardConfig config = GetCardDefaultConfig();
             config.Colors = new List<ManaColor>() { ManaColor.Red, ManaColor.White };
-            config.Cost = new ManaGroup() { Any = 2, Red = 1, White = 1 };
-            config.UpgradedCost = new ManaGroup() { Any = 1, Red = 1, White = 1 };
+            config.Cost = new ManaGroup() { Any = 1, Red = 1, White = 1 };
+            config.UpgradedCost = new ManaGroup() { Any = 2, Hybrid = 1, HybridColor = 2 };
             config.Rarity = Rarity.Uncommon;
 
             config.Type = CardType.Friend;
@@ -50,7 +50,7 @@ namespace ShouMod.Cards
             config.UpgradedValue2 = 5;
             
             
-            config.Illustrator = "";
+            config.Illustrator = "Fe (tetsu)";
 
             config.Index = CardIndexGenerator.GetUniqueIndex(config);
             

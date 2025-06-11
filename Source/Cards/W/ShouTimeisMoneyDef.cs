@@ -35,7 +35,7 @@ namespace ShouMod.Cards
             config.Value1 = 5;
             config.Value2 = 8;
 
-            config.Illustrator = "";
+            config.Illustrator = "Radal";
 
             config.Index = CardIndexGenerator.GetUniqueIndex(config);
             return config;

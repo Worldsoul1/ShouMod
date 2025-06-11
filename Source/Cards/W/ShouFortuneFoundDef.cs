@@ -40,7 +40,7 @@ namespace ShouMod.Cards
             config.RelativeEffects = new List<string>() { nameof(Weak) };
             config.UpgradedRelativeEffects = new List<string>() { nameof(Weak) };
 
-            config.Illustrator = "";
+            config.Illustrator = "Ç‹Çﬂèï";
 
             config.Index = CardIndexGenerator.GetUniqueIndex(config);
             return config;

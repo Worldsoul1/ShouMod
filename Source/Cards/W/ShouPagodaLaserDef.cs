@@ -29,7 +29,7 @@ namespace ShouMod.Cards
             //8 = B/G
             //9 = R/G
             //As of 1.5.1: Colorless hybrid are not supported.    
-            config.Cost = new ManaGroup() { White = 2 };
+            config.Cost = new ManaGroup() { Any = 1, White = 1 };
             config.UpgradedCost = new ManaGroup() { Any = 1, White = 1 };
             config.Rarity = Rarity.Common;
 

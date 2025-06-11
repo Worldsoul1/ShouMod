@@ -29,8 +29,8 @@ namespace ShouMod.Cards
             config.Type = CardType.Defense;
             config.TargetType = TargetType.Self;
 
-            config.Shield = 6;
-            config.UpgradedShield = 6;
+            config.Shield = 9;
+            config.UpgradedShield = 9;
 
             config.ToolPlayableTimes = 2;
 
