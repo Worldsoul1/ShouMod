@@ -36,6 +36,9 @@ namespace ShouMod.Cards
             config.Keywords = Keyword.Accuracy;
             config.UpgradedKeywords = Keyword.Accuracy;
 
+            config.RelativeCards = new List<string>() { nameof(ShouAmber), nameof(ShouDiamond), nameof(ShouEmerald), nameof(ShouOnyx), nameof(ShouOpal), nameof(ShouPearl), nameof(ShouRuby), nameof(ShouSapphire) };
+            config.UpgradedRelativeCards = new List<string>() { nameof(ShouAmber), nameof(ShouDiamond), nameof(ShouEmerald), nameof(ShouOnyx), nameof(ShouOpal), nameof(ShouPearl), nameof(ShouRuby), nameof(ShouSapphire) };
+
             config.Illustrator = "Radal";
 
             config.Index = CardIndexGenerator.GetUniqueIndex(config);

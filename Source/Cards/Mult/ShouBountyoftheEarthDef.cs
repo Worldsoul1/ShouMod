@@ -32,7 +32,7 @@ namespace ShouMod.Cards
             //Keyword that doesn't add an effect to the card, but to add to the card's tooltips.
 
             config.RelativeCards = new List<string> { nameof(ShouEmerald) };
-            config.UpgradedRelativeCards = new List<string> { nameof(ShouEmerald) };
+            config.UpgradedRelativeCards = new List<string> { nameof(ShouEmerald) + '+' };
 
             config.Illustrator = "Radal";
 

@@ -1,3 +1,13 @@
+## 0.5.1
+
+Bugfixing
+
+* Fixed an error in the localization for Scattered Treasure causing its localization to throw coding errors.
+* Fixed errors in the localization for Dowsing Assistance and Refracted Defences not reflecting the changes to their effects in update 0.5.0
+* Added a new card: Tiger's Soul. This card allows some limited healing access for Shou, comparable to other uncommon cards usable by vanilla characters.
+* Fixed a longstanding localization issue where cards that generated random Gemstones were not correctly displaying the gemstones they generate.
+* Fixed a localization error on several cards that exile themselves or other cards.
+
 ## 0.5.0 
 
 Balance Changes
@@ -38,7 +48,12 @@ Pagoda Laser was one of the more awkward cards for hybrid builds due to its mana
 
 Several gemstones have been buffed due to me not fully taking into account the process of generating Gemstones for use.
 
+* Gemstone Manufacturing, Scattered Treasure, and Nazrin, Dowser General can no longer generate Amber or Diamond. 
+
+The easy access to Amber in particular allowed Shou to infinitely stall games out. To curtail this, the three easiest sources of Gemstones can no longer generate Amber.
+
 * All cards now have art. All new art is made by Radal.
+
 
 ## 0.4.0
 

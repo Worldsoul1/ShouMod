@@ -32,6 +32,10 @@ namespace ShouMod.Cards
             config.Value2 = 3;
             config.UpgradedValue2 = 5;
 
+            config.RelativeCards = new List<string>() { nameof(ShouEmerald), nameof(ShouOnyx), nameof(ShouOpal), nameof(ShouPearl), nameof(ShouRuby), nameof(ShouSapphire) };
+            config.UpgradedRelativeCards = new List<string>() { nameof(ShouEmerald), nameof(ShouOnyx), nameof(ShouOpal), nameof(ShouPearl), nameof(ShouRuby), nameof(ShouSapphire) };
+
+
             config.Illustrator = "なゝ";
 
 
@@ -47,10 +51,10 @@ namespace ShouMod.Cards
         {
             //Add a token card to the hand.
             List<Card> list = new List<Card>();
-            this.Gemstones.Shuffle(base.GameRun.BattleCardRng);
+            this.CommonGemstones.Shuffle(base.GameRun.BattleCardRng);
             for (int i = 0; i < base.Value2; i++)
             {
-                list.Add(Library.CreateCard(this.Gemstones[i]));
+                list.Add(Library.CreateCard(this.CommonGemstones[i]));
             }
             MiniSelectCardInteraction interaction = new MiniSelectCardInteraction(list, false, false, false)
             {

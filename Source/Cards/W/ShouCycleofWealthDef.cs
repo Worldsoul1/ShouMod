@@ -33,8 +33,11 @@ namespace ShouMod.Cards
 
             //Keyword that doesn't add an effect to the card, but to add to the card's tooltips.
 
-            config.RelativeEffects = new List<string>() { nameof(ShouEndlessWealthSe) };
-            config.UpgradedRelativeEffects = new List<string>() { nameof(ShouEndlessWealthSe) };
+            config.RelativeEffects = new List<string>() { nameof(ShouCycleofWealthSe) };
+            config.UpgradedRelativeEffects = new List<string>() { nameof(ShouCycleofWealthSe) };
+
+            config.RelativeCards = new List<string>() { nameof(ShouAmber), nameof(ShouDiamond), nameof(ShouEmerald), nameof(ShouOnyx), nameof(ShouOpal), nameof(ShouPearl), nameof(ShouRuby), nameof(ShouSapphire) };
+            config.UpgradedRelativeCards = new List<string>() { nameof(ShouAmber), nameof(ShouDiamond), nameof(ShouEmerald), nameof(ShouOnyx), nameof(ShouOpal), nameof(ShouPearl), nameof(ShouRuby), nameof(ShouSapphire) };
 
             config.Illustrator = "Radal";
 

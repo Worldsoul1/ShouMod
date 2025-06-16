@@ -132,10 +132,10 @@ namespace ShouMod.Cards
         protected override IEnumerable<BattleAction> SummonActions(UnitSelector selector, ManaGroup consumingMana, Interaction precondition)
 		{
             List<Card> list = new List<Card>();
-            this.Gemstones.Shuffle(base.GameRun.BattleCardRng);
+            this.CommonGemstones.Shuffle(base.GameRun.BattleCardRng);
             for (int i = 0; i < base.Value2; i++)
             {
-                list.Add(Library.CreateCard(this.Gemstones[i]));
+                list.Add(Library.CreateCard(this.CommonGemstones[i]));
             }
             MiniSelectCardInteraction interaction = new MiniSelectCardInteraction(list, false, false, false)
             {

@@ -36,6 +36,9 @@ namespace ShouMod.Cards
             config.RelativeEffects = new List<string>() { nameof(ShouEndlessWealthSe)};
             config.UpgradedRelativeEffects = new List<string>() { nameof(ShouEndlessWealthSe)};
 
+            config.RelativeCards = new List<string>() { nameof(ShouEmerald), nameof(ShouOnyx), nameof(ShouOpal), nameof(ShouPearl), nameof(ShouRuby), nameof(ShouSapphire) };
+            config.UpgradedRelativeCards = new List<string>() { nameof(ShouEmerald), nameof(ShouOnyx), nameof(ShouOpal), nameof(ShouPearl), nameof(ShouRuby), nameof(ShouSapphire) };
+
             config.Illustrator = "Radal";
 
             config.Index = CardIndexGenerator.GetUniqueIndex(config);

@@ -285,7 +285,7 @@ ShouValuableVajra:
   Name: Most Valuable Vajra
   Description: |-
     Deal {Damage} damage.
-    Exile up to {Value1} random |Gemstones| from the discard pile. For each |Gemstone| exiled this way, gain {Value2} |Vigor|.
+    |Exile| up to {Value1} random |Gemstones| from the discard pile. For each |Gemstone| exiled this way, gain {Value2} |Vigor|.
 
 ShouColdCash:
   Name: Freezing Beauty
@@ -297,7 +297,7 @@ ShouDiamondDust:
   Name: Diamond Dust
   Description: |-
     Gain {Block} |Block|.
-    Exile up to {Value1} |Gemstones| from the draw and discard piles. Gain {Value2} |Frost Armor| for each |Gemstone| exiled this way.
+    |Exile| up to {Value1} |Gemstones| from the draw and discard piles. Gain {Value2} |Frost Armor| for each |Gemstone| exiled this way.
 
 ShouResoundingBlow:
   Name: Resounding Blow
@@ -310,15 +310,15 @@ ShouResoundingBlow:
 ShouAdmonitionOfAvarice:
   Name: Admonition of Avarice
   Description: |-
-    Gain {Value2} Graze.
-    Exile up to 2 random |Gemstones| from the discard pile.
+    Gain {Value2} |Graze|.
+    |Exile| up to 2 random |Gemstones| from the discard pile.
     Gain {Value1} |Resonance| for each |Gemstone| exiled.
 
 ShouBarrierofWealth:
   Name: Barrier of Wealth
   Description:
     Gain {Block} |Block|.
-    Exile a random |Gemstone| from the discard pile. If a |Gemstone| is exiled this way, gain {Value2} |Harden|.
+    |Exile| a random |Gemstone| from the discard pile. If a |Gemstone| is exiled this way, gain {Value2} |Harden|.
 
 ShouCenterSoul:
   Name: Center Soul
@@ -332,17 +332,17 @@ ShouCrimsonTears:
 ShouCycleofWealth:
   Name: Cycle of Wealth
   Description: |-
-    Whenever a |Gemstone| is played, exile it.
+    Whenever a |Gemstone| is played, |Exile| it.
     Whenever a |Gemstone| is exiled this way, add a random |Gemstone| to the discard pile.
 
 ShouDowsingAssistance:
   Name: Dowsing Assistance
   Description: |-
     Deal {Damage} damage.
-    Add {Value1} random |Gemstone| from the discard pile to the hand.
+    Add {Value1} random |Gemstone| from the draw or discard piles to the hand.
   UpgradedDescription: |-
     Deal {Damage} damage.
-    Add {Value1} random |Gemstones| from the discard pile to the hand.
+    Add {Value1} random |Gemstones| from the draw or discard piles to the hand.
 
 ShouEndlessWealth:
   Name: Endless Wealth
@@ -389,17 +389,17 @@ ShouInstinctiveCharity:
 ShouMerchantCall:
   Name: Merchant Call
   Description: |-
-    Exile a card from the hand.
+    |Exile| a card from the hand.
     If a |Gemstone| card is exiled, choose {Value1} of {Value2} random tool cards to add to the hand. It can only be played once.
 
 ShouOneMansTrash:
   Name: One Man's Trash
   Description: |-
-    Exile up to {Value1} cards from the hand.
+    |Exile| up to {Value1} cards from the hand.
     Add a number of |Gemstones| to the hand equal to the number of cards exiled.
     The added |Gemstones| are determined by the types of cards exiled.
   UpgradedDescription: |-
-    Exile up to {Value1} cards from the hand, draw, and discard piles.
+    |Exile| up to {Value1} cards from the hand, draw, and discard piles.
     Add a number of |Gemstones| to the hand equal to the number of cards exiled.
     The added |Gemstones| are determined by the types of cards exiled.
   DetailText: |-
@@ -428,25 +428,31 @@ ShouRefractedDefenses:
   Name: Refracted Defenses
   Description: |-
     Gain {Block} |Block|.
-    Add a random |Gemstone| in the discard pile to the hand.
+    Add a random |Gemstone| in the draw or discard piles to the hand.
 
 ShouScatteredTreasure:
   Name: Scattered Treasure
   Description: |-
     Select {Value1} of {Value2} Random |Gemstones|.
-    Add the selected |Gemstones to the Hand, and the unselected |Gemstones| to the draw pile.
+    Add the selected |Gemstones| to the Hand, and the unselected |Gemstones| to the draw pile.
 
 ShouShatterbeam:
   Name: Shatterbeam
   Description: |-
     Deal {Damage} damage.
-    You may exile a |Gemstone| from the discard pile. If you do, deal damage an additional time.
+    You may |Exile| a |Gemstone| from the discard pile. If you do, deal damage an additional time.
 
 ShouSweepingBlast:
   Name: Sweeping Blast
   Description: |-
     Deal {Damage} damage to each enemy.
     |Vigorous|: Deal damage an additional time.
+
+ShouTigersSoul:
+  Name: Tiger's Soul
+  Description: |-
+    Gain {Mana}.
+    Add {Value1} |Pearl| and {Value1} |Amber| to the hand.
 
 ShouTimeisMoney:
   Name: Time is Money
@@ -465,7 +471,7 @@ ShouTreasureBlast:
   Name: Treasure Blast
   Description: |-
     Deal {Damage} damage.
-    Exile up to {Value1} |Gemstones| from the discard pile. Deal {Value2} additional damage for each |Gemstone| exiled.
+    |Exile| up to {Value1} |Gemstones| from the discard pile. Deal {Value2} additional damage for each |Gemstone| exiled.
 
 ShouWantNot:
   Name: Want Not

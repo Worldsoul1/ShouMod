@@ -32,6 +32,9 @@ namespace ShouMod.Cards
             config.RelativeEffects = new List<string>() { nameof(TimeIsLimited) };
             config.UpgradedRelativeEffects = new List<string>() { nameof(TimeIsLimited) };
 
+            config.RelativeCards = new List<string>() { nameof(ShouAmber), nameof(ShouDiamond), nameof(ShouEmerald), nameof(ShouOnyx), nameof(ShouOpal), nameof(ShouPearl), nameof(ShouRuby), nameof(ShouSapphire) };
+            config.UpgradedRelativeCards = new List<string>() { nameof(ShouAmber), nameof(ShouDiamond), nameof(ShouEmerald), nameof(ShouOnyx), nameof(ShouOpal), nameof(ShouPearl), nameof(ShouRuby), nameof(ShouSapphire) };
+
             config.Value1 = 5;
             config.Value2 = 8;
 

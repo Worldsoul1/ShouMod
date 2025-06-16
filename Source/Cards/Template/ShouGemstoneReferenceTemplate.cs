@@ -20,5 +20,15 @@ namespace ShouMod.Cards.Template
             typeof(ShouSapphire),
         };
 
+        public List<Type> CommonGemstones = new List<Type>
+        {
+            typeof(ShouEmerald),
+            typeof(ShouOnyx),
+            typeof(ShouPearl),
+            typeof(ShouRuby),
+            typeof(ShouSapphire),
+            typeof(ShouOpal),
+        };
+
     }
 }

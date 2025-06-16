@@ -32,6 +32,9 @@ namespace ShouMod.Cards
             config.Keywords = Keyword.Exile;
             config.UpgradedKeywords = Keyword.Exile;
 
+            config.RelativeCards = new List<string>() { nameof(ShouAmber), nameof(ShouDiamond), nameof(ShouEmerald), nameof(ShouOnyx), nameof(ShouOpal), nameof(ShouPearl), nameof(ShouRuby), nameof(ShouSapphire) };
+            config.UpgradedRelativeCards = new List<string>() { nameof(ShouAmber), nameof(ShouDiamond), nameof(ShouEmerald), nameof(ShouOnyx), nameof(ShouOpal), nameof(ShouPearl), nameof(ShouRuby), nameof(ShouSapphire) };
+
             config.Illustrator = "核能松饼";
 
 

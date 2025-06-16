@@ -55,11 +55,24 @@ namespace ShouMod.Cards
     {
         protected override IEnumerable<BattleAction> Actions(UnitSelector selector, ManaGroup consumingMana, Interaction precondition)
         {
-            if (base.Battle.Player.HasStatusEffect<ShouVigorSe>() || base.Battle.Player.HasStatusEffect<ShouHardenSe>())
+            int bonus = 0;
+            if (base.Battle.Player.HasStatusEffect<ShouVigorSe>())
             {
                 ShouVigorSe vigor = base.Battle.Player.GetStatusEffect<ShouVigorSe>();
+                if (vigor != null)
+                {
+                    bonus = bonus + base.Value1 * vigor.Duration;
+                }
+            }
+            if (base.Battle.Player.HasStatusEffect<ShouHardenSe>())
+            {
                 ShouHardenSe harden = base.Battle.Player.GetStatusEffect<ShouHardenSe>();
-                int bonus = base.Value1 * (vigor.Duration + harden.Duration);
+                if(harden != null)
+                {
+                    bonus = bonus + base.Value1 * harden.Duration;
+                }
+            }
+            if(bonus != 0) {
                 yield return new ApplyStatusEffectAction<ShouResonanceSe>(base.Battle.Player, bonus, 0, 0, 0, 0.2f);
                 yield break;
             }
